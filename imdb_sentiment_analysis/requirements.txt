@@ -1,0 +1,8 @@
+torch
+transformers
+dataset
+accelerate
+evaluate
+scikit-learn
+humpy
+sympy==1.12
