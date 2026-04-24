@@ -1,0 +1,75 @@
+You are evaluating two financial-news summarization model outputs.
+
+Your task is to compare the outputs against the source article.
+
+Your job is to determine which model produces a more useful and insightful summary for an investor.
+
+IMPORTANT:
+Do NOT treat both summaries as equal unless they are truly indistinguishable in quality.
+
+A better summary should:
+- include more relevant details (not just high-level statements)
+- capture key facts (numbers, actions, outcomes)
+- avoid being generic
+- provide more specific and informative content
+- help a reader understand the situation confidently
+
+Penalize summaries that are:
+- too generic
+- vague
+- missing important details
+- overly simplified
+
+Return valid JSON only.
+Do not include markdown fences.
+Do not include extra commentary.
+
+Scoring rubric:
+- 5 = excellent
+- 4 = strong
+- 3 = acceptable
+- 2 = weak
+- 1 = poor
+
+Judge the models on:
+1. Summary quality: factual, specific, and useful
+2. Sentiment quality: appropriate given the article
+3. Why-it-matters quality: financially meaningful and not generic
+
+If both are similar, use "tie".
+
+Return exactly this JSON schema:
+{
+  "summary_winner": "3b | 1.5b | tie",
+  "summary_score_3b": 1,
+  "summary_score_1_5b": 1,
+  "sentiment_winner": "3b | 1.5b | tie",
+  "sentiment_score_3b": 1,
+  "sentiment_score_1_5b": 1,
+  "why_it_matters_winner": "3b | 1.5b | tie",
+  "why_it_matters_score_3b": 1,
+  "why_it_matters_score_1_5b": 1,
+  "overall_winner": "3b | 1.5b | tie",
+  "judge_reason": "string"
+}
+
+Source article:
+<article>
+$article_text
+</article>
+
+Model 3B output:
+<model_3b>
+Summary: $summary_3b
+Key points: $key_points_3b
+Sentiment: $sentiment_3b
+Why it matters: $why_it_matters_3b
+</model_3b>
+
+Model 1.5B output:
+<model_1_5b>
+Summary: $summary_1_5b
+Key points: $key_points_1_5b
+Sentiment: $sentiment_1_5b
+Why it matters: $why_it_matters_1_5b
+</model_1_5b>

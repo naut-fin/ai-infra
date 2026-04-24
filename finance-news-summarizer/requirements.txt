@@ -1,0 +1,9 @@
+torch
+transformers
+accelerate
+datasets
+pandas
+pyarrow
+peft
+trl
+bitsandbytes>=0.46.1; platform_system == "Linux"

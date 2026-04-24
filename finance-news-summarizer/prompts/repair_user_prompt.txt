@@ -1,0 +1,15 @@
+Fix the following output so that it becomes valid JSON with exactly these keys:
+- summary
+- key_points
+- sentiment
+- entities
+- why_it_matters
+
+Rules:
+- sentiment must be exactly one of: positive, negative, neutral
+- key_points must contain 3 to 5 strings
+- entities must be a list of strings
+- return JSON only
+
+Output to fix:
+$bad_output

@@ -1,0 +1,20 @@
+Read the following financial news article and return a JSON object with exactly these keys:
+- summary
+- key_points
+- sentiment
+- entities
+- why_it_matters
+
+JSON schema:
+{
+  "summary": "string",
+  "key_points": ["string", "string", "string"],
+  "sentiment": "positive | negative | neutral",
+  "entities": ["string"],
+  "why_it_matters": "string"
+}
+
+Article:
+<article>
+$article
+</article>
