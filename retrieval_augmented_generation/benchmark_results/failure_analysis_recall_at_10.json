@@ -1,0 +1,624 @@
+{
+  "metadata": {
+    "recall_k": 10,
+    "max_failures": 10,
+    "top_n_to_print": 3,
+    "flat_results_path": "benchmark_results/benchmark_results_flat.json",
+    "hnsw_results_path": "benchmark_results/benchmark_results_hnsw.json",
+    "comparison_path": "benchmark_results/compare_flat_vs_hnsw.json"
+  },
+  "failures": [
+    {
+      "query": "What is Hadoop?",
+      "recall@10": 0.0,
+      "overlap_count": 9,
+      "overlap_chunk_ids": [
+        "0af847b4-7d42-4a9d-9be4-f87b9056065b",
+        "7b0f2013-7701-423f-9a61-6198a4a618a6",
+        "87566973-8a5d-4820-8fa9-dbd46d39a0f1",
+        "8be0c4e0-c990-459b-ba89-17077ae5aec4",
+        "b34a95b3-ae90-4fe1-a6bf-30873c315393",
+        "bcd9fe84-1c28-4730-a8ef-37d80194440a",
+        "c49110de-5c0d-4cdf-8414-74cf4ead1384",
+        "c67c6891-eace-4723-9b73-d201eb596581",
+        "ef6b0e8f-4be0-4a06-b134-2a0c7b5d0b8b"
+      ],
+      "flat_top_title": "Hash function",
+      "hnsw_top_title": "Hash function",
+      "flat_top_results": [
+        {
+          "chunk_id": "b34a95b3-ae90-4fe1-a6bf-30873c315393",
+          "document_id": "e28c251a-c85f-4ab2-b189-ebc3aa91ea5a",
+          "title": "Hash function",
+          "content": "The Hash function is a function. When a computer program is written, very often, large amounts of data need to be stored. These are normally stored as hash tables. In order to find the data again, some value is calculated. This is like when someone reads a book, and to remember, they put what they read into their own words. Hash values are much the same, except that care is taken that different sets of data do not get the same hash value (this is called a hash collision).\n\nA cryptographic hash function is a kind that is used in cryptography. Its hash value is a fixed-size, alphanumeric string, and may also be called a 'message digest', 'digital fingerprint', 'digest' or 'checksum'.\n\nRelated pages\nHash table\n\nComputer science",
+          "similarity": 0.343261949012203
+        },
+        {
+          "chunk_id": "ef6b0e8f-4be0-4a06-b134-2a0c7b5d0b8b",
+          "document_id": "f6edb2b9-86cc-4e6e-97db-88b551293342",
+          "title": "Distributed computing",
+          "content": "Distributed computing is a word from computer science, about using many computers to solve a big problem. One way to solve a big problem is to use a very fast computer called a supercomputer. Supercomputers are very expensive, and many scientists can not buy them. A cheaper way to solve a big problem is to split it into smaller problems, when possible. These smaller problems can then be solved by different computers (or processors), which talk to each other over a computer network. Because many computers work together, this makes them as powerful as a supercomputer. One example where distributed computing is used is the Great Internet Mersenne Prime Search.\n\nOther page \nGrid computing\n\nComputer science",
+          "similarity": 0.322855587240767
+        },
+        {
+          "chunk_id": "aff64c85-43aa-48b6-b23d-55dd14a4e645",
+          "document_id": "597fc556-e99d-4a54-968f-6486f59898b2",
+          "title": "Histogram",
+          "content": "A histogram is a concept from statistics. It is a graphical display that tells us about the distribution of the samples involved. They are commonly a picture made from a table with many categories. The table tells how many samples there are in each category.\nThe word histogram is derived from histos and gramma in Greek. Histos means web or mast. Gramma means drawing, record or writing. A histogram of something is therefore, etymologically speaking, a drawing of the web of this something.\n\nSimilar ideas\nThe histogram is one of the seven basic tools of quality control, which also include the Pareto chart, check sheet, control chart, cause-and-effect diagram, flowchart, and scatter diagram. \n\nA population pyramid is two histograms.\n\nA generalization of the histogram is kernel smoothing techniques. This will construct a smooth probability density function from the supplied data.\n\nReferences\n\nStatistics",
+          "similarity": 0.319338274753703
+        }
+      ],
+      "hnsw_top_results": [
+        {
+          "chunk_id": "b34a95b3-ae90-4fe1-a6bf-30873c315393",
+          "document_id": "e28c251a-c85f-4ab2-b189-ebc3aa91ea5a",
+          "title": "Hash function",
+          "content": "The Hash function is a function. When a computer program is written, very often, large amounts of data need to be stored. These are normally stored as hash tables. In order to find the data again, some value is calculated. This is like when someone reads a book, and to remember, they put what they read into their own words. Hash values are much the same, except that care is taken that different sets of data do not get the same hash value (this is called a hash collision).\n\nA cryptographic hash function is a kind that is used in cryptography. Its hash value is a fixed-size, alphanumeric string, and may also be called a 'message digest', 'digital fingerprint', 'digest' or 'checksum'.\n\nRelated pages\nHash table\n\nComputer science",
+          "similarity": 0.343261949012203
+        },
+        {
+          "chunk_id": "ef6b0e8f-4be0-4a06-b134-2a0c7b5d0b8b",
+          "document_id": "f6edb2b9-86cc-4e6e-97db-88b551293342",
+          "title": "Distributed computing",
+          "content": "Distributed computing is a word from computer science, about using many computers to solve a big problem. One way to solve a big problem is to use a very fast computer called a supercomputer. Supercomputers are very expensive, and many scientists can not buy them. A cheaper way to solve a big problem is to split it into smaller problems, when possible. These smaller problems can then be solved by different computers (or processors), which talk to each other over a computer network. Because many computers work together, this makes them as powerful as a supercomputer. One example where distributed computing is used is the Great Internet Mersenne Prime Search.\n\nOther page \nGrid computing\n\nComputer science",
+          "similarity": 0.322855587240767
+        },
+        {
+          "chunk_id": "c49110de-5c0d-4cdf-8414-74cf4ead1384",
+          "document_id": "74e97f57-f96b-4e8b-850a-ef5c71b0beda",
+          "title": "OpenOffice",
+          "content": "Apache OpenOffice (formerly OpenOffice.org) is a free open source office suite. The free software project was formerly hosted by Sun Microsystems and then Oracle Corporation and is currently hosted by Apache. It is available for many different operating systems, including Microsoft Windows, Linux, OS X, FreeBSD and Solaris; and is meant to be an alternative to Microsoft Office. It supports Microsoft Office file formats as well as its own OpenDocument format.\n\nThe \".org\" part of the previous name OpenOffice.org is there because OpenOffice is already trademarked. It is often called \"OOo\" for short.\n\nOpenOffice is based on the older StarOffice software that was created by Sun Microsystems.\n\nParts \nOpenOffice is a collection of applications that work together closely to provide the features expected from a modern office suite. Many of the parts are designed to be alternatives to those available in Microsoft Office. The parts available include:\n\nOther websites\n\nReferences \n\nOffice suites",
+          "similarity": 0.314694765092511
+        }
+      ]
+    },
+    {
+      "query": "Explain Hadoop ecosystem",
+      "recall@10": 0.2,
+      "overlap_count": 8,
+      "overlap_chunk_ids": [
+        "115db4e1-0566-4c95-b5d0-680b4f2c897b",
+        "1e58e389-d9a9-491d-b01f-0082796f0038",
+        "412839b0-a6f7-4214-a2e2-68454312eb3c",
+        "8be0c4e0-c990-459b-ba89-17077ae5aec4",
+        "91038add-28e7-48d8-b578-408dbfdde329",
+        "bcd9fe84-1c28-4730-a8ef-37d80194440a",
+        "c49110de-5c0d-4cdf-8414-74cf4ead1384",
+        "ef6b0e8f-4be0-4a06-b134-2a0c7b5d0b8b"
+      ],
+      "flat_top_title": "Ecosystem",
+      "hnsw_top_title": "List of words about computers",
+      "flat_top_results": [
+        {
+          "chunk_id": "8970b208-255d-40eb-a62b-38007dcf3362",
+          "document_id": "c76abafd-0631-4e47-a465-4619d22249ae",
+          "title": "Ecosystem",
+          "content": "An ecosystem (or ecological system) is a large community of living organisms (plants, animals and microbes) in a particular area. The living and physical components are linked together through nutrient cycles and energy flows. Ecosystems are of any size, but usually they are in particular places.\n\nEach ecosystem has its own community. An aquarium community, for example, can have small fish and other organisms. A desert community may have cacti, small snakes, and scorpions. A pond community can have frogs, insects, snakes, and plants, and a forest community may have rabbits, foxes and pine trees. The species in a community are divided into populations according to the particular habitats and ecological niches in the ecosystem.\n\nEnergy \nEcosystems are stable, but changeable. They react to major changes in the environment, especially climate changes. For example, the major rainforests have lasted for a long time (perhaps 50 million years or more in some cases). As the rainfall and temperature changes, they change. We know that the Amazon rainforest shrank in size during ice ages, and expanded in the warmer periods.\n\nPrimary production \nWhat drives all ecosystems is the primary production. Primary production is the production of organic matter from inorganic carbon sources. This",
+          "similarity": 0.329872699562053
+        },
+        {
+          "chunk_id": "2ec5696e-edd1-4be7-b341-066796ffe971",
+          "document_id": "c76abafd-0631-4e47-a465-4619d22249ae",
+          "title": "Ecosystem",
+          "content": "What drives all ecosystems is the primary production. Primary production is the production of organic matter from inorganic carbon sources. This happens through photosynthesis. It drives the carbon cycle, which influences global climate via the greenhouse effect.\n\nThrough the process of photosynthesis, plants capture energy from sunlight and use it to combine carbon dioxide and water to produce carbohydrates and oxygen. The photosynthesis carried out by all the plants in an ecosystem is called the gross primary production (GPP). About 48\u201360% of the GPP is consumed in plant respiration. The rest is known as the net primary production (NPP). Total photosynthesis is limited by a range of environmental factors. These include the amount of light available, the amount of leaf area a plant has to capture light (shading by other plants limits photosynthesis), the supply of carbon dioxide and water, and suitable temperatures for carrying out photosynthesis.\n\nTypes \nSome of the major types of ecosystem:\n Aquatic ecosystem\n Marine ecosystem\n Freshwater ecosystem\n Lake ecosystem\n River ecosystem\n Wetland\n Terrestrial ecosystem\n Forest\n Rain Forest\n Greater Yellowstone Ecosystem\n Littoral zone\n Riparian zone\n Desert\n Grassland\n Tundra\n Taiga\n\nRelated pages \n Biodiversity\n Biosphere Reserve",
+          "similarity": 0.297859450977334
+        },
+        {
+          "chunk_id": "8be0c4e0-c990-459b-ba89-17077ae5aec4",
+          "document_id": "f571b403-2e9d-4ad6-99b2-ec78dbe47e47",
+          "title": "List of words about computers",
+          "content": "A\n Adobe\n Acrobat\n Algorithm\n AMD\n Android\n API\n Apple\n Application\n Analog\n\nB\n\n Boot\n binary\n BIOS\n bitcoin\n byte\nbot\n Botnet\n Browser\n\nC \n C programming language\n Cable\n Cache memory\n Captcha\n Connection\n Control\n Cookie\nC++\nComputer\n\nD\n data\n database\ndatalake\n Debian\n decompress\n desktop\n dialer\n digital\n document\n disk operating system (redirect (or disambig) from DOS)\n download\n\nE\n ENIAC Electronic Numerical Integrator and Calculator\n electricity\n email\n email attachment\n Encarta encyclopedia\n Epiphany web browser\n End User License Agreement (redirect from EULA)\n Explorer\n ext2 filesystem type\n ext3 filesystem type\n\nF\n File allocation table (disambiguation from FAT or fat)\n FAT16 filesystem\n FAT32 filesystem\n file\n file types by ending\n filesharing\n filesystem\n firewall\n folder\n footnotes\n format\n FreeBSD\n freeware\n FTP\n Facebook\n ((Function))\n\nG\n gigabyte (redir from gb)\n Gimp\n Gmail\n Gnome\n Google\n GNU\n GnuPG\n GPU\n Google Nest\n\nH\n hacker\n hard disk (redirects from hard drive, hard disk",
+          "similarity": 0.282830335266002
+        }
+      ],
+      "hnsw_top_results": [
+        {
+          "chunk_id": "8be0c4e0-c990-459b-ba89-17077ae5aec4",
+          "document_id": "f571b403-2e9d-4ad6-99b2-ec78dbe47e47",
+          "title": "List of words about computers",
+          "content": "A\n Adobe\n Acrobat\n Algorithm\n AMD\n Android\n API\n Apple\n Application\n Analog\n\nB\n\n Boot\n binary\n BIOS\n bitcoin\n byte\nbot\n Botnet\n Browser\n\nC \n C programming language\n Cable\n Cache memory\n Captcha\n Connection\n Control\n Cookie\nC++\nComputer\n\nD\n data\n database\ndatalake\n Debian\n decompress\n desktop\n dialer\n digital\n document\n disk operating system (redirect (or disambig) from DOS)\n download\n\nE\n ENIAC Electronic Numerical Integrator and Calculator\n electricity\n email\n email attachment\n Encarta encyclopedia\n Epiphany web browser\n End User License Agreement (redirect from EULA)\n Explorer\n ext2 filesystem type\n ext3 filesystem type\n\nF\n File allocation table (disambiguation from FAT or fat)\n FAT16 filesystem\n FAT32 filesystem\n file\n file types by ending\n filesharing\n filesystem\n firewall\n folder\n footnotes\n format\n FreeBSD\n freeware\n FTP\n Facebook\n ((Function))\n\nG\n gigabyte (redir from gb)\n Gimp\n Gmail\n Gnome\n Google\n GNU\n GnuPG\n GPU\n Google Nest\n\nH\n hacker\n hard disk (redirects from hard drive, hard disk",
+          "similarity": 0.282830335266002
+        },
+        {
+          "chunk_id": "1e58e389-d9a9-491d-b01f-0082796f0038",
+          "document_id": "c071345d-657e-4c7e-be87-185b9d7f9e15",
+          "title": "Solaris",
+          "content": "Other websites \n Solaris Operating System\n OpenIndiana (a fork of OpenSolaris)\n\nOperating systems\nUnix\nSun Microsystems\nOracle Corporation",
+          "similarity": 0.281287825720265
+        },
+        {
+          "chunk_id": "bcd9fe84-1c28-4730-a8ef-37d80194440a",
+          "document_id": "1a6fbdd4-bc04-4e46-8d1d-a572a8e450d8",
+          "title": "Data storage device",
+          "content": "Multimedia\n\nReferences\nBekenstein, Jacob D. (2003, August). Information in the holographic universe. Scientific American.\n\nBibliography\n\nOther websites\nHistorical Notes about the Cost of Hard Drive Storage Space",
+          "similarity": 0.280818541346398
+        }
+      ]
+    },
+    {
+      "query": "What is API?",
+      "recall@10": 0.3,
+      "overlap_count": 4,
+      "overlap_chunk_ids": [
+        "2acf8494-d01b-4ee8-ad62-acea21a54fc2",
+        "3ad0cf2a-fc25-433e-9012-9ab189b5d1bb",
+        "44a77fc2-8986-47ad-850d-7afd48d976cd",
+        "71e9ae60-ab3d-4397-ace9-d6c7fd472feb"
+      ],
+      "flat_top_title": "Pipeline",
+      "hnsw_top_title": "OpenGL",
+      "flat_top_results": [
+        {
+          "chunk_id": "6fd80803-472a-4267-9d72-337bd367e9d5",
+          "document_id": "98890c1f-2767-4369-9dc2-1202cb5cedd0",
+          "title": "Pipeline",
+          "content": "A pipeline is a long tube, that is used to transport liquids or gases over long distances. Pipelines are made of metal. While the transport of liquids and gases is common, some pipelines are used to transport coal or iron ore, which are mixed with mud. Such pipelines are sometimes called slurry pipelines. Even though a pipeline is very expensive to build, the low operating cost often makes it the cheapest transport. \n\nMany stadiums use a central tank for beer. Each bar is served by a pipeline from the central tank.\n\nEven though mail and other goods can also be delivered that way, the system is generally not referred to as pipeline. In this case, capsules are used. These are propelled by air.\n\nTechnology\nPipeline networks are made of different components. These are:\nThe supply station is where the pipeline starts. Very often, there are  tanks that act as a buffer\nThere are several pumps and compressors, which move the product through the pipeline.\nPartial delivery stations allow to deliver part of the product\nBlock valve stations use valves to isolate the pipeline into independent segments.\nRegulator stations are used to release some of the pressure\nThe final delivery station is where the product is delivered to the consumer. Very often tanks are used as a buffer.\n\nImages\n\nTechnology",
+          "similarity": 0.306006153886375
+        },
+        {
+          "chunk_id": "71e9ae60-ab3d-4397-ace9-d6c7fd472feb",
+          "document_id": "e8d921a5-115c-48b3-a703-6cedaf22874e",
+          "title": "OpenGL",
+          "content": "OpenGL (Open Graphics Library) is a programming interface for 3D graphics which helps computer programmers make their 3D graphics perform better and faster by running parts of their programs on a video card (GPU) rather than just the central processor (CPU). Programming interfaces like OpenGL are usually called an \"API,\" which stands for \"Application Programming Interface\".\n\nOpenGL is often compared to Direct3D, an API for 3D graphics on Windows. Programming for Direct3D is different in some ways because the APIs use different naming schemes for talking to a computer's graphics driver, which means that programmers need to write different code for OpenGL and Direct3D to do the same things.\n\nOpenGL is owned by the Khronos Group, and is an example of open source software. This means that all of OpenGL's programming, and the explanations for how the programming all works, can be viewed, copied, revised, and re-released by anyone.\n\nReferences\n\nFurther reading\n\nOther websites\n\n GLFW -- Library for creating OpenGL contexts.\n GLEW -- Extension wrangler library for newer OpenGL features.\n\n \n OpenGL Overview and OpenGL.org's Wiki with more information on OpenGL Language bindings\n SGI's OpenGL website\n \n Khronos Group, Inc.\n \n\nFree software\nGraphics software",
+          "similarity": 0.304687625272095
+        },
+        {
+          "chunk_id": "9f6dfe98-b73d-439b-807e-dbedf65d8b77",
+          "document_id": "57b4e134-2f08-4bb8-8060-1926e7b2fdab",
+          "title": "Ohana",
+          "content": "the idea so much that it became one of the main ideas for the story, the one thing that changes the character of Stitch, even though he was created to destroy.\n\n\"Ohana API\" is a US website with the goal of extending the concept of \"Ohana\" to the larger context of the US as a whole. This is relevant and important because Hawaii and the Hawaiian culture is an integral part of the cultural diversity and interconnection that exists and is a very unique and cherished part and benefit of the great and expanding intermingled cultures that embody the United States of America. \n\nCulture of Hawaii",
+          "similarity": 0.295384901609278
+        }
+      ],
+      "hnsw_top_results": [
+        {
+          "chunk_id": "71e9ae60-ab3d-4397-ace9-d6c7fd472feb",
+          "document_id": "e8d921a5-115c-48b3-a703-6cedaf22874e",
+          "title": "OpenGL",
+          "content": "OpenGL (Open Graphics Library) is a programming interface for 3D graphics which helps computer programmers make their 3D graphics perform better and faster by running parts of their programs on a video card (GPU) rather than just the central processor (CPU). Programming interfaces like OpenGL are usually called an \"API,\" which stands for \"Application Programming Interface\".\n\nOpenGL is often compared to Direct3D, an API for 3D graphics on Windows. Programming for Direct3D is different in some ways because the APIs use different naming schemes for talking to a computer's graphics driver, which means that programmers need to write different code for OpenGL and Direct3D to do the same things.\n\nOpenGL is owned by the Khronos Group, and is an example of open source software. This means that all of OpenGL's programming, and the explanations for how the programming all works, can be viewed, copied, revised, and re-released by anyone.\n\nReferences\n\nFurther reading\n\nOther websites\n\n GLFW -- Library for creating OpenGL contexts.\n GLEW -- Extension wrangler library for newer OpenGL features.\n\n \n OpenGL Overview and OpenGL.org's Wiki with more information on OpenGL Language bindings\n SGI's OpenGL website\n \n Khronos Group, Inc.\n \n\nFree software\nGraphics software",
+          "similarity": 0.304687625272095
+        },
+        {
+          "chunk_id": "2acf8494-d01b-4ee8-ad62-acea21a54fc2",
+          "document_id": "66fa41ed-e48f-424a-a01a-13a90822308c",
+          "title": "AOL",
+          "content": "AOL Inc. (previously America Online) is a U.S.-based online service provider and Internet service provider. It has been in business since 1985. Important services in the early years were online chat and online games. Most connections were dial-up. In 2001 AOL bought Time Warner. In 2009 after a spin-off from Time Warner they changed their name to AOL Inc. It was announced in May 2015 that Verizon Communications purchased AOL.\n\nAOL Instant Messenger was a service which allowed users to communicate with any user currently online. AIM had millions of users worldwide. There were also other computer programs that could be used to talk with your AIM account, for example Trillian, Pidgin, Digsby, and AIM+. AIM was shut down on December 15, 2017.\n\nOther AOL products are AOL Spyware Protection, AOL Safety and Security Center, ICQ, AOl Computer Check-Up, AOL Explorer, AOL TopSpeed, AOL Dialer, AOL One-Click Fixes and AOL Openride.\n\nReferences\n\nOther websites\n AOL US and headquarters\n AOL in other countries \n\nInternet service providers\n1985 establishments in the United States",
+          "similarity": 0.27611118049507
+        },
+        {
+          "chunk_id": "44a77fc2-8986-47ad-850d-7afd48d976cd",
+          "document_id": "9832b759-a2a4-47f5-822b-1b8af5d72398",
+          "title": "XML",
+          "content": "The Extensible Markup Language (short XML) is a markup language like HTML but is extensible. It's created by the World Wide Web Consortium (W3C). XML defines rules for the construction of a document. XML adds context to the information in a document. It does not say how this should be displayed.\n\nSome programs get information out of an XML-document. To do that, they need an API.  There are many APIs for XML.\n\nYou can write a description of an XML document in a way that is useful for programmers. There are several languages for this; the best known is called DTD.\n\nSyntax \nXML uses less than (<) and greater than (>) to show tags. For example, a paragraph in HTML would be <p>.\n\nA closing tag is a tag used to enclose the value of the tag. The tag has a slash (/) before its name. For example, </p>\n\nA tag which is empty can be represented as an opening tag but with a slash before the >. For example, <p />\n\nThe XML specification defines a valid XML document as a well-formed XML document which also conforms to the rules of a Document Type Definition (DTD).\n\nLanguages \nThe following languages are based on XML.\n\nText \n XSL-FO",
+          "similarity": 0.273385022708981
+        }
+      ]
+    },
+    {
+      "query": "What is cloud computing?",
+      "recall@10": 0.4,
+      "overlap_count": 4,
+      "overlap_chunk_ids": [
+        "82191759-d508-476b-9b10-77f8b5ba93a1",
+        "b5fb88d8-abe4-4515-a2a4-05cfd55b4277",
+        "da880201-bdd0-4191-be02-7714568949a7",
+        "ef6b0e8f-4be0-4a06-b134-2a0c7b5d0b8b"
+      ],
+      "flat_top_title": "Distributed computing",
+      "hnsw_top_title": "Distributed computing",
+      "flat_top_results": [
+        {
+          "chunk_id": "ef6b0e8f-4be0-4a06-b134-2a0c7b5d0b8b",
+          "document_id": "f6edb2b9-86cc-4e6e-97db-88b551293342",
+          "title": "Distributed computing",
+          "content": "Distributed computing is a word from computer science, about using many computers to solve a big problem. One way to solve a big problem is to use a very fast computer called a supercomputer. Supercomputers are very expensive, and many scientists can not buy them. A cheaper way to solve a big problem is to split it into smaller problems, when possible. These smaller problems can then be solved by different computers (or processors), which talk to each other over a computer network. Because many computers work together, this makes them as powerful as a supercomputer. One example where distributed computing is used is the Great Internet Mersenne Prime Search.\n\nOther page \nGrid computing\n\nComputer science",
+          "similarity": 0.427299203438178
+        },
+        {
+          "chunk_id": "9d890a58-a951-417e-85d9-96f22f4ed6a3",
+          "document_id": "584f7cef-8121-4f62-ae08-d7e4e872a23f",
+          "title": "Cloud",
+          "content": "the side of a mountain it cools as it goes higher;\n when warm air goes over something colder such as cool water in a lake) or ground that is cooled at night it cools.\n\nClouds are heavy. The water in a cloud can have a mass of several million tons. Every cubic metre (m3) of the cloud has only about 5\u00a0grams of water in it. Cloud droplets are also about 1000 times heavier than evaporated water, so they are much heavier than air. They do not fall, but stay in the air, because there is warm air all round the heavier water droplets. When water changes from gas to droplets, this makes heat. Because the droplets are very small, they \"stick\" to the warm air.\n\nSometimes, clouds appear to be brilliant colors at sunrise or sunset. This is due to dust particles in the air.\n\nCloud classification \nClouds are classified according to how they look and how high the base of the cloud is in the sky. This system was suggested in 1803.  There are different sorts of clouds because the air where they form can be still or moving forward or up and down at different speeds.  Very thick clouds with large enough water droplets can make rain or",
+          "similarity": 0.370745846100581
+        },
+        {
+          "chunk_id": "56953a37-66dd-4960-ada5-93f17a24fd05",
+          "document_id": "584f7cef-8121-4f62-ae08-d7e4e872a23f",
+          "title": "Cloud",
+          "content": "A cloud is water vapour in the atmosphere (sky) that has condensed into very small water droplets or ice crystals that appear in visible shapes or formations above the ground.\n\nWater on the Earth evaporates (turns into an invisible gas) and rises up into the sky. Higher up where the air is colder, the water condenses: it changes from a gas to drops of water or crystals of ice. We see these drops of water as clouds. The drops fall back down to earth as rain, and then the water evaporates again. This is called the \"water cycle\".\n\nThe atmosphere always has some water vapour. Clouds form when the atmosphere can no longer hold all the invisible air vapor. Any more water vapor condenses into very small water drops.\n\nWarm air holds more water vapor than cool air. So if warm air with lots of water inside cools, it can form a cloud. These are ways air can cool enough to form clouds:\n\n when air close to the ground is heated by the sun and rises to where the air is colder.\n along weather fronts warmer air is cooled as it runs into colder air;\n when air goes up the side of a mountain it cools as it goes higher;\n when warm air goes over something colder such as cool water",
+          "similarity": 0.362595171252024
+        }
+      ],
+      "hnsw_top_results": [
+        {
+          "chunk_id": "ef6b0e8f-4be0-4a06-b134-2a0c7b5d0b8b",
+          "document_id": "f6edb2b9-86cc-4e6e-97db-88b551293342",
+          "title": "Distributed computing",
+          "content": "Distributed computing is a word from computer science, about using many computers to solve a big problem. One way to solve a big problem is to use a very fast computer called a supercomputer. Supercomputers are very expensive, and many scientists can not buy them. A cheaper way to solve a big problem is to split it into smaller problems, when possible. These smaller problems can then be solved by different computers (or processors), which talk to each other over a computer network. Because many computers work together, this makes them as powerful as a supercomputer. One example where distributed computing is used is the Great Internet Mersenne Prime Search.\n\nOther page \nGrid computing\n\nComputer science",
+          "similarity": 0.427299203438178
+        },
+        {
+          "chunk_id": "da880201-bdd0-4191-be02-7714568949a7",
+          "document_id": "f5487a47-171f-4cac-b8e1-f982f58e6a37",
+          "title": "Cache (computing)",
+          "content": "Caching is a term used in computer science.  The idea behind a  cache (pronounced \"cash\"   ) is very simple: Very often, obtaining a result for a calculation is very time-consuming, so storing the result is generally a good idea. Two kinds of storage media are used: One is usually quite big, but accessing it is \"slow\"; the other one can be accessed much faster, but generally it is small. The very basic idea behind caching is to use the medium that is fast to access to have copies of data. There is no difference between the copy, and the original. Accessing the original data may take a long time, or it may be expensive to do (for example: the results of a difficult problem that take a long time to solve). For this reason, it is much \"cheaper\" to simply use the copy of the data from the cache. Put differently, a cache is a temporary storage area that has copies of data that is used often. When a copy of the data is in this cache, it is faster to use this copy rather than re-fetching or re-calculating the original data. This will make the average time needed to access the data shorter. Putting a new value into a cache often means",
+          "similarity": 0.341528247035312
+        },
+        {
+          "chunk_id": "82191759-d508-476b-9b10-77f8b5ba93a1",
+          "document_id": "e90e555a-62bb-48b3-b1d9-6cdc56c20c51",
+          "title": "Operating system",
+          "content": "out on more than one machine.\n\nTemplated \nIn an OS, distributed and cloud computing context, templating refers to creating a single virtual machine as a guest operating system, then saving it as a tool for multiple running virtual machines. The technique is common in large server warehouses.\n\nEmbedded \nEmbedded operating systems are designed to be used in embedded systems. They are designed to operate on small machines like PDAs with less autonomy and are able to operate with a limited number of resources.\n\nReal-time \nA real-time operating system guarantees processing of events or data by a specific moment in time. A real-time operating system may be single- or multi-tasking, but when multitasking, it uses specialized scheduling algorithms so that a deterministic nature of behavior is achieved. An event-driven system switches between tasks based on their priorities or external events while time-sharing operating systems switch tasks based on clock interrupts.\n\nLibrary \nA library operating system is one in which the services that a typical operating system provides, such as networking, are provided in the form of libraries and composed with the application and configuration code to construct a unikernel: a specialized, single address space, machine image that can be deployed to cloud or embedded environments.\n\nRelated pages\n BIOS\n\nReferences",
+          "similarity": 0.324037157332842
+        }
+      ]
+    },
+    {
+      "query": "What is latency?",
+      "recall@10": 0.5,
+      "overlap_count": 5,
+      "overlap_chunk_ids": [
+        "6e85b58f-656e-4a4f-b839-ac38cf8ff30e",
+        "9ab424bd-3711-4db3-b0b4-3199b15e450a",
+        "ae6e5e8d-ea2b-48c8-bcc5-bd7e82c5fade",
+        "c1b0d070-696c-4a61-ad9b-57021c7c1c47",
+        "da880201-bdd0-4191-be02-7714568949a7"
+      ],
+      "flat_top_title": "Incubation period",
+      "hnsw_top_title": "Time limit",
+      "flat_top_results": [
+        {
+          "chunk_id": "da065edc-210f-4984-9e7d-148b47f66e69",
+          "document_id": "3a77936c-258e-41e4-b715-3ca9a51b4289",
+          "title": "Incubation period",
+          "content": "An incubation period is the time it takes between the day a person is infected with a pathogen (something that causes a disease, like a virus), and the day that the person starts having symptoms of the disease.  For example, if a person is infected with the common cold, it usually takes about one to three days for the person to start having cold symptoms.  This means that the common cold's incubation period is one to three days.\n\nWith some diseases, like Human Immunodeficiency Virus (HIV, the virus that causes AIDS), a person can still give other people HIV during the incubation period.  Even though the person with HIV has no symptoms, the virus is making copies of itself during the incubation period.\n\nWhat affects incubation periods\nMany different things affect the incubation period for a disease.  These things include:\n How much of the pathogen a person got\n Whether the person was vaccinated against this pathogen, and if they were, which vaccine was used\n How fast the pathogen makes copies of itself once it is in the body\n How strong the person's immune system is\n\nExamples of incubation periods \nIncubation periods are not exactly the same for everyone, because every person is different.  Because of this",
+          "similarity": 0.336797294412712
+        },
+        {
+          "chunk_id": "5dc5b480-c60e-43dc-b9fa-ed63a33985eb",
+          "document_id": "de53ccb9-7192-4e43-b989-b4378fa68c07",
+          "title": "Syphilis",
+          "content": "had secondary syphilis.  In the United Kingdom, latent syphilis is called \"early\" if it has been less than two years.\n In this stage, the symptoms of secondary syphilis can still come back.\n The late latent stage: People enter this stage when it has been more than one year (in the U.S.) or more than two years (in the U.K.) since they had secondary syphilis.\n People in this stage have no symptoms, and do not spread syphilis as easily as people in the early latent stage.\n\nTertiary stage\n\nIf a person with syphilis does not get treatment, the disease can reach the worst stage - tertiary syphilis.  Usually this happens about three to 15 years after the person first got infected. Without treatment, one-third of people with syphilis get tertiary disease.  People with tertiary syphilis cannot infect other people with syphilis.\n\nThere are three different forms of tertiary syphilis.\n\nGummatous syphilis (late benign syphilis) \nGummatous syphilis can happen anywhere from one to 46\u00a0years after the person first got syphilis.  On average, it happens after 15 years.  It causes",
+          "similarity": 0.33211607460521
+        },
+        {
+          "chunk_id": "6e85b58f-656e-4a4f-b839-ac38cf8ff30e",
+          "document_id": "7be27e9d-dd03-4386-98a8-01a72d697d11",
+          "title": "Time limit",
+          "content": "A time limit is a time horizon that is imposed on everyone at once. \n\nIt may be used to try to achieve fairness in some system of ethics.  For instance, if poor people and rich people are debating something, a time limit may be imposed so that the rich people cannot keep debating until the poor people have to go to work, and lose.\n\nTime limits are very important in accounting so that everyone can report their results (for tax and investment purposes) at the same time.  This in turn creates deadlines for the accountant and those reporting.\n\nHowever, the deadline is imposed by an authority, whereas the time limit is imposed by a system.  So there can be slack in a deadline, so that results do not have to be reported always very fast.\n\nFor example, in the United States of America, the end of the calendar year on December 31 is the time limit for taxes, but the deadline for reporting is April 15.  Sometimes the government allows more time, as it did for the families of those who were killed in the September 11, 2001 attacks.\n\nRelated pages \n Time horizon\n Deadline\n\nTime",
+          "similarity": 0.318111657457703
+        }
+      ],
+      "hnsw_top_results": [
+        {
+          "chunk_id": "6e85b58f-656e-4a4f-b839-ac38cf8ff30e",
+          "document_id": "7be27e9d-dd03-4386-98a8-01a72d697d11",
+          "title": "Time limit",
+          "content": "A time limit is a time horizon that is imposed on everyone at once. \n\nIt may be used to try to achieve fairness in some system of ethics.  For instance, if poor people and rich people are debating something, a time limit may be imposed so that the rich people cannot keep debating until the poor people have to go to work, and lose.\n\nTime limits are very important in accounting so that everyone can report their results (for tax and investment purposes) at the same time.  This in turn creates deadlines for the accountant and those reporting.\n\nHowever, the deadline is imposed by an authority, whereas the time limit is imposed by a system.  So there can be slack in a deadline, so that results do not have to be reported always very fast.\n\nFor example, in the United States of America, the end of the calendar year on December 31 is the time limit for taxes, but the deadline for reporting is April 15.  Sometimes the government allows more time, as it did for the families of those who were killed in the September 11, 2001 attacks.\n\nRelated pages \n Time horizon\n Deadline\n\nTime",
+          "similarity": 0.318111657457703
+        },
+        {
+          "chunk_id": "9ab424bd-3711-4db3-b0b4-3199b15e450a",
+          "document_id": "e03bf197-88ff-4e19-a3f0-e9e10fe5d309",
+          "title": "Special relativity",
+          "content": "to time dilation.\n The presence of muons created in the upper atmosphere at the surface of Earth.  The issue is that it takes much longer than the half-life of the muons to get down to Earth surface even at nearly the speed of light.  Their presence can be seen as either being due to time dilation (in our view) or length contraction of the distance to the earth surface (in the muon's view).\n Particle accelerators cannot be constructed without accounting for relativistic physics.\n\n Notes \n [1] Observations of binary stars show that light takes the same amount of time to reach the Earth over the same distance for both stars in such systems.  If the speed of light was constant with respect to its source, the light from the approaching star would arrive sooner than the light from the receding star.  This would cause binary stars to appear to move in ways that violate Kepler's Laws, but this is not seen.\n [2] The second postulate of special relativity (that the speed of light is the same for all observers) contradicts Newtonian physics.\n [3] Since the Earth is constantly being accelerated as it orbits the Sun, the initial null result was not a concern.  However, that did mean that a strong ether wind",
+          "similarity": 0.307559741450654
+        },
+        {
+          "chunk_id": "da880201-bdd0-4191-be02-7714568949a7",
+          "document_id": "f5487a47-171f-4cac-b8e1-f982f58e6a37",
+          "title": "Cache (computing)",
+          "content": "Caching is a term used in computer science.  The idea behind a  cache (pronounced \"cash\"   ) is very simple: Very often, obtaining a result for a calculation is very time-consuming, so storing the result is generally a good idea. Two kinds of storage media are used: One is usually quite big, but accessing it is \"slow\"; the other one can be accessed much faster, but generally it is small. The very basic idea behind caching is to use the medium that is fast to access to have copies of data. There is no difference between the copy, and the original. Accessing the original data may take a long time, or it may be expensive to do (for example: the results of a difficult problem that take a long time to solve). For this reason, it is much \"cheaper\" to simply use the copy of the data from the cache. Put differently, a cache is a temporary storage area that has copies of data that is used often. When a copy of the data is in this cache, it is faster to use this copy rather than re-fetching or re-calculating the original data. This will make the average time needed to access the data shorter. Putting a new value into a cache often means",
+          "similarity": 0.306728681892229
+        }
+      ]
+    },
+    {
+      "query": "Advantages of Spark",
+      "recall@10": 0.6,
+      "overlap_count": 1,
+      "overlap_chunk_ids": [
+        "8a7e3d5e-3d06-47b3-9c2f-9759cf1c162b"
+      ],
+      "flat_top_title": "Nitrogen",
+      "hnsw_top_title": "Voltaic pile",
+      "flat_top_results": [
+        {
+          "chunk_id": "38903151-5138-4781-ad99-4b21c67c0ca4",
+          "document_id": "0289bbd3-ba2a-4ed7-91c0-73e64d19e9e5",
+          "title": "Nitrogen",
+          "content": "spark was passed through nitrogen, it made a reactive form of nitrogen. This nitrogen reacted with many metals and compounds.\n\nRelated pages\n List of common elements\n\nReferences\n\nChemical elements\nNonmetals",
+          "similarity": 0.407651597766922
+        },
+        {
+          "chunk_id": "bdc37daa-8bc9-4822-8360-ddfb40d4d6f5",
+          "document_id": "d5b1c2d2-3928-4722-9e8a-016dd5c70cd6",
+          "title": "Python (programming language)",
+          "content": "language to do more things. These libraries make it a powerful language; it can do many different things.\n\nSome things that Python is often used for are:\n Web development\n Scientific programming\nData science\n Machine learning\n Numerical analysis\n Statistics\n Desktop GUIs applications\n Network programming\n Game programming.\n Complex algorithms creation\n Automation scripts\nMachine learning and artificial intelligence\nAudio and video applications\n\nSyntax \nPython has a very easy-to-read syntax. Some of Python's syntax comes from C, because that is the language that Python was written in. But Python uses whitespace to delimit code: spaces or tabs are used to organize code into groups. This is different from C.  In C, there is a semicolon at the end of each line and curly braces ({}) are used to group code. Using whitespace to delimit code makes Python a very easy-to-read language.\n\nStatements and control flow \nPython's statements include:\n\n The assignment statement, or the = sign. In Python, the statement x = 2 means that the name x is bound to the integer 2. Names can be rebound to many different types in Python, which is why  Python is a dynamically typed language. For example, you could now type the statement x = 'spam' and it would",
+          "similarity": 0.315466815298989
+        },
+        {
+          "chunk_id": "f244414d-4cc5-4a18-888f-41a5fd536d95",
+          "document_id": "98613679-cdf5-45c8-8b18-5493aaa6295d",
+          "title": "Flickr",
+          "content": "Blog \nLudicorp corporate website\nFlickrbits, a repository for third party plug-ins and API-based tools\n\nWebsites established in 2004\nSocial networking",
+          "similarity": 0.307650188431767
+        }
+      ],
+      "hnsw_top_results": [
+        {
+          "chunk_id": "8a7e3d5e-3d06-47b3-9c2f-9759cf1c162b",
+          "document_id": "ca4db048-6cdc-4bac-945b-4b8abc34ad05",
+          "title": "Voltaic pile",
+          "content": ", people could make only static electricity. With the voltaic pile, they could make electricity that keeps flowing for some time. Along with this, it was an invention that could be easily made. With this kind of electricity, scientists could do a lot of \"new\" things. For instance, when new kinds of metal were discovered, the electricity from a voltaic pile could \"sort\" chemicals. This way, small but very pure bits of these \"new\" metals could be made.\n\nBatteries",
+          "similarity": 0.287929788273276
+        },
+        {
+          "chunk_id": "4a4498eb-71c7-42be-9a78-9d1c70003ff0",
+          "document_id": "145c807a-dc64-44b3-b132-ccac13eba42b",
+          "title": "Hydrogen",
+          "content": "countries to buy less petroleum, which is an economic advantage. The other advantage is that used in a fuel cell or burned in a combustion engine as in a hydrogen car, the motor does not make pollution. Only water, and a small amount of  nitrogen oxides, forms.\n\nReferences\n\nOther websites \n Hydrogen -Citizendium\n\n \nNonmetals",
+          "similarity": 0.278547082564324
+        },
+        {
+          "chunk_id": "875bc56c-c854-43be-9c33-0b58f3f0f0cb",
+          "document_id": "801a89a2-547d-4b88-a943-5c903c933b2e",
+          "title": "Team Fortress 2",
+          "content": ". He has a watch which makes him invisible for short periods of time, and a cigarette case with disguises in it. He can disguise as any member of the other team to trick them into not hurting him. This disguise also tricks Sentry Guns built by Engineers. However, there are ways to find and kill spies, commonly called \"spy-checks\". The Spy can also place 'sappers' on enemy buildings, hurting them and turning them off until an Engineer can remove the sapper. For fighting, he has a revolver and a knife. The knife allows the Spy to kill an enemy instantly if he stabs them in the back. He is useful for killing Medics, Heavies, Engineers, and Snipers. The Pyro is able to easily stop him, as even when he turns invisible or is disguised, players can still see the fire on him. The Spy is considered a \"pick class\", meaning he is very dispensable but also very useful to get certain kills.\n\nGame modes \nThere are several different ways the game can be played, each with different goals for the two opposing teams. For all games, players are split into the RED and BLU teams. RED stands for Reliable Excavation and Demolition. Players on this team have",
+          "similarity": 0.268164116980147
+        }
+      ]
+    },
+    {
+      "query": "How Docker works",
+      "recall@10": 0.6,
+      "overlap_count": 10,
+      "overlap_chunk_ids": [
+        "0f001395-4968-418a-910b-7ce61bc18d6f",
+        "115db4e1-0566-4c95-b5d0-680b4f2c897b",
+        "1c516fe4-7e81-4801-8579-a2560c9557bb",
+        "29afe7ef-f05b-4798-8c61-e474e43f82fa",
+        "2b9e09f8-5f5e-4d33-8cca-10cd0d500714",
+        "31237538-1835-4908-9780-38aab59437da",
+        "3400dfc9-c27f-4287-82f0-f08414ceedb2",
+        "6fd80803-472a-4267-9d72-337bd367e9d5",
+        "8cdb58a5-8e94-4765-8b56-6e5a5f2d6ae9",
+        "deb55c01-f83c-4863-9824-dff668dcd869"
+      ],
+      "flat_top_title": "Pipeline",
+      "hnsw_top_title": "Pipeline",
+      "flat_top_results": [
+        {
+          "chunk_id": "6fd80803-472a-4267-9d72-337bd367e9d5",
+          "document_id": "98890c1f-2767-4369-9dc2-1202cb5cedd0",
+          "title": "Pipeline",
+          "content": "A pipeline is a long tube, that is used to transport liquids or gases over long distances. Pipelines are made of metal. While the transport of liquids and gases is common, some pipelines are used to transport coal or iron ore, which are mixed with mud. Such pipelines are sometimes called slurry pipelines. Even though a pipeline is very expensive to build, the low operating cost often makes it the cheapest transport. \n\nMany stadiums use a central tank for beer. Each bar is served by a pipeline from the central tank.\n\nEven though mail and other goods can also be delivered that way, the system is generally not referred to as pipeline. In this case, capsules are used. These are propelled by air.\n\nTechnology\nPipeline networks are made of different components. These are:\nThe supply station is where the pipeline starts. Very often, there are  tanks that act as a buffer\nThere are several pumps and compressors, which move the product through the pipeline.\nPartial delivery stations allow to deliver part of the product\nBlock valve stations use valves to isolate the pipeline into independent segments.\nRegulator stations are used to release some of the pressure\nThe final delivery station is where the product is delivered to the consumer. Very often tanks are used as a buffer.\n\nImages\n\nTechnology",
+          "similarity": 0.307083553690086
+        },
+        {
+          "chunk_id": "115db4e1-0566-4c95-b5d0-680b4f2c897b",
+          "document_id": "453cc150-0b68-45fc-9d31-1f6db061511f",
+          "title": "Computer",
+          "content": "E-mail\n Video editing/rendering/encoding\n Audio recording\n System Management\n Website Development\n Software Development\n\nWorking methods \nComputers store data and the instructions as numbers, because computers can do things with numbers very quickly. These data are stored as binary symbols (1s and 0s). A 1 or a 0 symbol stored by a computer is called a bit, which comes from the words binary digit. Computers can use many bits together to represent instructions and the data that these instructions use. A list of instructions is called a program and is stored on the computer's hard disk. Computers work through the program by using a central processing unit, and they use fast memory called RAM (also known as Random Access Memory) as a space to store the instructions and data while they are doing this. When the computer wants to store the results of the program for later, it uses the hard disk because things stored on a hard disk can still be remembered after the computer is turned off.\n\nAn operating system tells the computer how to understand what jobs it has to do, how to do these jobs, and how to tell people the results. Millions of computers may be using the same operating system, while each computer can have its own application programs to do what its user needs",
+          "similarity": 0.298934293571527
+        },
+        {
+          "chunk_id": "2b9e09f8-5f5e-4d33-8cca-10cd0d500714",
+          "document_id": "f2caf127-d0c9-405d-9976-345810a66e35",
+          "title": "Ship",
+          "content": "of the Island of Kea.\n\nModern ships \nAfter World War II ships with diesel engines became commonplace. Passenger airliners replaced passenger ships for long trips in the late 20th century. Cargo ships became much bigger. The main kinds are container ships for mostly manufactured goods, and bulk carriers including oil tankers.\n\nLargest ship \nThe world's largest ship is the Prelude, owned by Shell. It is being built on Geoje Island, South Korea. It is 488m long and has the internal capacity greater than the total volume of four large aircraft carriers. What it will do is collect natural gas off the coast of Australia, and liquify it. When liquified, the hydrocarbon takes up 600 times less space than its gas. Smaller tankers will take the liquid gas to its buyers. The ship will do liquifying and temporary storage, which is usually done on land. Shell believes this justifies the cost of the ship.\n\nThe shipping yard builds all kinds of structures for the oil industry. It employs 30,000 workers.\n\nSome names for parts of a ship \n\n Amidships - near the middle of the ship.\n Bow - the front of the ship.\n Stern - the back of the ship.\n Aft - in the direction of the stern",
+          "similarity": 0.291921125601154
+        }
+      ],
+      "hnsw_top_results": [
+        {
+          "chunk_id": "6fd80803-472a-4267-9d72-337bd367e9d5",
+          "document_id": "98890c1f-2767-4369-9dc2-1202cb5cedd0",
+          "title": "Pipeline",
+          "content": "A pipeline is a long tube, that is used to transport liquids or gases over long distances. Pipelines are made of metal. While the transport of liquids and gases is common, some pipelines are used to transport coal or iron ore, which are mixed with mud. Such pipelines are sometimes called slurry pipelines. Even though a pipeline is very expensive to build, the low operating cost often makes it the cheapest transport. \n\nMany stadiums use a central tank for beer. Each bar is served by a pipeline from the central tank.\n\nEven though mail and other goods can also be delivered that way, the system is generally not referred to as pipeline. In this case, capsules are used. These are propelled by air.\n\nTechnology\nPipeline networks are made of different components. These are:\nThe supply station is where the pipeline starts. Very often, there are  tanks that act as a buffer\nThere are several pumps and compressors, which move the product through the pipeline.\nPartial delivery stations allow to deliver part of the product\nBlock valve stations use valves to isolate the pipeline into independent segments.\nRegulator stations are used to release some of the pressure\nThe final delivery station is where the product is delivered to the consumer. Very often tanks are used as a buffer.\n\nImages\n\nTechnology",
+          "similarity": 0.307083553690086
+        },
+        {
+          "chunk_id": "115db4e1-0566-4c95-b5d0-680b4f2c897b",
+          "document_id": "453cc150-0b68-45fc-9d31-1f6db061511f",
+          "title": "Computer",
+          "content": "E-mail\n Video editing/rendering/encoding\n Audio recording\n System Management\n Website Development\n Software Development\n\nWorking methods \nComputers store data and the instructions as numbers, because computers can do things with numbers very quickly. These data are stored as binary symbols (1s and 0s). A 1 or a 0 symbol stored by a computer is called a bit, which comes from the words binary digit. Computers can use many bits together to represent instructions and the data that these instructions use. A list of instructions is called a program and is stored on the computer's hard disk. Computers work through the program by using a central processing unit, and they use fast memory called RAM (also known as Random Access Memory) as a space to store the instructions and data while they are doing this. When the computer wants to store the results of the program for later, it uses the hard disk because things stored on a hard disk can still be remembered after the computer is turned off.\n\nAn operating system tells the computer how to understand what jobs it has to do, how to do these jobs, and how to tell people the results. Millions of computers may be using the same operating system, while each computer can have its own application programs to do what its user needs",
+          "similarity": 0.298934293571527
+        },
+        {
+          "chunk_id": "2b9e09f8-5f5e-4d33-8cca-10cd0d500714",
+          "document_id": "f2caf127-d0c9-405d-9976-345810a66e35",
+          "title": "Ship",
+          "content": "of the Island of Kea.\n\nModern ships \nAfter World War II ships with diesel engines became commonplace. Passenger airliners replaced passenger ships for long trips in the late 20th century. Cargo ships became much bigger. The main kinds are container ships for mostly manufactured goods, and bulk carriers including oil tankers.\n\nLargest ship \nThe world's largest ship is the Prelude, owned by Shell. It is being built on Geoje Island, South Korea. It is 488m long and has the internal capacity greater than the total volume of four large aircraft carriers. What it will do is collect natural gas off the coast of Australia, and liquify it. When liquified, the hydrocarbon takes up 600 times less space than its gas. Smaller tankers will take the liquid gas to its buyers. The ship will do liquifying and temporary storage, which is usually done on land. Shell believes this justifies the cost of the ship.\n\nThe shipping yard builds all kinds of structures for the oil industry. It employs 30,000 workers.\n\nSome names for parts of a ship \n\n Amidships - near the middle of the ship.\n Bow - the front of the ship.\n Stern - the back of the ship.\n Aft - in the direction of the stern",
+          "similarity": 0.291921125601154
+        }
+      ]
+    },
+    {
+      "query": "What is Spark?",
+      "recall@10": 0.7,
+      "overlap_count": 7,
+      "overlap_chunk_ids": [
+        "1109b698-dd44-4d2c-9b28-f1da8b1dc612",
+        "43c77f09-b18a-4bd1-9ebc-51c8bd977c99",
+        "4431011a-ee5f-4bf1-a373-3e05f9044383",
+        "60cad39b-f6ff-47c9-9531-3a582b966f19",
+        "8bb17fa0-d455-4e55-a594-09c41401136b",
+        "c1add804-2127-4699-bf82-869f16b49a68",
+        "daa43447-1f39-4284-94d6-b38cdb13ec5d"
+      ],
+      "flat_top_title": "Nitrogen",
+      "hnsw_top_title": "Spike",
+      "flat_top_results": [
+        {
+          "chunk_id": "38903151-5138-4781-ad99-4b21c67c0ca4",
+          "document_id": "0289bbd3-ba2a-4ed7-91c0-73e64d19e9e5",
+          "title": "Nitrogen",
+          "content": "spark was passed through nitrogen, it made a reactive form of nitrogen. This nitrogen reacted with many metals and compounds.\n\nRelated pages\n List of common elements\n\nReferences\n\nChemical elements\nNonmetals",
+          "similarity": 0.449694045758153
+        },
+        {
+          "chunk_id": "4431011a-ee5f-4bf1-a373-3e05f9044383",
+          "document_id": "c6285c31-99c4-44ce-bcdd-4766a7934137",
+          "title": "Spike",
+          "content": "Spike could mean:\n Nail, especially one more than 100mm (4\u00a0inches) long\n Rail spikes used to secure railroad rails to the wooden ties\n Spiked shoes worn by athletes, which provide more traction (similar to cleats)\n An adolescent male deer or male elk\n The Spike is a widely used nickname for the Spire of Dublin, a massive needle-like structure erected in Dublin in 2003\n Spike TV, a cable network that caters to a young male demographic (originally known as TNN, The National Network, or The Nashville Network)\n Spike missile, an Israel-developed guided anti-tank missile\n Spike bayonet, chiefly used on early muskets\n Voltage spike, or electrical surge\n The action potential which transmits signals along a nerve axon is often called a spike\n Spike is a botanical term for an unbranched, indeterminate inflorescence with sessile flowers arranged along the axis\n Spike (company), a video game company\n\nMedia with Spike in the title include:\n The Spike (Borchgrave/Moss), a 1980 novel by Arnaud de Borchgrave, former editor of The Washington Times\n Spike of Bensonhurst, a 1988 movie directed by Paul Morrisey",
+          "similarity": 0.364760493324943
+        },
+        {
+          "chunk_id": "8bb17fa0-d455-4e55-a594-09c41401136b",
+          "document_id": "78a40975-4e27-4cf2-a6bf-732ee806b273",
+          "title": "Span",
+          "content": "Span could mean:\n\n span (unit of length)\n span (architecture)\n Span (band), a Norwegian punk rock band\n Switched Port ANalyzer, a way to monitor computer networks, similar to a network tap\n Linear span, in mathematics\n (co)spans in category theory\n wingspan, in Aerospace engineering (aircraft design)\n span and div in HTML\n CME SPAN - Standard Portfolio Analysis of Risk, a system developed by the Chicago Mercantile Exchange\n For powerlines, the distance between two pylons\n For aerial tramways, the distance between two supporting structures\n For a bridge, the distance between supporting pylons or towers.",
+          "similarity": 0.339926290112469
+        }
+      ],
+      "hnsw_top_results": [
+        {
+          "chunk_id": "4431011a-ee5f-4bf1-a373-3e05f9044383",
+          "document_id": "c6285c31-99c4-44ce-bcdd-4766a7934137",
+          "title": "Spike",
+          "content": "Spike could mean:\n Nail, especially one more than 100mm (4\u00a0inches) long\n Rail spikes used to secure railroad rails to the wooden ties\n Spiked shoes worn by athletes, which provide more traction (similar to cleats)\n An adolescent male deer or male elk\n The Spike is a widely used nickname for the Spire of Dublin, a massive needle-like structure erected in Dublin in 2003\n Spike TV, a cable network that caters to a young male demographic (originally known as TNN, The National Network, or The Nashville Network)\n Spike missile, an Israel-developed guided anti-tank missile\n Spike bayonet, chiefly used on early muskets\n Voltage spike, or electrical surge\n The action potential which transmits signals along a nerve axon is often called a spike\n Spike is a botanical term for an unbranched, indeterminate inflorescence with sessile flowers arranged along the axis\n Spike (company), a video game company\n\nMedia with Spike in the title include:\n The Spike (Borchgrave/Moss), a 1980 novel by Arnaud de Borchgrave, former editor of The Washington Times\n Spike of Bensonhurst, a 1988 movie directed by Paul Morrisey",
+          "similarity": 0.364760493324943
+        },
+        {
+          "chunk_id": "8bb17fa0-d455-4e55-a594-09c41401136b",
+          "document_id": "78a40975-4e27-4cf2-a6bf-732ee806b273",
+          "title": "Span",
+          "content": "Span could mean:\n\n span (unit of length)\n span (architecture)\n Span (band), a Norwegian punk rock band\n Switched Port ANalyzer, a way to monitor computer networks, similar to a network tap\n Linear span, in mathematics\n (co)spans in category theory\n wingspan, in Aerospace engineering (aircraft design)\n span and div in HTML\n CME SPAN - Standard Portfolio Analysis of Risk, a system developed by the Chicago Mercantile Exchange\n For powerlines, the distance between two pylons\n For aerial tramways, the distance between two supporting structures\n For a bridge, the distance between supporting pylons or towers.",
+          "similarity": 0.339926290112469
+        },
+        {
+          "chunk_id": "1109b698-dd44-4d2c-9b28-f1da8b1dc612",
+          "document_id": "c6285c31-99c4-44ce-bcdd-4766a7934137",
+          "title": "Spike",
+          "content": "opy's brother in Peanuts\n Spike (Tom and Jerry), Tom's and the other cats' nemesis in the cartoon series Tom and Jerry\n Spike the Bulldog and Chester the Terrier, in the Warner Bros. Looney Tunes and Merrie Melodies series of cartoons\n Spike, the family pet in Rugrats\n Spike, Heathcliff's nemesis in the comic strip and animated series Heathcliff\n Spike, Droopy's nemesis in Tex Avery's Droopy Dog theatrical cartoon series\n\nAs a place name, Spike may refer to:\n Spike is the former name of a village in Derbyshire now known as Poolsbrook\n\nIn sports, Spike may refer to:\n A spike is an offensive attack in volleyball\n Spiking in American football is to throw the ball forcefully and intentionally into the ground\n In Track and Field and cross country running, spiking an opponent (or sometimes, inadvertently, a team mate) is to kick them with the metal spikes in the bottom of the runner's shoe",
+          "similarity": 0.326449235099151
+        }
+      ]
+    },
+    {
+      "query": "What is load balancing?",
+      "recall@10": 0.7,
+      "overlap_count": 7,
+      "overlap_chunk_ids": [
+        "035cb744-8c39-4992-bbea-dcbd97124a21",
+        "0dae7a43-4ad0-4096-b71e-9b75a7fe7a50",
+        "591972f0-de31-48ec-bfd3-af0c1fb86b8c",
+        "5dd9c57c-443f-4e38-87bc-b44248e3f776",
+        "7b0f2013-7701-423f-9a61-6198a4a618a6",
+        "8cdb58a5-8e94-4765-8b56-6e5a5f2d6ae9",
+        "ee1c0c14-4ebd-4e5f-b1a7-733dfcc21805"
+      ],
+      "flat_top_title": "Balance",
+      "hnsw_top_title": "Logical volume management",
+      "flat_top_results": [
+        {
+          "chunk_id": "9457e069-4483-49de-b747-0873172db25f",
+          "document_id": "a226bb02-6c09-4af1-bcfa-43057184a47b",
+          "title": "Balance",
+          "content": "Balance may mean:\n\nGeneral terms\nBalance in stereophonic sound\nBalance (accounting)\nBalance beam, gymnastics equipment\nBalance disorder, a medical disorder\nBalance (metaphysics), a desirable point between opposite forces\nBalance wheel in a watch\nBalancing or hard balancing in international relations\nEngine balance\nTire balance\nEquilibrioception, the sense of balance, or spacial equilibrium, in humans and animals\nHomeostasis, a biological balance within a living organism\nMedia balance, media coverage of politics\nBalance, a scale for weighing\nGame balance, a concept in game design describing fairness or balance of power in a game\n\nSpecific terms\nBALANCE Act {H.R. 1066}, Benefit Authors without Limiting Advancement or Net Consumer Expectations\nBalance (animation), a 1989 Academy Award-winning short film\nBallance, a 2004 puzzle computer game\nBalance (In Urdu: Mizan or ) is a comprehensive treatise on Islam written by Javed Ahmed Ghamidi, a Pakistani Sunni Islamic scholar.\nBalance Bar, a popular nutritional energy bar\n\nMusic\nBalance (band), a 1980s pop/rock group\nBalance (album), an album by Van Halen\nBalance (Kim-L",
+          "similarity": 0.408309127307236
+        },
+        {
+          "chunk_id": "03947641-d747-417e-be1f-b26c91b02726",
+          "document_id": "a226bb02-6c09-4af1-bcfa-43057184a47b",
+          "title": "Balance",
+          "content": "1980s pop/rock group\nBalance (album), an album by Van Halen\nBalance (Kim-Lian album), an album by Kim-Lian\n\nSimilar terms\nBalanced line (electronics)\nRebalancing (investment), an action to bring investments in line with target asset allocation\n\nBasic English 850 words",
+          "similarity": 0.395062704351124
+        },
+        {
+          "chunk_id": "591972f0-de31-48ec-bfd3-af0c1fb86b8c",
+          "document_id": "06f24a45-5a6d-4d9e-b37d-e4ddd386707a",
+          "title": "Logical volume management",
+          "content": "Logical volume management is a method of allocating computer storage. It is about allocating space on mass storage devices, like hard drives. It is more flexible than the partitioning of the drive into static (unchangeable) volumes. With a logical volume manager it is possible to grow partitions, even beyond the size of one physical disk. It is also possible to use striping or to put partitions together and combine them while they are being used. \n\nLogical volume management is a form of virtualisation. It makes it easier to adapt to the changing storage needs of computer users.\n\nDesign  \n\nVolume managers differ but some basic concepts exist across most versions.  The volume manager starts with physical volumes or PVs, which can be hard disk partitions, RAID devices or SAN LUNs.  PVs are split into small chunks of even size (a default of 4 MB on HP-UX) called physical extents or PEs.  The PEs are then pooled into a volume group or VG.\n\nThe pooled PEs can then be concatenated together into virtual disk partitions called logical volumes or LVs.  These LVs behave just like hard disk partitions: mountable file systems can be created on them, or they can be used as raw block devices for swap.\n\nThe LVs can",
+          "similarity": 0.358583186314094
+        }
+      ],
+      "hnsw_top_results": [
+        {
+          "chunk_id": "591972f0-de31-48ec-bfd3-af0c1fb86b8c",
+          "document_id": "06f24a45-5a6d-4d9e-b37d-e4ddd386707a",
+          "title": "Logical volume management",
+          "content": "Logical volume management is a method of allocating computer storage. It is about allocating space on mass storage devices, like hard drives. It is more flexible than the partitioning of the drive into static (unchangeable) volumes. With a logical volume manager it is possible to grow partitions, even beyond the size of one physical disk. It is also possible to use striping or to put partitions together and combine them while they are being used. \n\nLogical volume management is a form of virtualisation. It makes it easier to adapt to the changing storage needs of computer users.\n\nDesign  \n\nVolume managers differ but some basic concepts exist across most versions.  The volume manager starts with physical volumes or PVs, which can be hard disk partitions, RAID devices or SAN LUNs.  PVs are split into small chunks of even size (a default of 4 MB on HP-UX) called physical extents or PEs.  The PEs are then pooled into a volume group or VG.\n\nThe pooled PEs can then be concatenated together into virtual disk partitions called logical volumes or LVs.  These LVs behave just like hard disk partitions: mountable file systems can be created on them, or they can be used as raw block devices for swap.\n\nThe LVs can",
+          "similarity": 0.358583186314094
+        },
+        {
+          "chunk_id": "035cb744-8c39-4992-bbea-dcbd97124a21",
+          "document_id": "fff34eba-5dd4-4a4c-8fe9-984427be4676",
+          "title": "Multitasking",
+          "content": "Multitasking means that a computer can run more than one item of software in the same time frame, as in switching between several computer programs running on a single CPU. It can also refer to a person who is working on more than one task at the same time (for instance, talking on the telephone while filing papers).\n\nIn computing \nComputers which can appear to run more than one program even with only one CPU. Computer scientists solve the problem that a CPU can only do one thing at a time by programming it so that it switches rapidly between tasks. This happens so rapidly that it appears that the computer is running more than one program at once. This is called \"multiprogramming\". This action is often controlled by the operating system (OS) controlling the hardware of the system.\n\nThe more things the computer has to do at once, the more time it has to spend deciding which to give more time to, and the less time each one receives. This tends to make the computer perform its tasks more slowly, unless it uses a multi-core processor, acting as multiple CPUs, which is called \"multiprocessing\".\n\nRelated pages \n Multiprocessing\n Multithreading\n\nComputer science",
+          "similarity": 0.34537822609277
+        },
+        {
+          "chunk_id": "8cdb58a5-8e94-4765-8b56-6e5a5f2d6ae9",
+          "document_id": "ee301f69-b6ed-405b-893e-ca26868497cd",
+          "title": "RAID",
+          "content": "the same as concatenation.\n\nMany Linux systems use the terms \"linear mode\" or \"append mode\". The Mac OS X 10.4 implementation \u2014 called a \"Concatenated Disk Set\" \u2014 does not leave the user with any usable data on the remaining drives if one drive fails in a concatenated disk set, although the disks otherwise operate as described above.\n\nConcatenation is one of the uses of the Logical Volume Manager in Linux. It can be used to create virtual drives.\n\nDrive Clone \nMost modern hard disks have a standard called Self-Monitoring, Analysis and Reporting Technology (S.M.A.R.T). SMART allows to monitor certain things on a hard disk drive. Certain controllers allow to replace a single hard disk even before it fails, for example because S.M.A.R.T or another disk test reports too many correctable errors. To do this, the controller will copy all the data onto a hot spare drive. After this, the disk can be replaced by another (which will simply become the new hot spare).\n\nDifferent setups \nThe setup of the disks and how they use the techniques above affects the performance and reliability of the system. When more disks are used, one of the disks is more likely to fail. Because of this, mechanisms have to be built",
+          "similarity": 0.343202501762281
+        }
+      ]
+    },
+    {
+      "query": "Explain retrieval augmented generation",
+      "recall@10": 0.7,
+      "overlap_count": 7,
+      "overlap_chunk_ids": [
+        "0bc038fc-7578-4566-980d-1f50902b467a",
+        "60384ed9-accf-4497-b41e-da128f78750f",
+        "62e50bed-12ab-4bf8-851a-b1aca9c6addf",
+        "69c558aa-a8a8-487b-8340-5f36cf730624",
+        "817a7237-2f8d-49d5-a83e-b30d42ec9c2f",
+        "a86ca73c-9e95-4c0f-b3a5-0e4953d1ce7e",
+        "d70907b3-fe84-41b5-b5d7-75c55837a735"
+      ],
+      "flat_top_title": "McGurk effect",
+      "hnsw_top_title": "McGurk effect",
+      "flat_top_results": [
+        {
+          "chunk_id": "0bc038fc-7578-4566-980d-1f50902b467a",
+          "document_id": "f5bce388-767e-4234-bcc6-47c82ebba002",
+          "title": "McGurk effect",
+          "content": "Explanation\nWhen humans perceive speech, they not only take in auditory information but also visual information as well in the form of reading lips, facial expression, and other body bodily cues. Usually, these two sources of information are consistent with each other so the brain simply combines them to form one unified perceived stimuli. When the McGurk effect is tested and the incoming information from the ears and eyes differ, the brian tries to make sense of the contradictory stimuli which ultimately results in a fusion of both. In humans, information received from the eyes dominates other sensory modalities, including audition, so for instance when 'ba' is heard and 'ga' is seen, the resulting stimuli is heard is 'da'. The resulting stimuli is what happens when the brain tries to make sense of the two different sets of information.\n\nSimilar work by others \nInterestingly enough, around the same time that Harry McGurk and John Macdonald discovered what is now known as the McGurk effect, another British researcher also stumbled upon this phenomenon. Barbara Dodd discovered a similar effect with audio-visual speech interpretation but instead it was with the visual cue of 'hole' and the audio cue of 'tough' which ultimately generated the audio perception of 'towel'. These discoveries in audio-visual",
+          "similarity": 0.308419012799763
+        },
+        {
+          "chunk_id": "62e50bed-12ab-4bf8-851a-b1aca9c6addf",
+          "document_id": "f5bce388-767e-4234-bcc6-47c82ebba002",
+          "title": "McGurk effect",
+          "content": "The McGurk effect shows how hearing and vision are used for speech perception. Named after the man who found it, Harry McGurk (23 February 1936 \u2013 17 April 1998), it says that people hear speech with their ears, and use other senses to help interpret what they hear. The McGurk effect happens when watching a video of a person saying /ga/ with a sound-recording saying /ba/. When this is done, a third sound is heard: /da/.\n\nThe McGurk effect is robust: that is, it still works even if a person know about it. This is different from some optical illusions, which do not work anymore once a person can see it.\n\nOverview \nThe McGurk effect describes a phenomenon that shows how speech perception is not dependent only on auditory information. Visual information in the form of reading the lips is also taken into account and combined with the auditory information that is heard to produce the final stimuli perceived. This can get particularly interesting when the auditory information of one sound, paired with the spoken lips of another sound, ultimately combine to form the perception of a third different sound.\n\nExplanation\nWhen humans perceive speech, they not only take in auditory information but also visual information as well in the form of",
+          "similarity": 0.302692089749251
+        },
+        {
+          "chunk_id": "84963c70-5940-4bfd-8664-c0233aa5375e",
+          "document_id": "c25d5555-1270-4f2a-a05f-95936637ab0a",
+          "title": "GURPS",
+          "content": "The Generic Universal RolePlaying System, or GURPS, is a role-playing game system created by Steve Jackson Games. It emphasizes a set of rules that can be used in any time or world.  Characters are created using a point-based system.  There have been four releases of the GURPS core rules and dozens of game supplements that extend the core rules with genre or setting-specific information. \n\nIn 1990, GURPS became the focus of a Secret Service investigation when an as yet unreleased GURPS Cyberpunk game supplement was misconstrued by the Secret service as being a handbook for computer crime.\n\nRole-playing games",
+          "similarity": 0.285899690489933
+        }
+      ],
+      "hnsw_top_results": [
+        {
+          "chunk_id": "0bc038fc-7578-4566-980d-1f50902b467a",
+          "document_id": "f5bce388-767e-4234-bcc6-47c82ebba002",
+          "title": "McGurk effect",
+          "content": "Explanation\nWhen humans perceive speech, they not only take in auditory information but also visual information as well in the form of reading lips, facial expression, and other body bodily cues. Usually, these two sources of information are consistent with each other so the brain simply combines them to form one unified perceived stimuli. When the McGurk effect is tested and the incoming information from the ears and eyes differ, the brian tries to make sense of the contradictory stimuli which ultimately results in a fusion of both. In humans, information received from the eyes dominates other sensory modalities, including audition, so for instance when 'ba' is heard and 'ga' is seen, the resulting stimuli is heard is 'da'. The resulting stimuli is what happens when the brain tries to make sense of the two different sets of information.\n\nSimilar work by others \nInterestingly enough, around the same time that Harry McGurk and John Macdonald discovered what is now known as the McGurk effect, another British researcher also stumbled upon this phenomenon. Barbara Dodd discovered a similar effect with audio-visual speech interpretation but instead it was with the visual cue of 'hole' and the audio cue of 'tough' which ultimately generated the audio perception of 'towel'. These discoveries in audio-visual",
+          "similarity": 0.308364722461581
+        },
+        {
+          "chunk_id": "62e50bed-12ab-4bf8-851a-b1aca9c6addf",
+          "document_id": "f5bce388-767e-4234-bcc6-47c82ebba002",
+          "title": "McGurk effect",
+          "content": "The McGurk effect shows how hearing and vision are used for speech perception. Named after the man who found it, Harry McGurk (23 February 1936 \u2013 17 April 1998), it says that people hear speech with their ears, and use other senses to help interpret what they hear. The McGurk effect happens when watching a video of a person saying /ga/ with a sound-recording saying /ba/. When this is done, a third sound is heard: /da/.\n\nThe McGurk effect is robust: that is, it still works even if a person know about it. This is different from some optical illusions, which do not work anymore once a person can see it.\n\nOverview \nThe McGurk effect describes a phenomenon that shows how speech perception is not dependent only on auditory information. Visual information in the form of reading the lips is also taken into account and combined with the auditory information that is heard to produce the final stimuli perceived. This can get particularly interesting when the auditory information of one sound, paired with the spoken lips of another sound, ultimately combine to form the perception of a third different sound.\n\nExplanation\nWhen humans perceive speech, they not only take in auditory information but also visual information as well in the form of",
+          "similarity": 0.302645335078515
+        },
+        {
+          "chunk_id": "69c558aa-a8a8-487b-8340-5f36cf730624",
+          "document_id": "6316f328-affb-4fe5-8c61-5ebe33245e07",
+          "title": "Random",
+          "content": "random numbers. The need has led to methods for generating data which is more or less random (pseudorandom). These methods vary as to how unpredictable (statistically random) they are, and how quickly they can generate random numbers.\n\nThere are computational random number generators, generating large amounts of sufficiently random numbers. Before then, tables were published as pseudo-random number tables.\n\nThere are two ways computers can make what appear to be random numbers.\n There are different algorithms to make random numbers. This makes it possible to model certain aspects of randomness, for example the distribution of the generated numbers. Numbers generated in such a fashion will however always follow a pattern. Given one, or a few of them, a computer can calculate the next random number. Therefore, such numbers are called pseudorandom.\n True random numbers are generated by observing a non-deterministic experiment. The number is then calculated based on the result of the experiment. An example might be to hook up a Geiger counter to a computer, to generate the number.\n\nIn cryptography \nKeys for encryption must be random in order to be secure. Key generation by a faulty random number generator has sometimes led to successful cryptanalysis.\n\nRelated pages\n Chaos theory\n Random access memory\n Probability\n\nMathematics\nCryptography",
+          "similarity": 0.279440867494325
+        }
+      ]
+    }
+  ]
+}

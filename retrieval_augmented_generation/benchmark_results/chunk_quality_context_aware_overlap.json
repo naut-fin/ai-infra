@@ -1,0 +1,357 @@
+{
+  "strategy": "context_aware_overlap",
+  "metrics": {
+    "total_chunks": 58127,
+    "avg_tokens_per_chunk": 176.67078982228568,
+    "median_tokens_per_chunk": 193,
+    "min_tokens_per_chunk": 1,
+    "max_tokens_per_chunk": 295,
+    "p10_tokens_per_chunk": 71,
+    "p90_tokens_per_chunk": 253,
+    "chunks_lt_40_tokens": 390,
+    "chunks_lt_80_tokens": 7313,
+    "pct_chunks_lt_40_tokens": 0.00670944655667762,
+    "pct_chunks_lt_80_tokens": 0.1258107247922652,
+    "chunks_starting_with_lowercase": 480,
+    "pct_chunks_starting_with_lowercase": 0.008257780377449378,
+    "chunks_starting_with_punctuation": 977,
+    "pct_chunks_starting_with_punctuation": 0.01680802380993342,
+    "chunks_ending_mid_sentence": 14088,
+    "pct_chunks_ending_mid_sentence": 0.24236585407813924,
+    "fragment_like_starts": 4362,
+    "pct_fragment_like_starts": 0.07504257918007122,
+    "short_label_like_chunks": 118,
+    "pct_short_label_like_chunks": 0.002030037676122972,
+    "exact_duplicate_ratio": 0.00048170385535121373,
+    "avg_adjacent_token_jaccard": 0.13956703972315157,
+    "median_adjacent_token_jaccard": 0.13690476190476192,
+    "p90_adjacent_token_jaccard": 0.2,
+    "max_adjacent_token_jaccard": 0.9868421052631579
+  },
+  "examples": {
+    "shortest_chunks": [
+      {
+        "id": "184fbd5a-4192-4cf5-85dc-807e92d0e84b",
+        "document_id": "1e0cef42-e429-44c7-9418-73c545f98db2",
+        "document_title": "February 11",
+        "chunk_index": 16,
+        "token_count": 1,
+        "content_preview": "201"
+      },
+      {
+        "id": "8d3d727c-ef0d-4391-b8da-2cfe1fd97911",
+        "document_id": "ced5701f-4705-4881-90ef-08dfaff3ab55",
+        "document_title": "1976",
+        "chunk_index": 12,
+        "token_count": 1,
+        "content_preview": "els"
+      },
+      {
+        "id": "831e30ba-9b6d-4714-9263-ecf206a9988f",
+        "document_id": "285453ee-8810-47ae-983b-cbe29396ec18",
+        "document_title": "July 5",
+        "chunk_index": 15,
+        "token_count": 1,
+        "content_preview": "."
+      },
+      {
+        "id": "d97f705e-c57d-4396-bdb0-c4fa727b707a",
+        "document_id": "e494ccc9-0890-4137-90a7-b390164b3a59",
+        "document_title": "Purple",
+        "chunk_index": 7,
+        "token_count": 1,
+        "content_preview": "#"
+      },
+      {
+        "id": "44bc5693-d7d4-4eab-bddf-d41fc99e474a",
+        "document_id": "3ae2cf85-7610-42be-90d4-4182d0da841a",
+        "document_title": "June 19",
+        "chunk_index": 14,
+        "token_count": 1,
+        "content_preview": "."
+      },
+      {
+        "id": "a050ff7a-a593-43ff-9994-edf3dbbb571d",
+        "document_id": "95b2793d-5333-4466-b899-20b25d69f549",
+        "document_title": "October 16",
+        "chunk_index": 15,
+        "token_count": 1,
+        "content_preview": "."
+      },
+      {
+        "id": "5bd11ab7-68e1-4d85-ad38-65fae69c389f",
+        "document_id": "d48cc5e6-9e69-4555-bcf9-92b6da55009c",
+        "document_title": "Pink",
+        "chunk_index": 4,
+        "token_count": 1,
+        "content_preview": "-"
+      },
+      {
+        "id": "888735ed-27d7-49e2-beb3-9bdf6db6b37f",
+        "document_id": "180b3818-d039-483c-a6da-86487b000cd5",
+        "document_title": "Mercedes-Benz",
+        "chunk_index": 3,
+        "token_count": 1,
+        "content_preview": "."
+      },
+      {
+        "id": "31f7c167-6b60-40eb-96b0-800740c24d97",
+        "document_id": "3ebcf23e-d273-4a5f-8924-92ca63a9a286",
+        "document_title": "Rose (color)",
+        "chunk_index": 8,
+        "token_count": 1,
+        "content_preview": ":"
+      },
+      {
+        "id": "cffca7b1-9763-45a5-80ed-e631978bb28c",
+        "document_id": "67242d43-da00-4d08-ad95-5b9a635721fe",
+        "document_title": "Philipp Lahm",
+        "chunk_index": 2,
+        "token_count": 1,
+        "content_preview": "4"
+      },
+      {
+        "id": "fb9029ac-15a8-4f72-8c30-bf7c5a2a67ea",
+        "document_id": "6e05afa1-8b0b-4e52-a6af-ef9b11b1b6ce",
+        "document_title": "June 5",
+        "chunk_index": 15,
+        "token_count": 2,
+        "content_preview": "royal"
+      },
+      {
+        "id": "bcd03d8f-a2d1-45d1-acbf-f107d2829c2e",
+        "document_id": "a9fa9a84-aef5-4823-8a5c-dfeb2384bf7c",
+        "document_title": "February 4",
+        "chunk_index": 18,
+        "token_count": 2,
+        "content_preview": "footballer"
+      },
+      {
+        "id": "728d78ce-e367-4bd3-91bb-1a58e8025e75",
+        "document_id": "a9fa9a84-aef5-4823-8a5c-dfeb2384bf7c",
+        "document_title": "February 4",
+        "chunk_index": 24,
+        "token_count": 2,
+        "content_preview": "J."
+      },
+      {
+        "id": "15211b3d-f376-44a0-9330-096ca1e0dfbd",
+        "document_id": "e494ccc9-0890-4137-90a7-b390164b3a59",
+        "document_title": "Purple",
+        "chunk_index": 13,
+        "token_count": 2,
+        "content_preview": "ve ("
+      },
+      {
+        "id": "83f178f1-5081-41c3-85a4-f2ce38059bac",
+        "document_id": "6820a3c1-85be-4dfd-bdfa-25a601239e32",
+        "document_title": "January 26",
+        "chunk_index": 28,
+        "token_count": 2,
+        "content_preview": "K."
+      },
+      {
+        "id": "2d830b69-21b3-4ed4-93a8-3acb13bd2d9f",
+        "document_id": "d8126fb3-66cc-4ad4-b594-6e0735d4133a",
+        "document_title": "April 26",
+        "chunk_index": 9,
+        "token_count": 2,
+        "content_preview": "M."
+      },
+      {
+        "id": "4030d24a-d35f-493f-85d0-1245666f5a92",
+        "document_id": "fac8cb0c-cd63-4fea-bfaa-3277cb8c1d4a",
+        "document_title": "June 2",
+        "chunk_index": 16,
+        "token_count": 2,
+        "content_preview": "J."
+      },
+      {
+        "id": "62567db5-7dcd-4f95-8e49-9f4b852e336d",
+        "document_id": "d52d7f70-9cd2-46ce-baab-ddd0b9c4df0b",
+        "document_title": "June 8",
+        "chunk_index": 15,
+        "token_count": 2,
+        "content_preview": "(d."
+      },
+      {
+        "id": "bca4d304-8f0d-43e0-a9c2-e0a81b8bd1c0",
+        "document_id": "673418ff-39e0-4151-9106-8a35bded089f",
+        "document_title": "Chicago",
+        "chunk_index": 28,
+        "token_count": 2,
+        "content_preview": "in Illinois"
+      },
+      {
+        "id": "01c9d79f-3a0f-4f39-89ec-fc7c7adb0686",
+        "document_id": "80a80cc3-29a9-42e9-8848-cda137bf2b09",
+        "document_title": "Chicago (band)",
+        "chunk_index": 3,
+        "token_count": 2,
+        "content_preview": "Records artists"
+      }
+    ],
+    "fragment_or_short_label_examples": [
+      {
+        "id": "d281c51e-766b-495e-8bb3-449193543260",
+        "document_id": "87717315-ef41-40e7-9e24-9be375ff19d6",
+        "document_title": "August",
+        "chunk_index": 1,
+        "token_count": 206,
+        "content_preview": "This month was first called Sextilis in Latin, because it was the sixth month in the old Roman calendar. The Roman calendar began in March about 735 BC with Romulus. October was the eighth month. August was the eighth month when January or February were added to the start of the year by King Numa Pompilius about 700 BC. Or, when those two months were moved from the end to the beginning of the year by the decemvirs about 450 BC (Roman writers disagree). In 153 BC January 1 was determined as the b"
+      },
+      {
+        "id": "556e9edb-893c-47a0-a304-706f7aa0b31d",
+        "document_id": "b72f4422-050b-4b31-98fa-62c9a926f2c7",
+        "document_title": "Alanis Morissette",
+        "chunk_index": 5,
+        "token_count": 56,
+        "content_preview": "She also lists ways she can improve herself. \"Hands Clean\" - In this song, a man does something bad, and tells Morissette not to tell anyone else the bad thing the man did. She hides the man's secret for many years.\n\nTwin people from Canada"
+      },
+      {
+        "id": "ab20a84e-6a5a-408f-822f-eecda1356972",
+        "document_id": "13fe4fed-81f7-4c4f-bf15-3fdb938bfcce",
+        "document_title": "Farming",
+        "chunk_index": 4,
+        "token_count": 250,
+        "content_preview": "It is important for there to be enough food for everyone. The food must also be safe and good. People say it is not always safe, because it contains some chemicals. Other people say intensive agriculture is damaging the environment. For this reason, there are several types of agriculture.\n Traditional agriculture is mostly done in poor countries.\n Intensive agriculture is mostly done in countries with more money. It uses pesticides, machinery, chemical fertilizers.\n Organic farming is using only"
+      },
+      {
+        "id": "fd4f0263-d67f-44ed-8a75-e6460805fa57",
+        "document_id": "501e4c07-2c07-46a2-bdc5-2901bbdb01ba",
+        "document_title": "Australia",
+        "chunk_index": 12,
+        "token_count": 170,
+        "content_preview": "Because Australia is such a very large land, it was easy to think that it might be able to hold a very large number of people. In the early days of the colony, a great number of explorers went out, searching for good land to settle on.\nWhen the settlers looked west from Sydney, they saw a range of mountains which they called the Blue Mountains. They were not very high and did not look very rugged but for many years no-one could find their way through them. In 1813 Gregory Blaxland, William Lawso"
+      },
+      {
+        "id": "db42cfb8-a4f0-4513-941e-2a48b9c6c077",
+        "document_id": "04702955-d59f-4f4c-80fa-883e4205006a",
+        "document_title": "Angel",
+        "chunk_index": 6,
+        "token_count": 125,
+        "content_preview": "However, since angels are held to be spirits (that is, non-material beings), medieval theologians were faced with the problem of how humans could see a non-physical creature. Eventually a theory was put forward that angels must make themselves a body out of the nearest thing to the non-physical, i.e. from air. Hence in his famous poem Aire and Angels, the seventeenth century metaphysical poet John Donne uses this idea to write a cynical comment on women, whose love, he says, is like an angel's b"
+      },
+      {
+        "id": "7d9a32e6-6b8e-49ba-9bfc-b284ef5b0fd1",
+        "document_id": "dd5680c7-86f3-4a54-973c-46e6409fa863",
+        "document_title": "Algebra",
+        "chunk_index": 4,
+        "token_count": 53,
+        "content_preview": "They each now have 18 candies. With practice, algebra can be used when faced with a problem that is too hard to solve any other way. Problems such as building a freeway, designing a cell phone, or finding the cure for a disease all require algebra."
+      },
+      {
+        "id": "4229519c-5870-478e-8628-99e0663cef44",
+        "document_id": "dd5680c7-86f3-4a54-973c-46e6409fa863",
+        "document_title": "Algebra",
+        "chunk_index": 8,
+        "token_count": 200,
+        "content_preview": "Therefore, it will be useful to know how these axiomatic rules are declared, before taking them for granted. Before going on to the rules, reflect on two definitions that will be given. Opposite: the opposite of is . Reciprocal: the reciprocal of is . Commutative property of addition 'Commutative' means that a function has the same result if the numbers are swapped around. In other words, the order of the terms in an equation does not matter. When two terms (addends) are being added, the 'commut"
+      },
+      {
+        "id": "1113fb08-9ee6-41a1-b609-ea2887700c2f",
+        "document_id": "1567b86c-bd8e-47f7-99a5-28b19acc7e54",
+        "document_title": "Afghanistan",
+        "chunk_index": 13,
+        "token_count": 246,
+        "content_preview": "He is considered the founding father of the modern state of Afghanistan while Mirwais Hotak is the grandfather of the nation. Since the 1800s During the 1800s, Afghanistan became a buffer zone between two powerful empires, the British Indian Empire and the Russian Empire. As British India advanced into Afghanistan, Russia felt threatened and expanded southward across Central Asia. To stop the Russian advance, Britain tried to make Afghanistan part of its empire but the Afghans fought wars with B"
+      },
+      {
+        "id": "9683c2b3-ba73-44fe-8cdf-f4fe1acca5c0",
+        "document_id": "665b1e44-9cc0-4d8b-a26d-7b0679e3e7f0",
+        "document_title": "Bankruptcy",
+        "chunk_index": 2,
+        "token_count": 226,
+        "content_preview": "This means that the creditors agree to take less money to discharge their debts. There are similar processes for companies and other organisations, and they go by various different names in different countries, but in many countries they are called schemes of arrangement. Bankruptcy protection In many countries a company or business can ask the courts for bankruptcy protection to try and protect the business so that the creditors cannot destroy all of the physical capital and goodwill by breakin"
+      },
+      {
+        "id": "5110b756-4e16-4718-a23f-da4ecc3ae99e",
+        "document_id": "7a74bb54-657f-4324-aa4b-8893877a6bef",
+        "document_title": "Biology",
+        "chunk_index": 1,
+        "token_count": 201,
+        "content_preview": "\"What are the characteristics of this living thing?\" (comparative anatomy)\n \"How do the parts work?\" (physiology)\n \"How should we group living things?\" (classification, taxonomy)\n \"What does this living thing do?\" (behaviour, growth)\n \"How does inheritance work?\" (genetics)\n \"What is the history of life?\" (palaeontology)\n \"How do living things relate to their environment?\" (ecology)\n\nModern biology is influenced by evolution, which answers the question: \"How has the living world come to be as it"
+      },
+      {
+        "id": "46c9f993-6221-45e4-a6cf-1a8024ad1057",
+        "document_id": "800a668d-a6ee-412d-9057-8fae069c8816",
+        "document_title": "Computer science",
+        "chunk_index": 2,
+        "token_count": 182,
+        "content_preview": "This algorithm is a \"selection sort\". Ada Lovelace wrote the first computer algorithm in 1843, for a computer that was never finished. Computers began during World War II. Computer science separated from the other sciences during the 1960s and 1970s. Now, computer science has its own methods, and has its own technical terms. It is related to electrical engineering, mathematics, and language science. Computer science looks at the theoretical parts of computers. Computer engineering looks at the p"
+      },
+      {
+        "id": "bdae1325-5931-47ce-842f-a1da60832f65",
+        "document_id": "f05e89ea-aa55-4a20-a13c-cf7414759647",
+        "document_title": "Computer",
+        "chunk_index": 6,
+        "token_count": 165,
+        "content_preview": "He could use punch cards to tell the loom what to do, and he could change the punch cards, which means he could program the loom to weave the pattern he wanted. This means the loom was programmable. At the end of the 1800s Herman Hollerith invented the recording of data on a medium that could then be read by a machine, developing punched card data processing technology for the 1890 U.S. census. His tabulating machines read and summarized data stored on punched cards and they began use for govern"
+      },
+      {
+        "id": "01a23ae0-ab99-427d-a70a-ab50d40b31cd",
+        "document_id": "566b3145-ddcf-41a4-8a1e-4f1136a316e1",
+        "document_title": "China",
+        "chunk_index": 12,
+        "token_count": 138,
+        "content_preview": "They became widespread across East Asia, the Middle East and later to Europe. Chinese mathematicians were the first to use negative numbers. By the 17th century, Europe and the Western world became better than China in science and technology. The national census of 2010 recorded the population of the People's Republic of China to be about 1,370,536,875. About 16.60% of the population were 14 years old or younger, 70.14% were between 15 and 59 years old, and 13.26% were over 60 years old. The pop"
+      },
+      {
+        "id": "7e9ca80c-7726-4f61-ac51-3b2d0357fc7e",
+        "document_id": "7de36ec7-cc65-41b3-902d-47c9ecacff64",
+        "document_title": "Classical music",
+        "chunk_index": 14,
+        "token_count": 78,
+        "content_preview": "It has never been possible to say exactly what is meant by “classical music”. Many different kinds of music influence one another. Since 1970 it has been even harder to make clear dividing lines between rock, pop, classical, folk, jazz and world music. This shows that classical music, like other kinds of music, continues to develop and reflect the society from which it comes."
+      },
+      {
+        "id": "e5d82e56-738c-41a8-a237-4364c9566d5e",
+        "document_id": "2f3c3484-d3c3-4b77-a4d3-4d801103f796",
+        "document_title": "Photography",
+        "chunk_index": 6,
+        "token_count": 246,
+        "content_preview": "This is also called ISO, and is written in the form \"400.\" A slower shutter speed, a bigger aperture, and faster film/higher ISO sensor all make a brighter picture. A faster shutter speed, a smaller aperture, and a slower film/lower ISO sensor all make a darker picture. A good picture is not too bright and not too dark. When it is too bright it would be called \"overexposed\". An automatic camera changes these things by itself when the shutter release is pressed. Camera types Though there are many"
+      },
+      {
+        "id": "f3607bd3-128d-4bf2-8f18-c785f4f53b57",
+        "document_id": "1acb5299-a6bd-4e37-a5b5-be15f42ca3ae",
+        "document_title": "Niccolò Machiavelli",
+        "chunk_index": 3,
+        "token_count": 61,
+        "content_preview": "This job means that the new prince has to act in a way people would not quickly criticize, but Machiavelli says this may mean doing bad but necessary things which people do not see or remember. Otherwise a new prince will find it difficult to get anything important done, or even to keep ruling."
+      },
+      {
+        "id": "ae7cf1d8-5f1a-4c30-a2f8-b88d6e05f0a3",
+        "document_id": "46db6252-f107-4236-8ba2-457d21a14cef",
+        "document_title": "Pakistan",
+        "chunk_index": 4,
+        "token_count": 95,
+        "content_preview": "Because In 2018, Imran Khan (the chairman of PTI) Won the 2018 Pakistan general election with 116 general seats and so became the current 22nd Prime Minister of Pakistan in election of National Assembly of Pakistan for Prime Minister by getting 176 votes against Shehbaz Sharif (the chairman of PMLN) who got 96 votes. Pakistan is also headed by a \"President\", the Prime Minister Acts as the Leader of Pakistan."
+      },
+      {
+        "id": "af1f9772-ef88-4c79-af92-89bdb258eed4",
+        "document_id": "64cb100f-30dc-4cff-b668-2c2e47366784",
+        "document_title": "Vietnam",
+        "chunk_index": 2,
+        "token_count": 258,
+        "content_preview": "\"Annam\", which originated (or started) as a Chinese name in the 7th century, was the common name of the country during the colonial period Xích Quỷ (赤鬼) Văn Lang (文郎/Orang) Âu Lạc (甌雒/Anak) Nam Việt (南越) Giao Chỉ (交趾/交阯) Vạn Xuân (萬春) An Nam (安南) Tĩnh Hải (靜海) Đại Cồ Việt (大瞿越) Đại Việt (大越) Đại Ngu (大虞) Đại Nam (大南) In Vietnam, the approximate population is 97,094,658. 25.2% of these people are aged between 0-14, with 11,954,354 being male and 10,868,610 being female. 69.3% of the population ar"
+      },
+      {
+        "id": "a47fdcc3-aa6e-44e1-9b0b-420b82bc3ad0",
+        "document_id": "8b3949d3-f7d8-4943-b6b8-9432807795bc",
+        "document_title": "Charles Darwin",
+        "chunk_index": 6,
+        "token_count": 220,
+        "content_preview": "He first started thinking about this in 1838, but it took a full twenty years before his ideas became public. By 1844 he was able to write a draft of the main ideas in his notebook. Historians think that he did not talk about his theory because he was afraid of public criticism. He knew his theory, which did not discuss religion, raised questions about the literal truth of the Book of Genesis. Whatever the reason, he did not publish his theory in a book until 1859. In 1858 he heard that another "
+      },
+      {
+        "id": "7fed0e7b-104b-47ae-8a7c-0d1fc4c8899b",
+        "document_id": "674e0386-2334-4f8e-98e4-c84a2aee0b7b",
+        "document_title": "Wright brothers",
+        "chunk_index": 1,
+        "token_count": 235,
+        "content_preview": "They started working on making airplanes in their bicycle shop. They thought controlling a plane was one of the big problems of flight. Lilienthal and others had been killed when they could not control their aircraft. The Wright brothers fixed the problem by inventing control surfaces, such as a rudder that would work in the air. They built wings that could be twisted a little and moved up and down slightly, to control flight. They called this steering system wing-warping. From 1900 to 1902, the"
+      }
+    ]
+  }
+}

@@ -1,0 +1,357 @@
+{
+  "strategy": "fixed_overlap_v1",
+  "metrics": {
+    "total_chunks": 53255,
+    "avg_tokens_per_chunk": 224.19269552154728,
+    "median_tokens_per_chunk": 256,
+    "min_tokens_per_chunk": 24,
+    "max_tokens_per_chunk": 260,
+    "p10_tokens_per_chunk": 120,
+    "p90_tokens_per_chunk": 256,
+    "chunks_lt_40_tokens": 873,
+    "chunks_lt_80_tokens": 3000,
+    "pct_chunks_lt_40_tokens": 0.016392826964604264,
+    "pct_chunks_lt_80_tokens": 0.05633273870998028,
+    "chunks_starting_with_lowercase": 20373,
+    "pct_chunks_starting_with_lowercase": 0.3825556285794761,
+    "chunks_starting_with_punctuation": 5861,
+    "pct_chunks_starting_with_punctuation": 0.11005539385973148,
+    "chunks_ending_mid_sentence": 49679,
+    "pct_chunks_ending_mid_sentence": 0.9328513754577035,
+    "fragment_like_starts": 26640,
+    "pct_fragment_like_starts": 0.500234719744625,
+    "short_label_like_chunks": 0,
+    "pct_short_label_like_chunks": 0.0,
+    "exact_duplicate_ratio": 0.0,
+    "avg_adjacent_token_jaccard": 0.19794891104333517,
+    "median_adjacent_token_jaccard": 0.19433198380566802,
+    "p90_adjacent_token_jaccard": 0.2532188841201717,
+    "max_adjacent_token_jaccard": 0.803921568627451
+  },
+  "examples": {
+    "shortest_chunks": [
+      {
+        "id": "eca44172-5094-4e1d-9434-425e58a8b9ae",
+        "document_id": "5d05b209-4266-47d7-a9d9-73699a92c155",
+        "document_title": "Adam Smith",
+        "chunk_index": 2,
+        "token_count": 24,
+        "content_preview": "1723 births\n1790 deaths\n18th-century British philosophers\nBritish economists\nScottish scientists\nScottish writers"
+      },
+      {
+        "id": "dfe7b983-e159-4f71-8dcb-a6039e0901ad",
+        "document_id": "3b47b2fe-7781-445a-9c1b-51bf0bafc6ed",
+        "document_title": "Season",
+        "chunk_index": 3,
+        "token_count": 24,
+        "content_preview": "Definition from Dictionary.com\n Names of seasons in various languages from Princeton University\n What causes the seasons?\n\n \nUnits of time"
+      },
+      {
+        "id": "5fda3fba-a720-4b8c-a97a-de8bdf035787",
+        "document_id": "6183fef4-c24b-46be-a8e5-9f8f1141b065",
+        "document_title": "Peter Fonda",
+        "chunk_index": 1,
+        "token_count": 24,
+        "content_preview": "Golden Globe Award winning actors\nMovie directors from New York City\nScreenwriters from New York City\nWriters from Nebraska"
+      },
+      {
+        "id": "41557fc9-d6c3-4b90-8338-6c691b869bfa",
+        "document_id": "c0527445-a585-423f-998b-a4abcdb19902",
+        "document_title": "Mail",
+        "chunk_index": 1,
+        "token_count": 24,
+        "content_preview": "Clapper Post\n Electronic mail\n Envelope\n Letter (paper)\n Letter box\n Postcard\n Telegram\n\nPostal service"
+      },
+      {
+        "id": "b72266c9-c0a8-4f32-80f3-037d01fbbe00",
+        "document_id": "9fca3554-fe2f-417f-b8af-70a6f2253ebe",
+        "document_title": "Bordeaux",
+        "chunk_index": 2,
+        "token_count": 24,
+        "content_preview": "Capital of France\nDepartmental capitals in France\nFormer national capitals\nRegional capitals in France\nWorld Heritage Sites in France"
+      },
+      {
+        "id": "f369f135-45b8-430d-84df-b6fad84ef23e",
+        "document_id": "558276dc-0d55-4f0a-9e15-3cb3d41fd4f9",
+        "document_title": "Penalty",
+        "chunk_index": 1,
+        "token_count": 24,
+        "content_preview": "Tax penalty, a fee required for missing a deadline or some other violation.\nIn entertainment:\nThe Penalty, a film."
+      },
+      {
+        "id": "89f631a5-709d-4e2c-a4fd-e56fb4475977",
+        "document_id": "5f9a7f75-a5fc-47b3-a619-45a97c9266a9",
+        "document_title": "Enabling Act",
+        "chunk_index": 3,
+        "token_count": 24,
+        "content_preview": "Legislation\nNazi Germany\n20th century in law\n1933\nMarch events\n1930s in Germany"
+      },
+      {
+        "id": "fbde569f-c0c0-42c5-b1ae-c96cc50265ad",
+        "document_id": "ddc606bb-be81-4a3a-95a8-32cf6e94bfd7",
+        "document_title": "Hornswoggle",
+        "chunk_index": 3,
+        "token_count": 24,
+        "content_preview": "1986 births\nLiving people\nAmerican professional wrestlers\nWWE wrestlers\nSportspeople from Wisconsin\nPeople with dwarfism"
+      },
+      {
+        "id": "da25968d-c791-41e8-a470-2119c16e8301",
+        "document_id": "47f0d533-784a-484c-aa65-e970625cb0e4",
+        "document_title": "Natural resource",
+        "chunk_index": 3,
+        "token_count": 25,
+        "content_preview": "that others can use them in future.\n\nReferences\n\nOther websites \nEarth's natural wealth \n\n \nEconomics\nFactors of production"
+      },
+      {
+        "id": "1c45c031-e557-4e3a-aae6-5ea962e39a28",
+        "document_id": "2aaa9a3c-cc2b-42de-8fd3-598a9f5e1b05",
+        "document_title": "Moscow",
+        "chunk_index": 10,
+        "token_count": 25,
+        "content_preview": "other settlements in Russia\n\nReferences \n\n \nCapital cities in Russia\nOlympic cities\n1140s establishments\nRound cities"
+      },
+      {
+        "id": "56c1d703-b101-4631-8508-d530648e6613",
+        "document_id": "bcb841de-e85f-4cb7-9dd4-5faeddcf7baa",
+        "document_title": "Point (geometry)",
+        "chunk_index": 1,
+        "token_count": 25,
+        "content_preview": "ident\n Not coincident\n Not colinear\n Not coplanar\n\nRelated pages \n\n Line\n Plane\n\nReferences \n\nGeometry"
+      },
+      {
+        "id": "88f36930-e1c1-48be-8b4e-63259e7f9912",
+        "document_id": "e70a859e-fc7f-4835-ad21-8e5cf38c138d",
+        "document_title": "Prem Rawat",
+        "chunk_index": 1,
+        "token_count": 25,
+        "content_preview": "personal web site\nThe Prem Rawat Foundation\n\nReferences\n\n1957 births\nLiving people\nReligious leaders\nIndian people"
+      },
+      {
+        "id": "7098ff8c-d580-4387-a62b-a60d6fbb85b0",
+        "document_id": "0d782d78-8dac-42c8-a503-37a03e513538",
+        "document_title": "Entertainment",
+        "chunk_index": 1,
+        "token_count": 25,
+        "content_preview": "quet\nWalking\nShopping\nMagic\nTournament\nPlayground\nNightclub\nCamping or summer camp   \n\n \nMedia"
+      },
+      {
+        "id": "c935d0a9-6a19-45e9-b680-3766b5d3cc3d",
+        "document_id": "a3cff810-8782-4f70-8dbc-eb96f2aba6b0",
+        "document_title": "Johannesburg",
+        "chunk_index": 1,
+        "token_count": 25,
+        "content_preview": "also given the \"Freedom of the City\" award.\n\nReferences \n\n \n1886 establishments\n1880s establishments in South Africa"
+      },
+      {
+        "id": "7f4715b0-4a0b-488d-9aed-bbcc66a886e2",
+        "document_id": "68bb7518-9ffb-4251-8908-34d2357dbf2e",
+        "document_title": "May 19",
+        "chunk_index": 23,
+        "token_count": 25,
+        "content_preview": "Day (Greece)\n Ho Chi Minh's birthday (Vietnam)\n Malcolm X Day (United States)\n\nDays of the year"
+      },
+      {
+        "id": "773acb20-e157-46f8-a9fb-072a2f88e16b",
+        "document_id": "fa797e5f-c1f5-48ae-a8ab-fba4d83d6c56",
+        "document_title": "July 6",
+        "chunk_index": 21,
+        "token_count": 25,
+        "content_preview": "Lithuania)\n First Day of the San Fermin Bull run festival in Pamplona, northern Spain\n\nJuly 06"
+      },
+      {
+        "id": "30b0357d-71da-4d99-9c2a-5402f1bc2fdf",
+        "document_id": "6391515a-750e-4206-aff6-25d2e33310d3",
+        "document_title": "Transsexual",
+        "chunk_index": 3,
+        "token_count": 25,
+        "content_preview": "s.” Archives of Sexual Behavior. 17(5):439-457. 1988.\n\nReferences\n\nLGBT variations"
+      },
+      {
+        "id": "a1d139bf-6c5a-4531-93a0-fb2e545147fb",
+        "document_id": "320c4210-f8a6-463c-9585-69fcaa1ebb44",
+        "document_title": "Venus flytrap",
+        "chunk_index": 2,
+        "token_count": 25,
+        "content_preview": "of the world\n\nCaryophyllales\nMimicry\nCarnivorous plants\nRapid plant movement"
+      },
+      {
+        "id": "fbb3845b-a4d2-4c53-ac5c-7b00b1ac5cad",
+        "document_id": "9f648c9f-bed9-4e6a-b76a-dc5537114c82",
+        "document_title": "Device driver",
+        "chunk_index": 1,
+        "token_count": 25,
+        "content_preview": "USB sound cards\nUSB hubs (devices that turn one USB port into two or more)\n\ncomputer science\nsoftware\nComputer hardware"
+      },
+      {
+        "id": "80191415-16bb-4477-9764-a437000ab375",
+        "document_id": "212c08ed-a770-496b-80d3-430f82a33aad",
+        "document_title": "Hungarian language",
+        "chunk_index": 3,
+        "token_count": 25,
+        "content_preview": "for (DICtionary FOR you) szótár\n\nUralic languages\nLanguages of Europe\n11th-century establishments"
+      }
+    ],
+    "fragment_or_short_label_examples": [
+      {
+        "id": "bacae376-7077-487e-9ecb-f459ad15b7d7",
+        "document_id": "c563b0e1-a5ea-4294-a652-01c793ed2b11",
+        "document_title": "April",
+        "chunk_index": 2,
+        "token_count": 256,
+        "content_preview": "in spring. Another theory is that the name could come from Aphrodite, the Greek goddess of love. It was originally the second month in the old Roman Calendar, before the start of the new year was put to January 1.\n\nQuite a few festivals are held in this month. In many Southeast Asian cultures, new year is celebrated in this month (including Songkran). In Western Christianity, Easter can be celebrated on a Sunday between March 22 and April 25. In Orthodox Christianity, it can fall between April 4"
+      },
+      {
+        "id": "d71930f3-838e-4679-b7fc-0a76cca93d11",
+        "document_id": "c563b0e1-a5ea-4294-a652-01c793ed2b11",
+        "document_title": "April",
+        "chunk_index": 3,
+        "token_count": 256,
+        "content_preview": "(Argentina)\n April 4 - Independence Day (Senegal)\n April 4 - International Day for Landmine Awareness and Assistance\n April 4 - Peace Day (Angola)\n April 5 - End of Tax Year (United Kingdom)\n April 6 - Tartan Day (Canada and United States)\n April 6 - Chakri Day (Thailand)\n April 7 - Day of Maternity and Beauty (Armenia)\n April 7 - Genocide Memorial Day (Rwanda)\n April 7 - World Health Day\n April 7 - Women's Day (Mozambique)\n April 8 - Buddha's Birthday (Buddhism)\n April 9 - Martyrs' Day (Tunisia"
+      },
+      {
+        "id": "b5c880a6-0f80-47e6-9c35-e1a708b2e5fb",
+        "document_id": "c563b0e1-a5ea-4294-a652-01c793ed2b11",
+        "document_title": "April",
+        "chunk_index": 4,
+        "token_count": 256,
+        "content_preview": "- Southeast Asian New Year festivals, including Songkran\n April 14 - Georgian language Day\n April 14 - Youth Day (Angola)\n April 14 - Ambedkar Tayanti (India)\n April 14 - Pan-American Day\n April 15 - Tax Day (United States)\n April 15 - Kim Il-Sung's Birthday (North Korea)\n April 15 - Father Damien Day (Hawaii)\n April 15 - Jackie Robinson Day (Major League Baseball)\n April 16 - Birthday of Queen Margrethe II of Denmark\n April 16 - Emancipation Day (Washington, DC)\n April 16 - World Voice Day\n Apr"
+      },
+      {
+        "id": "185a4cee-164b-4fdf-8958-e55440f6f923",
+        "document_id": "8d51f99f-f2da-4c0a-aee9-cbb9d08e8636",
+        "document_title": "Cube",
+        "chunk_index": 1,
+        "token_count": 121,
+        "content_preview": "of dice.  A tesseract carries this idea into the fourth dimension (4D) and is made of 8 cubes.\n\nVolume \n The volume of a cube is the length of any one of the edges (they are all the same length so it does not matter which edge is used) cubed. \n This means you multiply the number by itself, and then by itself again. \n If the edge is named 'd' (See Diagram), the equation would be this: Volume=d×d×d (or Volume=d3).\n\nCube shaped figures \n Dice\n Boxes\n\nPlatonic solids"
+      },
+      {
+        "id": "64d99cd3-1bcd-44f1-9774-daf637d39b3f",
+        "document_id": "c563b0e1-a5ea-4294-a652-01c793ed2b11",
+        "document_title": "April",
+        "chunk_index": 5,
+        "token_count": 255,
+        "content_preview": "- Birthday of King Mswati III of Swaziland\n April 19 - Patriots' Day (Massachusetts, Maine, Wisconsin)\n April 20 - 4/20 in Cannabis Culture\n April 21 - John Muir Day (California)\n April 21 - San Jacinto Day (Texas)\n April 21 - Kartini Day (Indonesia)\n April 21 - National Tree Planting Day (Kenya)\n April 21 - First Day of Ridran (Baha'i faith)\n April 21 - Grounation Day (Rastafari movement)\n April 22 - Earth Day\n April 22 - Discovery Day (Brazil)\n April 23 - Saint George's Day, celebrating the pa"
+      },
+      {
+        "id": "94c01699-37a0-4e84-9779-0d21a7600e8c",
+        "document_id": "c563b0e1-a5ea-4294-a652-01c793ed2b11",
+        "document_title": "April",
+        "chunk_index": 8,
+        "token_count": 256,
+        "content_preview": "), Kentucky Derby (United States)\n Start of Daylight Saving Time - Clocks going forward one hour:\n Most of Mexico\n Morocco (Ramadan does not include Daylight Saving Time)\n End of Daylight Saving Time - Clocks going back one hour:\n Southeast Australia, and New Zealand\n Chile\n Marathon Events in the following cities:\n Belgrade, Serbia\n Boston, Massachusetts, United States\n Brighton, United Kingdom\n Enschede, Netherlands\n London, United Kingdom\n Madrid, Spain\n Paris, France\n Rotterdam, Netherlands\n"
+      },
+      {
+        "id": "0984568c-7a29-49cf-97c3-eb84b83cba92",
+        "document_id": "c563b0e1-a5ea-4294-a652-01c793ed2b11",
+        "document_title": "April",
+        "chunk_index": 9,
+        "token_count": 256,
+        "content_preview": ", 1930 - Haile Selassie becomes Emperor of Ethiopia.\n April 2, 1982 - Start of the Falklands War, as Argentine forces land on the Falkland Islands.\n April 2, 2005 - Pope John Paul II dies aged 84, after 26-and-a-half years as Pope.\n April 3, 1973 - The first-ever mobile phone call is placed by Martin Cooper in New York City.\n April 4, 1721 - Robert Walpole becomes the first Prime Minister of Great Britain.\n April 4, 1841 - William Henry Harrison dies. He was President of the United States for 31"
+      },
+      {
+        "id": "05c7dc99-c42c-4ebc-86c6-7743b597d1ba",
+        "document_id": "c563b0e1-a5ea-4294-a652-01c793ed2b11",
+        "document_title": "April",
+        "chunk_index": 11,
+        "token_count": 256,
+        "content_preview": "the island of Elba.\n April 11, 1954 - Said to have been the most boring day of the 20th century.\n April 12, 1861 - The American Civil War begins at Fort Sumter, Charleston, South Carolina.\n April 12, 1945 - US President Franklin D. Roosevelt dies, and Harry S. Truman replaces him.\n April 12, 1961 - Yuri Gagarin becomes the first human to fly into space.\n April 14, 1865 - US President Abraham Lincoln is shot dead at Ford's Theatre by John Wilkes Booth. Lincoln dies the next day.\n April 14, 2010 -"
+      },
+      {
+        "id": "a39b5c18-2873-49c1-b31e-d02d459a2efe",
+        "document_id": "c563b0e1-a5ea-4294-a652-01c793ed2b11",
+        "document_title": "April",
+        "chunk_index": 13,
+        "token_count": 257,
+        "content_preview": "massive oil spill, the worst spill in US history.\n April 21, 753 BC - Legendary founding date of Rome\n April 21, 1509 - Henry VIII of England becomes King.\n April 21, 1908 - Frederick Cook claims to have reached the North Pole on this date.\n April 22, 1502 - Pedro Alvares Cabral becomes the first European to reach present-day Brazil.\n April 22, 1970 - Earth Day is observed for the first time.\n April 23, 1533 - The Church of England declares that Henry VIII of England and Catherine of Aragon are "
+      },
+      {
+        "id": "db150590-afe0-4086-b13e-ba3b5802d815",
+        "document_id": "c563b0e1-a5ea-4294-a652-01c793ed2b11",
+        "document_title": "April",
+        "chunk_index": 14,
+        "token_count": 256,
+        "content_preview": ".\n April 26, 1937 - Spanish Civil War: German planes bomb the town of Guernica, Basque Country, later depicted in a painting by Pablo Picasso.\n April 26, 1964 - Tanganyika and Zanzibar merge to form Tanzania.\n April 26, 1986 - A reactor explosion occurs at the Chernobyl nuclear plant in present-day Ukraine, with radiation spreading around Europe and the world.\n April 26/27, 1994 - South Africa holds its first free elections.\n April 27, 1960 - Togo becomes independent from France.\n April 27, 1961"
+      },
+      {
+        "id": "7dd8f860-4960-4167-8fc3-a9f76bc09b91",
+        "document_id": "c563b0e1-a5ea-4294-a652-01c793ed2b11",
+        "document_title": "April",
+        "chunk_index": 16,
+        "token_count": 244,
+        "content_preview": "than in March.\n The months around April (March and May) both start with an 'M' in the English language, with an 'A' as the second letter.\n In the English language, April is the first of three months in-a-row, along with May and June, that is also a female given name.\n The astrological signs for April are Aries (March 21 to April 20) and Taurus (April 21 to May 20).\n The sweet pea and daisy are the traditional birth flowers for April.\n Birthstone for April is the Diamond.\nApril 1 is the only day "
+      },
+      {
+        "id": "538f8ec3-1dc9-4340-99c1-19e2b80ae819",
+        "document_id": "dcbdc3f6-2252-433d-a962-8c0c7b79bfc7",
+        "document_title": "August",
+        "chunk_index": 2,
+        "token_count": 256,
+        "content_preview": "the week as May of the following year, and in years immediately before leap years, October of the following year. In years immediately before common years, August finishes on the same day of the week as May of the following year, and in years immediately before leap years, February and October of the following year.\n\nAugust observances\n\nFixed observances and events \n\n August 1  National Day of Switzerland\n August 1  Independence Day (Benin)\n August 1  Emancipation Day (Bermuda, Guyana, Jamaica, "
+      },
+      {
+        "id": "542fa7e5-92f2-4743-8ece-d6fceab95af0",
+        "document_id": "dcbdc3f6-2252-433d-a962-8c0c7b79bfc7",
+        "document_title": "August",
+        "chunk_index": 3,
+        "token_count": 255,
+        "content_preview": "ica)\n August 7  Independence Day (Ivory Coast)\n August 8  Father's Day (Taiwan)\n August 9  National Day of Singapore\n August 9  Day of the Indigenous People (Suriname)\n August 9  National Women's Day (South Africa)\n August 10  Independence Day (Ecuador)\n August 10  Missouri Day\n August 11  Independence Day (Chad)\n August 12  Perseid Meteor Shower\n August 12  Queen Sirikit's Birthday (Thailand)\n August 13  Independence Day (Central African Republic)\n August 14  Independence Day (Pakistan)\n August"
+      },
+      {
+        "id": "2f30247c-b225-4fe5-a075-f0e34f2ef23a",
+        "document_id": "f964382e-7c09-491b-bf4d-918d11f7881a",
+        "document_title": "Dutton's Speedwords",
+        "chunk_index": 1,
+        "token_count": 111,
+        "content_preview": "quickly is Pitman's shorthand. This uses special symbols instead of letters. Speedwords uses Roman letters. This makes it easier to learn. It also means it can be typed using a normal keyboard. Each word means only one thing. This means you do not need to use different forms of the same word.\n\nThe words used in Speedwords are the same as the words used in many other languages. The words are like short versions of the writer's own language.\n\nOther websites \n\n overview of Speedwords by Richard K H"
+      },
+      {
+        "id": "c119c80e-89eb-4770-b1ab-863a69f492a8",
+        "document_id": "dcbdc3f6-2252-433d-a962-8c0c7b79bfc7",
+        "document_title": "August",
+        "chunk_index": 6,
+        "token_count": 256,
+        "content_preview": "'s name is changed to Burkina Faso.\n August 5  1960: Upper Volta becomes independent.\n August 5  1962: Film actress Marilyn Monroe is found dead at her home.\n August 6  1825: Bolivian independence.\n August 6  1945: The Atomic Bomb is dropped on Hiroshima.\n August 6  1962: Jamaica becomes independent.\n August 7  1960: Ivory Coast becomes independent.\n August 9  1945: The Atomic Bomb is dropped on Nagasaki.\n August 9  1965: Singapore becomes independent.\n August 9  1974: US President Richard Nixon"
+      },
+      {
+        "id": "43126091-e35f-4413-8191-6e61ce428306",
+        "document_id": "dcbdc3f6-2252-433d-a962-8c0c7b79bfc7",
+        "document_title": "August",
+        "chunk_index": 7,
+        "token_count": 256,
+        "content_preview": ".\n August 14  1945: Japan announces its surrender at the end of World War II.\n August 14/15  1947: India is partitioned at independence from the UK, as the new mainly Islamic state of Pakistan is created.\n August 15  1960: The Republic of the Congo becomes independent.\n August 15  1971: Bahrain becomes independent.\n August 16  1977: Elvis Presley dies aged 42, leading to a worldwide outpouring of grief.\n August 17  1945: Indonesia declares independence from the Netherlands.\n August 17  1960: Gab"
+      },
+      {
+        "id": "9cd812d6-f11a-4e82-864d-c4b03e96b2fa",
+        "document_id": "dcbdc3f6-2252-433d-a962-8c0c7b79bfc7",
+        "document_title": "August",
+        "chunk_index": 8,
+        "token_count": 255,
+        "content_preview": "fatally wounded with an ice pick in Mexico.\n August 20  1968: The Prague Spring uprising is crushed.\n August 20  1991: Estonia regains its independence from the Soviet Union.\n August 21  1959: Hawaii becomes the 50th State of the US.\n August 24  79: Vesuvius erupts, destroying Pompeii and neighbouring Herculaneum.\n August 24  1991: Ukraine regains independence from the Soviet Union.\n August 25  1825: Uruguay declares independence from Brazil.\n August 27  1883: Krakatoa, in the Sunda Strait betwe"
+      },
+      {
+        "id": "cfd6bbcd-d60b-4837-9117-824a64b2e893",
+        "document_id": "3cb6c141-4e9d-4a9e-8a42-2025a407fbf0",
+        "document_title": "Art",
+        "chunk_index": 1,
+        "token_count": 256,
+        "content_preview": "by making something beautiful or appealing to the emotions by visual means: drawing, painting, printmaking, sculpture\n Literature: poetry, creative writing\n Performing art\n Performing art including drama are (expression using the body: dance, acting, singing)\n Auditory art (expression by making sounds): music, singing\n Practical art\n Culinary art (expression by making flavors and tastes): cooking\n The practical arts (expression by making things and structures: architecture, filming, fashion, pho"
+      },
+      {
+        "id": "1640be78-22b7-49df-b3b6-2b090a316e95",
+        "document_id": "3cb6c141-4e9d-4a9e-8a42-2025a407fbf0",
+        "document_title": "Art",
+        "chunk_index": 2,
+        "token_count": 256,
+        "content_preview": "a painting to make an image or just to make a pretty or interesting design.\n\nArt may express emotion.  Artists may feel a certain emotion and wish to express it by creating something that means something to them.  Most of the art created in this case is made for the artist rather than an audience.  However, if an audience is able to connect with the emotion as well, then the art work may become publicly successful.\n\nHistory of art \nThere are sculptures, cave painting and rock art dating from the"
+      },
+      {
+        "id": "df52615b-8102-41f3-8ed5-50dd6378d5fe",
+        "document_id": "3cb6c141-4e9d-4a9e-8a42-2025a407fbf0",
+        "document_title": "Art",
+        "chunk_index": 3,
+        "token_count": 256,
+        "content_preview": "after the ruling dynasty.\n\nIn Europe, after the Middle Ages, there was a \"Renaissance\" which means \"rebirth\". People rediscovered science and artists were allowed to paint subjects other than religious subjects. People like Michelangelo and Leonardo da Vinci still painted religious pictures, but they also now could paint mythological pictures too. These artists also invented perspective where things in the distance look smaller in the picture. This was new because in the Middle Ages people would"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1597 @@
+{
+  "metadata": {
+    "flat_reranked_path": "benchmark_results/reranked_results_flat.json",
+    "hnsw_reranked_path": "benchmark_results/reranked_results_ef_search_160_hnsw.json",
+    "top_k": 10
+  },
+  "summary": {
+    "avg_reranked_recall@10": 0.9858585858585859,
+    "min_reranked_recall@10": 0.7
+  },
+  "per_query": [
+    {
+      "query": "What is photosynthesis?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Photosynthesis",
+      "hnsw_top_title_after_rerank": "Photosynthesis",
+      "flat_top_score": 0.86358756,
+      "hnsw_top_score": 0.86358756
+    },
+    {
+      "query": "Explain how plants make food.",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Plant",
+      "hnsw_top_title_after_rerank": "Plant",
+      "flat_top_score": 0.72768575,
+      "hnsw_top_score": 0.72768575
+    },
+    {
+      "query": "Why do plants need sunlight?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Sunlight",
+      "hnsw_top_title_after_rerank": "Sunlight",
+      "flat_top_score": 0.92176014,
+      "hnsw_top_score": 0.92176014
+    },
+    {
+      "query": "Who was Albert Einstein?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Albert Einstein",
+      "hnsw_top_title_after_rerank": "Albert Einstein",
+      "flat_top_score": 0.9418739,
+      "hnsw_top_score": 0.9418739
+    },
+    {
+      "query": "What did Einstein contribute to physics?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Albert Einstein",
+      "hnsw_top_title_after_rerank": "Albert Einstein",
+      "flat_top_score": 0.7992077,
+      "hnsw_top_score": 0.7992077
+    },
+    {
+      "query": "What is the theory of relativity?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Theory of relativity",
+      "hnsw_top_title_after_rerank": "Theory of relativity",
+      "flat_top_score": 0.88705814,
+      "hnsw_top_score": 0.88705814
+    },
+    {
+      "query": "What caused World War II?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Treaty of Versailles",
+      "hnsw_top_title_after_rerank": "Treaty of Versailles",
+      "flat_top_score": 0.63750535,
+      "hnsw_top_score": 0.63750535
+    },
+    {
+      "query": "Reasons behind the Second World War",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Treaty of Versailles",
+      "hnsw_top_title_after_rerank": "Treaty of Versailles",
+      "flat_top_score": 0.44622982,
+      "hnsw_top_score": 0.44622982
+    },
+    {
+      "query": "Why did WW2 happen?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Treaty of Versailles",
+      "hnsw_top_title_after_rerank": "Treaty of Versailles",
+      "flat_top_score": 0.49523994,
+      "hnsw_top_score": 0.49523994
+    },
+    {
+      "query": "What is gravity?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Gravity",
+      "hnsw_top_title_after_rerank": "Gravity",
+      "flat_top_score": 0.7906115,
+      "hnsw_top_score": 0.7906115
+    },
+    {
+      "query": "Explain gravitational force",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Force",
+      "hnsw_top_title_after_rerank": "Force",
+      "flat_top_score": 0.71113056,
+      "hnsw_top_score": 0.71113056
+    },
+    {
+      "query": "Why do objects fall to Earth?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Fall (motion)",
+      "hnsw_top_title_after_rerank": "Fall (motion)",
+      "flat_top_score": 0.7817479,
+      "hnsw_top_score": 0.7817479
+    },
+    {
+      "query": "How do volcanoes form?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Volcano",
+      "hnsw_top_title_after_rerank": "Volcano",
+      "flat_top_score": 0.90593183,
+      "hnsw_top_score": 0.90593183
+    },
+    {
+      "query": "What causes volcanic eruptions?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Volcano",
+      "hnsw_top_title_after_rerank": "Volcano",
+      "flat_top_score": 0.68723184,
+      "hnsw_top_score": 0.68723184
+    },
+    {
+      "query": "Explain formation of volcanoes",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Volcano",
+      "hnsw_top_title_after_rerank": "Volcano",
+      "flat_top_score": 0.7621591,
+      "hnsw_top_score": 0.7621591
+    },
+    {
+      "query": "What is DNA?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "DNA",
+      "hnsw_top_title_after_rerank": "DNA",
+      "flat_top_score": 0.7795405,
+      "hnsw_top_score": 0.7795405
+    },
+    {
+      "query": "What is the structure of DNA?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "DNA",
+      "hnsw_top_title_after_rerank": "DNA",
+      "flat_top_score": 0.7959917,
+      "hnsw_top_score": 0.7959917
+    },
+    {
+      "query": "Why is DNA important?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Genetics",
+      "hnsw_top_title_after_rerank": "Genetics",
+      "flat_top_score": 0.5863576,
+      "hnsw_top_score": 0.5863576
+    },
+    {
+      "query": "What is the speed of light?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Speed of light",
+      "hnsw_top_title_after_rerank": "Speed of light",
+      "flat_top_score": 0.90102744,
+      "hnsw_top_score": 0.90102744
+    },
+    {
+      "query": "How fast does light travel?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Light",
+      "hnsw_top_title_after_rerank": "Light",
+      "flat_top_score": 0.8479807,
+      "hnsw_top_score": 0.8479807
+    },
+    {
+      "query": "Explain speed of light",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Speed of light",
+      "hnsw_top_title_after_rerank": "Speed of light",
+      "flat_top_score": 0.88178825,
+      "hnsw_top_score": 0.88178825
+    },
+    {
+      "query": "What is machine learning?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Artificial intelligence",
+      "hnsw_top_title_after_rerank": "Artificial intelligence",
+      "flat_top_score": 0.33228928,
+      "hnsw_top_score": 0.33228928
+    },
+    {
+      "query": "Define machine learning",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Artificial intelligence",
+      "hnsw_top_title_after_rerank": "Artificial intelligence",
+      "flat_top_score": 0.36649957,
+      "hnsw_top_score": 0.36649957
+    },
+    {
+      "query": "How do computers learn from data?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Artificial intelligence",
+      "hnsw_top_title_after_rerank": "Artificial intelligence",
+      "flat_top_score": 0.511644,
+      "hnsw_top_score": 0.511644
+    },
+    {
+      "query": "What is the capital of France?",
+      "reranked_recall@10": 0.9,
+      "flat_top_title_after_rerank": "Paris",
+      "hnsw_top_title_after_rerank": "Paris",
+      "flat_top_score": 0.7982658,
+      "hnsw_top_score": 0.7982658
+    },
+    {
+      "query": "Which city is capital of France?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Paris",
+      "hnsw_top_title_after_rerank": "Paris",
+      "flat_top_score": 0.8215175,
+      "hnsw_top_score": 0.8215175
+    },
+    {
+      "query": "Where is Paris located?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Paris",
+      "hnsw_top_title_after_rerank": "Paris",
+      "flat_top_score": 0.7283819,
+      "hnsw_top_score": 0.7283819
+    },
+    {
+      "query": "How does electricity work?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Electricity",
+      "hnsw_top_title_after_rerank": "Electricity",
+      "flat_top_score": 0.8399576,
+      "hnsw_top_score": 0.8399576
+    },
+    {
+      "query": "What is electric current?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Electric current",
+      "hnsw_top_title_after_rerank": "Electric current",
+      "flat_top_score": 0.9195344,
+      "hnsw_top_score": 0.9195344
+    },
+    {
+      "query": "Explain flow of electricity",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Electricity",
+      "hnsw_top_title_after_rerank": "Electricity",
+      "flat_top_score": 0.65914243,
+      "hnsw_top_score": 0.65914243
+    },
+    {
+      "query": "What is the human heart?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Heart",
+      "hnsw_top_title_after_rerank": "Heart",
+      "flat_top_score": 0.6739866,
+      "hnsw_top_score": 0.6742441
+    },
+    {
+      "query": "How does the heart function?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Heart",
+      "hnsw_top_title_after_rerank": "Heart",
+      "flat_top_score": 0.5976789,
+      "hnsw_top_score": 0.5976789
+    },
+    {
+      "query": "Role of heart in human body",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Heart",
+      "hnsw_top_title_after_rerank": "Heart",
+      "flat_top_score": 0.5999311,
+      "hnsw_top_score": 0.5999311
+    },
+    {
+      "query": "What is climate change?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Climate change",
+      "hnsw_top_title_after_rerank": "Climate change",
+      "flat_top_score": 0.84277284,
+      "hnsw_top_score": 0.84277284
+    },
+    {
+      "query": "What causes global warming?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Global warming",
+      "hnsw_top_title_after_rerank": "Global warming",
+      "flat_top_score": 0.8668671,
+      "hnsw_top_score": 0.8668671
+    },
+    {
+      "query": "Explain climate change effects",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Global warming",
+      "hnsw_top_title_after_rerank": "Global warming",
+      "flat_top_score": 0.64182705,
+      "hnsw_top_score": 0.64182705
+    },
+    {
+      "query": "Who was Isaac Newton?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Isaac Newton",
+      "hnsw_top_title_after_rerank": "Isaac Newton",
+      "flat_top_score": 0.9501204,
+      "hnsw_top_score": 0.9501204
+    },
+    {
+      "query": "What are Newton\u2019s laws?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Newton's laws of motion",
+      "hnsw_top_title_after_rerank": "Newton's laws of motion",
+      "flat_top_score": 0.82425016,
+      "hnsw_top_score": 0.82425016
+    },
+    {
+      "query": "Explain Newton\u2019s contribution",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Newton's laws of motion",
+      "hnsw_top_title_after_rerank": "Newton's laws of motion",
+      "flat_top_score": 0.5737984,
+      "hnsw_top_score": 0.5737984
+    },
+    {
+      "query": "What is an atom?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Atom",
+      "hnsw_top_title_after_rerank": "Atom",
+      "flat_top_score": 0.7067782,
+      "hnsw_top_score": 0.7067782
+    },
+    {
+      "query": "What are atoms made of?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Nuclear physics",
+      "hnsw_top_title_after_rerank": "Nuclear physics",
+      "flat_top_score": 0.7429634,
+      "hnsw_top_score": 0.7429634
+    },
+    {
+      "query": "Structure of atom",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Nuclear physics",
+      "hnsw_top_title_after_rerank": "Nuclear physics",
+      "flat_top_score": 0.76490957,
+      "hnsw_top_score": 0.76490957
+    },
+    {
+      "query": "How do airplanes fly?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Fixed-wing aircraft",
+      "hnsw_top_title_after_rerank": "Fixed-wing aircraft",
+      "flat_top_score": 0.67988104,
+      "hnsw_top_score": 0.67988104
+    },
+    {
+      "query": "Principle of flight",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Flight",
+      "hnsw_top_title_after_rerank": "Flight",
+      "flat_top_score": 0.6844544,
+      "hnsw_top_score": 0.6844544
+    },
+    {
+      "query": "Why planes stay in air",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Flight",
+      "hnsw_top_title_after_rerank": "Flight",
+      "flat_top_score": 0.4630806,
+      "hnsw_top_score": 0.4630806
+    },
+    {
+      "query": "What is democracy?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Democracy",
+      "hnsw_top_title_after_rerank": "Democracy",
+      "flat_top_score": 0.829285,
+      "hnsw_top_score": 0.829285
+    },
+    {
+      "query": "Explain democratic system",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Democracy",
+      "hnsw_top_title_after_rerank": "Democracy",
+      "flat_top_score": 0.5818027,
+      "hnsw_top_score": 0.5818027
+    },
+    {
+      "query": "What are democratic principles",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Democracy",
+      "hnsw_top_title_after_rerank": "Democracy",
+      "flat_top_score": 0.45304462,
+      "hnsw_top_score": 0.45304462
+    },
+    {
+      "query": "What is the solar system?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Solar System",
+      "hnsw_top_title_after_rerank": "Solar System",
+      "flat_top_score": 0.8332299,
+      "hnsw_top_score": 0.8332299
+    },
+    {
+      "query": "Planets in solar system",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "List of planets",
+      "hnsw_top_title_after_rerank": "List of planets",
+      "flat_top_score": 0.90018827,
+      "hnsw_top_score": 0.90018827
+    },
+    {
+      "query": "Structure of solar system",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Solar System",
+      "hnsw_top_title_after_rerank": "Solar System",
+      "flat_top_score": 0.752468,
+      "hnsw_top_score": 0.752468
+    },
+    {
+      "query": "What are bacteria?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Bacteria",
+      "hnsw_top_title_after_rerank": "Bacteria",
+      "flat_top_score": 0.82186085,
+      "hnsw_top_score": 0.82186085
+    },
+    {
+      "query": "Define bacteria",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Bacteria",
+      "hnsw_top_title_after_rerank": "Bacteria",
+      "flat_top_score": 0.69573146,
+      "hnsw_top_score": 0.69573146
+    },
+    {
+      "query": "Are bacteria harmful?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Bacteria",
+      "hnsw_top_title_after_rerank": "Bacteria",
+      "flat_top_score": 0.63179934,
+      "hnsw_top_score": 0.63179934
+    },
+    {
+      "query": "What is evolution?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Evolution",
+      "hnsw_top_title_after_rerank": "Evolution",
+      "flat_top_score": 0.84277284,
+      "hnsw_top_score": 0.84277284
+    },
+    {
+      "query": "Explain theory of evolution",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Evolution",
+      "hnsw_top_title_after_rerank": "Evolution",
+      "flat_top_score": 0.8095324,
+      "hnsw_top_score": 0.8095324
+    },
+    {
+      "query": "Darwin\u2019s theory summary",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Charles Darwin",
+      "hnsw_top_title_after_rerank": "Charles Darwin",
+      "flat_top_score": 0.6506676,
+      "hnsw_top_score": 0.6504012
+    },
+    {
+      "query": "How does the internet work?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Internet Protocol",
+      "hnsw_top_title_after_rerank": "Internet Protocol",
+      "flat_top_score": 0.65940565,
+      "hnsw_top_score": 0.65966886
+    },
+    {
+      "query": "Explain internet basics",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Internet",
+      "hnsw_top_title_after_rerank": "Internet",
+      "flat_top_score": 0.5874941,
+      "hnsw_top_score": 0.5874941
+    },
+    {
+      "query": "How data travels online",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Internet protocol suite",
+      "hnsw_top_title_after_rerank": "Internet protocol suite",
+      "flat_top_score": 0.29844072,
+      "hnsw_top_score": 0.29844072
+    },
+    {
+      "query": "What is artificial intelligence?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Artificial intelligence",
+      "hnsw_top_title_after_rerank": "Artificial intelligence",
+      "flat_top_score": 0.93694025,
+      "hnsw_top_score": 0.93694025
+    },
+    {
+      "query": "Define AI",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Artificial intelligence",
+      "hnsw_top_title_after_rerank": "Artificial intelligence",
+      "flat_top_score": 0.8773195,
+      "hnsw_top_score": 0.8773195
+    },
+    {
+      "query": "Applications of AI",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Artificial intelligence",
+      "hnsw_top_title_after_rerank": "Artificial intelligence",
+      "flat_top_score": 0.5883458,
+      "hnsw_top_score": 0.5883458
+    },
+    {
+      "query": "What is blockchain?",
+      "reranked_recall@10": 0.9,
+      "flat_top_title_after_rerank": "Ban",
+      "hnsw_top_title_after_rerank": "Ban",
+      "flat_top_score": 0.080249436,
+      "hnsw_top_score": 0.080249436
+    },
+    {
+      "query": "How blockchain works",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "ACID",
+      "hnsw_top_title_after_rerank": "ACID",
+      "flat_top_score": 0.19863907,
+      "hnsw_top_score": 0.19863907
+    },
+    {
+      "query": "Use cases of blockchain",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Database",
+      "hnsw_top_title_after_rerank": "Database",
+      "flat_top_score": 0.09767424,
+      "hnsw_top_score": 0.09767424
+    },
+    {
+      "query": "What is cryptocurrency?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Code",
+      "hnsw_top_title_after_rerank": "Code",
+      "flat_top_score": 0.12375716,
+      "hnsw_top_score": 0.12375716
+    },
+    {
+      "query": "Explain Bitcoin",
+      "reranked_recall@10": 0.9,
+      "flat_top_title_after_rerank": "Data structure",
+      "hnsw_top_title_after_rerank": "Data structure",
+      "flat_top_score": 0.13856693,
+      "hnsw_top_score": 0.13856693
+    },
+    {
+      "query": "How crypto works",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Key (cryptography)",
+      "hnsw_top_title_after_rerank": "Key (cryptography)",
+      "flat_top_score": 0.5835125,
+      "hnsw_top_score": 0.5835125
+    },
+    {
+      "query": "What is inflation?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Inflation",
+      "hnsw_top_title_after_rerank": "Inflation",
+      "flat_top_score": 0.79254496,
+      "hnsw_top_score": 0.79254496
+    },
+    {
+      "query": "Why do prices increase?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Inflation",
+      "hnsw_top_title_after_rerank": "Inflation",
+      "flat_top_score": 0.6188962,
+      "hnsw_top_score": 0.6188962
+    },
+    {
+      "query": "Effects of inflation",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Inflation",
+      "hnsw_top_title_after_rerank": "Inflation",
+      "flat_top_score": 0.7213709,
+      "hnsw_top_score": 0.7213709
+    },
+    {
+      "query": "What is supply and demand?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Supply and demand",
+      "hnsw_top_title_after_rerank": "Supply and demand",
+      "flat_top_score": 0.95132804,
+      "hnsw_top_score": 0.95132804
+    },
+    {
+      "query": "Explain economic supply demand",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Supply and demand",
+      "hnsw_top_title_after_rerank": "Supply and demand",
+      "flat_top_score": 0.7969415,
+      "hnsw_top_score": 0.7969415
+    },
+    {
+      "query": "How markets work",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Market",
+      "hnsw_top_title_after_rerank": "Market",
+      "flat_top_score": 0.7180613,
+      "hnsw_top_score": 0.7180613
+    },
+    {
+      "query": "What is photosynthesis equation?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Photosynthesis",
+      "hnsw_top_title_after_rerank": "Photosynthesis",
+      "flat_top_score": 0.74807674,
+      "hnsw_top_score": 0.74807674
+    },
+    {
+      "query": "Explain oxygen cycle",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Oxygen",
+      "hnsw_top_title_after_rerank": "Oxygen",
+      "flat_top_score": 0.32126883,
+      "hnsw_top_score": 0.32126883
+    },
+    {
+      "query": "What is water cycle?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Water cycle",
+      "hnsw_top_title_after_rerank": "Water cycle",
+      "flat_top_score": 0.9240941,
+      "hnsw_top_score": 0.9240941
+    },
+    {
+      "query": "Stages of water cycle",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Water cycle",
+      "hnsw_top_title_after_rerank": "Water cycle",
+      "flat_top_score": 0.7237202,
+      "hnsw_top_score": 0.7237202
+    },
+    {
+      "query": "How evaporation works",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Evaporation",
+      "hnsw_top_title_after_rerank": "Evaporation",
+      "flat_top_score": 0.77179235,
+      "hnsw_top_score": 0.77179235
+    },
+    {
+      "query": "What is a black hole?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Black hole",
+      "hnsw_top_title_after_rerank": "Black hole",
+      "flat_top_score": 0.9332426,
+      "hnsw_top_score": 0.9332426
+    },
+    {
+      "query": "Explain black holes",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Black hole",
+      "hnsw_top_title_after_rerank": "Black hole",
+      "flat_top_score": 0.834852,
+      "hnsw_top_score": 0.834852
+    },
+    {
+      "query": "How black holes form",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Black hole",
+      "hnsw_top_title_after_rerank": "Black hole",
+      "flat_top_score": 0.85186684,
+      "hnsw_top_score": 0.85186684
+    },
+    {
+      "query": "What is quantum mechanics?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Quantum mechanics",
+      "hnsw_top_title_after_rerank": "Quantum mechanics",
+      "flat_top_score": 0.885404,
+      "hnsw_top_score": 0.885404
+    },
+    {
+      "query": "Basics of quantum physics",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Quantum mechanics",
+      "hnsw_top_title_after_rerank": "Quantum mechanics",
+      "flat_top_score": 0.6964752,
+      "hnsw_top_score": 0.6964752
+    },
+    {
+      "query": "Explain quantum theory",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Quantum mechanics",
+      "hnsw_top_title_after_rerank": "Quantum mechanics",
+      "flat_top_score": 0.75268626,
+      "hnsw_top_score": 0.75268626
+    },
+    {
+      "query": "What is renewable energy?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Renewable energy",
+      "hnsw_top_title_after_rerank": "Renewable energy",
+      "flat_top_score": 0.7668008,
+      "hnsw_top_score": 0.7668008
+    },
+    {
+      "query": "Examples of renewable energy",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Renewable resource",
+      "hnsw_top_title_after_rerank": "Renewable resource",
+      "flat_top_score": 0.8440111,
+      "hnsw_top_score": 0.8440111
+    },
+    {
+      "query": "Benefits of renewable energy",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Renewable energy commercialization",
+      "hnsw_top_title_after_rerank": "Renewable energy commercialization",
+      "flat_top_score": 0.6551821,
+      "hnsw_top_score": 0.6551821
+    },
+    {
+      "query": "What is fossil fuel?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Fossil fuel",
+      "hnsw_top_title_after_rerank": "Fossil fuel",
+      "flat_top_score": 0.8914433,
+      "hnsw_top_score": 0.8914433
+    },
+    {
+      "query": "Types of fossil fuels",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Fossil fuel",
+      "hnsw_top_title_after_rerank": "Fossil fuel",
+      "flat_top_score": 0.8306082,
+      "hnsw_top_score": 0.8306082
+    },
+    {
+      "query": "Environmental impact of fossil fuels",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Fossil fuel",
+      "hnsw_top_title_after_rerank": "Fossil fuel",
+      "flat_top_score": 0.6578248,
+      "hnsw_top_score": 0.6578248
+    },
+    {
+      "query": "What is the human brain?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Brain",
+      "hnsw_top_title_after_rerank": "Brain",
+      "flat_top_score": 0.6551821,
+      "hnsw_top_score": 0.6551821
+    },
+    {
+      "query": "Functions of brain",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Brain",
+      "hnsw_top_title_after_rerank": "Brain",
+      "flat_top_score": 0.7520312,
+      "hnsw_top_score": 0.7520312
+    },
+    {
+      "query": "How brain works",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Brain",
+      "hnsw_top_title_after_rerank": "Brain",
+      "flat_top_score": 0.6852132,
+      "hnsw_top_score": 0.6852132
+    },
+    {
+      "query": "What is metabolism?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Metabolism",
+      "hnsw_top_title_after_rerank": "Metabolism",
+      "flat_top_score": 0.8364614,
+      "hnsw_top_score": 0.8364614
+    },
+    {
+      "query": "Explain metabolic process",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Metabolism",
+      "hnsw_top_title_after_rerank": "Metabolism",
+      "flat_top_score": 0.6271529,
+      "hnsw_top_score": 0.6271529
+    },
+    {
+      "query": "Why metabolism matters",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Metabolism",
+      "hnsw_top_title_after_rerank": "Metabolism",
+      "flat_top_score": 0.6241337,
+      "hnsw_top_score": 0.6244086
+    },
+    {
+      "query": "What is photosynthesis in simple terms?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Photosynthesis",
+      "hnsw_top_title_after_rerank": "Photosynthesis",
+      "flat_top_score": 0.68748367,
+      "hnsw_top_score": 0.68748367
+    },
+    {
+      "query": "Explain plant energy conversion",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Photosynthesis",
+      "hnsw_top_title_after_rerank": "Photosynthesis",
+      "flat_top_score": 0.35676086,
+      "hnsw_top_score": 0.35676086
+    },
+    {
+      "query": "What is gravity in simple words?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Gravity",
+      "hnsw_top_title_after_rerank": "Gravity",
+      "flat_top_score": 0.54710174,
+      "hnsw_top_score": 0.54724693
+    },
+    {
+      "query": "Explain falling objects",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Fall (motion)",
+      "hnsw_top_title_after_rerank": "Fall (motion)",
+      "flat_top_score": 0.7325349,
+      "hnsw_top_score": 0.7325349
+    },
+    {
+      "query": "What is magnetism?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Magnetism",
+      "hnsw_top_title_after_rerank": "Magnetism",
+      "flat_top_score": 0.8993429,
+      "hnsw_top_score": 0.8993429
+    },
+    {
+      "query": "How magnets work",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Magnetism",
+      "hnsw_top_title_after_rerank": "Magnetism",
+      "flat_top_score": 0.7703443,
+      "hnsw_top_score": 0.7703443
+    },
+    {
+      "query": "Explain magnetic field",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Magnetic field",
+      "hnsw_top_title_after_rerank": "Magnetic field",
+      "flat_top_score": 0.86954874,
+      "hnsw_top_score": 0.86954874
+    },
+    {
+      "query": "What is electricity generation?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Electricity generation",
+      "hnsw_top_title_after_rerank": "Electricity generation",
+      "flat_top_score": 0.92980474,
+      "hnsw_top_score": 0.9296516
+    },
+    {
+      "query": "How power plants work",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Power station",
+      "hnsw_top_title_after_rerank": "Power station",
+      "flat_top_score": 0.71829855,
+      "hnsw_top_score": 0.71829855
+    },
+    {
+      "query": "Sources of electricity",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Power station",
+      "hnsw_top_title_after_rerank": "Power station",
+      "flat_top_score": 0.7161595,
+      "hnsw_top_score": 0.7161595
+    },
+    {
+      "query": "What is cloud computing?",
+      "reranked_recall@10": 0.9,
+      "flat_top_title_after_rerank": "Operating system",
+      "hnsw_top_title_after_rerank": "Operating system",
+      "flat_top_score": 0.30956662,
+      "hnsw_top_score": 0.30956662
+    },
+    {
+      "query": "Explain cloud services",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Cloud",
+      "hnsw_top_title_after_rerank": "Cloud",
+      "flat_top_score": 0.18164065,
+      "hnsw_top_score": 0.18164065
+    },
+    {
+      "query": "Benefits of cloud computing",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Operating system",
+      "hnsw_top_title_after_rerank": "Operating system",
+      "flat_top_score": 0.18603624,
+      "hnsw_top_score": 0.18603624
+    },
+    {
+      "query": "What is operating system?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Operating system",
+      "hnsw_top_title_after_rerank": "Operating system",
+      "flat_top_score": 0.90692574,
+      "hnsw_top_score": 0.90692574
+    },
+    {
+      "query": "Role of OS",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Operating system",
+      "hnsw_top_title_after_rerank": "Operating system",
+      "flat_top_score": 0.5911811,
+      "hnsw_top_score": 0.5911811
+    },
+    {
+      "query": "Examples of operating systems",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Operating system",
+      "hnsw_top_title_after_rerank": "Operating system",
+      "flat_top_score": 0.8194462,
+      "hnsw_top_score": 0.8194462
+    },
+    {
+      "query": "What is CPU?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Central processing unit",
+      "hnsw_top_title_after_rerank": "Central processing unit",
+      "flat_top_score": 0.82795376,
+      "hnsw_top_score": 0.82795376
+    },
+    {
+      "query": "How processor works",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Central processing unit",
+      "hnsw_top_title_after_rerank": "Central processing unit",
+      "flat_top_score": 0.7060491,
+      "hnsw_top_score": 0.7060491
+    },
+    {
+      "query": "Explain central processing unit",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Central processing unit",
+      "hnsw_top_title_after_rerank": "Central processing unit",
+      "flat_top_score": 0.8051581,
+      "hnsw_top_score": 0.8051581
+    },
+    {
+      "query": "What is RAM?",
+      "reranked_recall@10": 0.9,
+      "flat_top_title_after_rerank": "Random-access memory",
+      "hnsw_top_title_after_rerank": "Random-access memory",
+      "flat_top_score": 0.91306627,
+      "hnsw_top_score": 0.91306627
+    },
+    {
+      "query": "Difference between RAM and storage",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Random-access memory",
+      "hnsw_top_title_after_rerank": "Random-access memory",
+      "flat_top_score": 0.5735118,
+      "hnsw_top_score": 0.5735118
+    },
+    {
+      "query": "Why memory is important",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Memory",
+      "hnsw_top_title_after_rerank": "Memory",
+      "flat_top_score": 0.60498303,
+      "hnsw_top_score": 0.60498303
+    },
+    {
+      "query": "What is database?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Database",
+      "hnsw_top_title_after_rerank": "Database",
+      "flat_top_score": 0.818055,
+      "hnsw_top_score": 0.818055
+    },
+    {
+      "query": "Types of databases",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Database",
+      "hnsw_top_title_after_rerank": "Database",
+      "flat_top_score": 0.49919498,
+      "hnsw_top_score": 0.49919498
+    },
+    {
+      "query": "Explain relational database",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Database",
+      "hnsw_top_title_after_rerank": "Database",
+      "flat_top_score": 0.54535896,
+      "hnsw_top_score": 0.54564947
+    },
+    {
+      "query": "What is SQL?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Database",
+      "hnsw_top_title_after_rerank": "Database",
+      "flat_top_score": 0.2911778,
+      "hnsw_top_score": 0.2911778
+    },
+    {
+      "query": "How SQL works",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Database",
+      "hnsw_top_title_after_rerank": "Database",
+      "flat_top_score": 0.57035583,
+      "hnsw_top_score": 0.57035583
+    },
+    {
+      "query": "Uses of SQL",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Database",
+      "hnsw_top_title_after_rerank": "Database",
+      "flat_top_score": 0.60666215,
+      "hnsw_top_score": 0.60666215
+    },
+    {
+      "query": "What is networking?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Local area network",
+      "hnsw_top_title_after_rerank": "Local area network",
+      "flat_top_score": 0.3084719,
+      "hnsw_top_score": 0.3084719
+    },
+    {
+      "query": "Basics of computer networks",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "IP address",
+      "hnsw_top_title_after_rerank": "IP address",
+      "flat_top_score": 0.49450764,
+      "hnsw_top_score": 0.49450764
+    },
+    {
+      "query": "Explain TCP/IP",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Internet Protocol",
+      "hnsw_top_title_after_rerank": "Internet Protocol",
+      "flat_top_score": 0.67501575,
+      "hnsw_top_score": 0.67501575
+    },
+    {
+      "query": "What is cybersecurity?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Computer science",
+      "hnsw_top_title_after_rerank": "Computer science",
+      "flat_top_score": 0.12293349,
+      "hnsw_top_score": 0.12293349
+    },
+    {
+      "query": "Importance of security",
+      "reranked_recall@10": 0.9,
+      "flat_top_title_after_rerank": "Cryptography",
+      "hnsw_top_title_after_rerank": "Software bug",
+      "flat_top_score": 0.16154528,
+      "hnsw_top_score": 0.19502655
+    },
+    {
+      "query": "Types of cyber attacks",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Phishing",
+      "hnsw_top_title_after_rerank": "Phishing",
+      "flat_top_score": 0.3708637,
+      "hnsw_top_score": 0.3708637
+    },
+    {
+      "query": "What is encryption?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Encryption",
+      "hnsw_top_title_after_rerank": "Encryption",
+      "flat_top_score": 0.77751994,
+      "hnsw_top_score": 0.77751994
+    },
+    {
+      "query": "How encryption works",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Encryption",
+      "hnsw_top_title_after_rerank": "Encryption",
+      "flat_top_score": 0.72231215,
+      "hnsw_top_score": 0.72231215
+    },
+    {
+      "query": "Purpose of encryption",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Encryption",
+      "hnsw_top_title_after_rerank": "Encryption",
+      "flat_top_score": 0.572078,
+      "hnsw_top_score": 0.572078
+    },
+    {
+      "query": "What is HTTP?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Hypertext Transfer Protocol",
+      "hnsw_top_title_after_rerank": "Hypertext Transfer Protocol",
+      "flat_top_score": 0.8201387,
+      "hnsw_top_score": 0.8201387
+    },
+    {
+      "query": "How web works",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "World Wide Web",
+      "hnsw_top_title_after_rerank": "World Wide Web",
+      "flat_top_score": 0.60358196,
+      "hnsw_top_score": 0.60358196
+    },
+    {
+      "query": "Explain HTTP protocol",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Hypertext Transfer Protocol",
+      "hnsw_top_title_after_rerank": "Hypertext Transfer Protocol",
+      "flat_top_score": 0.74785584,
+      "hnsw_top_score": 0.74785584
+    },
+    {
+      "query": "What is API?",
+      "reranked_recall@10": 0.9,
+      "flat_top_title_after_rerank": "OpenGL",
+      "hnsw_top_title_after_rerank": "OpenGL",
+      "flat_top_score": 0.40782914,
+      "hnsw_top_score": 0.40782914
+    },
+    {
+      "query": "How APIs work",
+      "reranked_recall@10": 0.9,
+      "flat_top_title_after_rerank": "OpenGL",
+      "hnsw_top_title_after_rerank": "OpenGL",
+      "flat_top_score": 0.312014,
+      "hnsw_top_score": 0.312014
+    },
+    {
+      "query": "Examples of APIs",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "OpenGL",
+      "hnsw_top_title_after_rerank": "OpenGL",
+      "flat_top_score": 0.2958861,
+      "hnsw_top_score": 0.2958861
+    },
+    {
+      "query": "What is data science?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Information",
+      "hnsw_top_title_after_rerank": "Information",
+      "flat_top_score": 0.35702986,
+      "hnsw_top_score": 0.35702986
+    },
+    {
+      "query": "Role of data scientist",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Data migration",
+      "hnsw_top_title_after_rerank": "Data migration",
+      "flat_top_score": 0.15949243,
+      "hnsw_top_score": 0.15957099
+    },
+    {
+      "query": "Explain data analysis",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Astronomy",
+      "hnsw_top_title_after_rerank": "Astronomy",
+      "flat_top_score": 0.7154444,
+      "hnsw_top_score": 0.7154444
+    },
+    {
+      "query": "What is big data?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Database",
+      "hnsw_top_title_after_rerank": "Database",
+      "flat_top_score": 0.24984553,
+      "hnsw_top_score": 0.24984553
+    },
+    {
+      "query": "Characteristics of big data",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Database",
+      "hnsw_top_title_after_rerank": "Database",
+      "flat_top_score": 0.2705328,
+      "hnsw_top_score": 0.2705328
+    },
+    {
+      "query": "Examples of big data",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Byte",
+      "hnsw_top_title_after_rerank": "Byte",
+      "flat_top_score": 0.44492707,
+      "hnsw_top_score": 0.44492707
+    },
+    {
+      "query": "What is Hadoop?",
+      "reranked_recall@10": 0.9,
+      "flat_top_title_after_rerank": "Data mining",
+      "hnsw_top_title_after_rerank": "Data mining",
+      "flat_top_score": 0.091455296,
+      "hnsw_top_score": 0.091455296
+    },
+    {
+      "query": "Explain Hadoop ecosystem",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Distributed computing",
+      "hnsw_top_title_after_rerank": "Distributed computing",
+      "flat_top_score": 0.097467884,
+      "hnsw_top_score": 0.097467884
+    },
+    {
+      "query": "Uses of Hadoop",
+      "reranked_recall@10": 0.9,
+      "flat_top_title_after_rerank": "Database",
+      "hnsw_top_title_after_rerank": "Database",
+      "flat_top_score": 0.09512246,
+      "hnsw_top_score": 0.09512246
+    },
+    {
+      "query": "What is Spark?",
+      "reranked_recall@10": 0.9,
+      "flat_top_title_after_rerank": "Electric charge",
+      "hnsw_top_title_after_rerank": "Electric charge",
+      "flat_top_score": 0.26882386,
+      "hnsw_top_score": 0.26882386
+    },
+    {
+      "query": "How Apache Spark works",
+      "reranked_recall@10": 0.9,
+      "flat_top_title_after_rerank": "Server",
+      "hnsw_top_title_after_rerank": "Server",
+      "flat_top_score": 0.085228555,
+      "hnsw_top_score": 0.085228555
+    },
+    {
+      "query": "Advantages of Spark",
+      "reranked_recall@10": 0.8,
+      "flat_top_title_after_rerank": "Fire",
+      "hnsw_top_title_after_rerank": "Fire",
+      "flat_top_score": 0.0955267,
+      "hnsw_top_score": 0.0955267
+    },
+    {
+      "query": "What is Kubernetes?",
+      "reranked_recall@10": 0.8,
+      "flat_top_title_after_rerank": "Linux",
+      "hnsw_top_title_after_rerank": "Linux",
+      "flat_top_score": 0.17092308,
+      "hnsw_top_score": 0.17092308
+    },
+    {
+      "query": "Explain container orchestration",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Orchestration",
+      "hnsw_top_title_after_rerank": "Orchestration",
+      "flat_top_score": 0.2569606,
+      "hnsw_top_score": 0.2569606
+    },
+    {
+      "query": "Uses of Kubernetes",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Linux",
+      "hnsw_top_title_after_rerank": "Linux",
+      "flat_top_score": 0.08642383,
+      "hnsw_top_score": 0.08642383
+    },
+    {
+      "query": "What is Docker?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Linux",
+      "hnsw_top_title_after_rerank": "Linux",
+      "flat_top_score": 0.08297201,
+      "hnsw_top_score": 0.08297201
+    },
+    {
+      "query": "How Docker works",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Linux",
+      "hnsw_top_title_after_rerank": "Linux",
+      "flat_top_score": 0.06985216,
+      "hnsw_top_score": 0.06985216
+    },
+    {
+      "query": "Benefits of containers",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Bag",
+      "hnsw_top_title_after_rerank": "Bag",
+      "flat_top_score": 0.24835226,
+      "hnsw_top_score": 0.24835226
+    },
+    {
+      "query": "What is DevOps?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Software development",
+      "hnsw_top_title_after_rerank": "Software development",
+      "flat_top_score": 0.1360682,
+      "hnsw_top_score": 0.1360682
+    },
+    {
+      "query": "Explain DevOps practices",
+      "reranked_recall@10": 0.9,
+      "flat_top_title_after_rerank": "Software development",
+      "hnsw_top_title_after_rerank": "Project management",
+      "flat_top_score": 0.13232408,
+      "hnsw_top_score": 0.14411299
+    },
+    {
+      "query": "Benefits of DevOps",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Project",
+      "hnsw_top_title_after_rerank": "Project",
+      "flat_top_score": 0.085962325,
+      "hnsw_top_score": 0.085962325
+    },
+    {
+      "query": "What is CI/CD?",
+      "reranked_recall@10": 0.9,
+      "flat_top_title_after_rerank": "Collision detection",
+      "hnsw_top_title_after_rerank": "Collision detection",
+      "flat_top_score": 0.4836734,
+      "hnsw_top_score": 0.4836734
+    },
+    {
+      "query": "Explain continuous integration",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Continuum",
+      "hnsw_top_title_after_rerank": "Continuum",
+      "flat_top_score": 0.29042256,
+      "hnsw_top_score": 0.29042256
+    },
+    {
+      "query": "Benefits of CI/CD",
+      "reranked_recall@10": 0.9,
+      "flat_top_title_after_rerank": "Certificate of deposit",
+      "hnsw_top_title_after_rerank": "Certificate of deposit",
+      "flat_top_score": 0.16951615,
+      "hnsw_top_score": 0.16951615
+    },
+    {
+      "query": "What is load balancing?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Virtual memory",
+      "hnsw_top_title_after_rerank": "Virtual memory",
+      "flat_top_score": 0.15059036,
+      "hnsw_top_score": 0.15059036
+    },
+    {
+      "query": "How load balancer works",
+      "reranked_recall@10": 0.9,
+      "flat_top_title_after_rerank": "Cache (computing)",
+      "hnsw_top_title_after_rerank": "Virtual memory",
+      "flat_top_score": 0.094518974,
+      "hnsw_top_score": 0.11561101
+    },
+    {
+      "query": "Importance of load balancing",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Multitasking",
+      "hnsw_top_title_after_rerank": "Multitasking",
+      "flat_top_score": 0.19397089,
+      "hnsw_top_score": 0.19397089
+    },
+    {
+      "query": "What is caching?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Cache (computing)",
+      "hnsw_top_title_after_rerank": "Cache (computing)",
+      "flat_top_score": 0.8815438,
+      "hnsw_top_score": 0.8815438
+    },
+    {
+      "query": "Why caching improves performance",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Cache (computing)",
+      "hnsw_top_title_after_rerank": "Cache (computing)",
+      "flat_top_score": 0.79561085,
+      "hnsw_top_score": 0.79561085
+    },
+    {
+      "query": "Types of caching",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Cache (computing)",
+      "hnsw_top_title_after_rerank": "Cache (computing)",
+      "flat_top_score": 0.6108487,
+      "hnsw_top_score": 0.6108487
+    },
+    {
+      "query": "What is latency?",
+      "reranked_recall@10": 0.9,
+      "flat_top_title_after_rerank": "Asthma",
+      "hnsw_top_title_after_rerank": "Speed of light",
+      "flat_top_score": 0.39215115,
+      "hnsw_top_score": 0.16154528
+    },
+    {
+      "query": "Difference between latency and throughput",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Bandwidth (signal processing)",
+      "hnsw_top_title_after_rerank": "Bandwidth (signal processing)",
+      "flat_top_score": 0.18264444,
+      "hnsw_top_score": 0.18264444
+    },
+    {
+      "query": "Why latency matters",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Speed of light",
+      "hnsw_top_title_after_rerank": "Speed of light",
+      "flat_top_score": 0.1782685,
+      "hnsw_top_score": 0.1782685
+    },
+    {
+      "query": "What is throughput?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Bandwidth (signal processing)",
+      "hnsw_top_title_after_rerank": "Bandwidth (signal processing)",
+      "flat_top_score": 0.1531564,
+      "hnsw_top_score": 0.1531564
+    },
+    {
+      "query": "Explain system throughput",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Central processing unit",
+      "hnsw_top_title_after_rerank": "Central processing unit",
+      "flat_top_score": 0.15119094,
+      "hnsw_top_score": 0.15119094
+    },
+    {
+      "query": "How to improve throughput",
+      "reranked_recall@10": 0.9,
+      "flat_top_title_after_rerank": "Central processing unit",
+      "hnsw_top_title_after_rerank": "Central processing unit",
+      "flat_top_score": 0.2590849,
+      "hnsw_top_score": 0.2590849
+    },
+    {
+      "query": "What is distributed system?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Operating system",
+      "hnsw_top_title_after_rerank": "Operating system",
+      "flat_top_score": 0.51822984,
+      "hnsw_top_score": 0.5183761
+    },
+    {
+      "query": "Examples of distributed systems",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Distribution",
+      "hnsw_top_title_after_rerank": "Distribution",
+      "flat_top_score": 0.55420566,
+      "hnsw_top_score": 0.55420566
+    },
+    {
+      "query": "Challenges in distributed systems",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Database",
+      "hnsw_top_title_after_rerank": "Database",
+      "flat_top_score": 0.24638867,
+      "hnsw_top_score": 0.24638867
+    },
+    {
+      "query": "What is consistency in databases?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "ACID",
+      "hnsw_top_title_after_rerank": "ACID",
+      "flat_top_score": 0.8095324,
+      "hnsw_top_score": 0.8095324
+    },
+    {
+      "query": "Explain CAP theorem",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Capital accumulation",
+      "hnsw_top_title_after_rerank": "Capital accumulation",
+      "flat_top_score": 0.13961938,
+      "hnsw_top_score": 0.13961938
+    },
+    {
+      "query": "Consistency vs availability",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Database",
+      "hnsw_top_title_after_rerank": "Database",
+      "flat_top_score": 0.2130499,
+      "hnsw_top_score": 0.2130499
+    },
+    {
+      "query": "What is replication?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "DNA replication",
+      "hnsw_top_title_after_rerank": "DNA replication",
+      "flat_top_score": 0.68571854,
+      "hnsw_top_score": 0.6854659
+    },
+    {
+      "query": "Types of replication",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "DNA replication",
+      "hnsw_top_title_after_rerank": "DNA replication",
+      "flat_top_score": 0.4635177,
+      "hnsw_top_score": 0.4635177
+    },
+    {
+      "query": "Benefits of replication",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "DNA replication",
+      "hnsw_top_title_after_rerank": "DNA replication",
+      "flat_top_score": 0.2662981,
+      "hnsw_top_score": 0.2662981
+    },
+    {
+      "query": "What is sharding?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Gainsharing",
+      "hnsw_top_title_after_rerank": "Gainsharing",
+      "flat_top_score": 0.08279386,
+      "hnsw_top_score": 0.08279386
+    },
+    {
+      "query": "Explain database sharding",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Database normalisation",
+      "hnsw_top_title_after_rerank": "Database normalisation",
+      "flat_top_score": 0.14739585,
+      "hnsw_top_score": 0.14739585
+    },
+    {
+      "query": "When to shard data",
+      "reranked_recall@10": 0.9,
+      "flat_top_title_after_rerank": "RAID",
+      "hnsw_top_title_after_rerank": "RAID",
+      "flat_top_score": 0.07439947,
+      "hnsw_top_score": 0.07439947
+    },
+    {
+      "query": "What is indexing?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Database",
+      "hnsw_top_title_after_rerank": "Database",
+      "flat_top_score": 0.52115494,
+      "hnsw_top_score": 0.52115494
+    },
+    {
+      "query": "How indexes improve performance",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Database",
+      "hnsw_top_title_after_rerank": "Database",
+      "flat_top_score": 0.15792774,
+      "hnsw_top_score": 0.15784983
+    },
+    {
+      "query": "Types of indexing",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Data structure",
+      "hnsw_top_title_after_rerank": "Data structure",
+      "flat_top_score": 0.33941197,
+      "hnsw_top_score": 0.33941197
+    },
+    {
+      "query": "What is vector database?",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Data structure",
+      "hnsw_top_title_after_rerank": "Data structure",
+      "flat_top_score": 0.20131063,
+      "hnsw_top_score": 0.20131063
+    },
+    {
+      "query": "How vector search works",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Vector",
+      "hnsw_top_title_after_rerank": "Vector",
+      "flat_top_score": 0.19594806,
+      "hnsw_top_score": 0.19594806
+    },
+    {
+      "query": "Use cases of vector DB",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Vector",
+      "hnsw_top_title_after_rerank": "Vector",
+      "flat_top_score": 0.3331999,
+      "hnsw_top_score": 0.3331999
+    },
+    {
+      "query": "What is RAG?",
+      "reranked_recall@10": 0.7,
+      "flat_top_title_after_rerank": "Core",
+      "hnsw_top_title_after_rerank": "Core",
+      "flat_top_score": 0.21109177,
+      "hnsw_top_score": 0.21109177
+    },
+    {
+      "query": "Explain retrieval augmented generation",
+      "reranked_recall@10": 0.8,
+      "flat_top_title_after_rerank": "Generation",
+      "hnsw_top_title_after_rerank": "Genetic engineering",
+      "flat_top_score": 0.0764423,
+      "hnsw_top_score": 0.04301479
+    },
+    {
+      "query": "Why RAG is useful",
+      "reranked_recall@10": 1.0,
+      "flat_top_title_after_rerank": "Random-access memory",
+      "hnsw_top_title_after_rerank": "Random-access memory",
+      "flat_top_score": 0.18590319,
+      "hnsw_top_score": 0.18590319
+    }
+  ]
+}

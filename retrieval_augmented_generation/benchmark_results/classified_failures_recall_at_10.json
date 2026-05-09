@@ -1,0 +1,2017 @@
+{
+  "metadata": {
+    "recall_k": 10,
+    "total_queries": 198,
+    "flat_path": "benchmark_results/benchmark_results_flat.json",
+    "hnsw_path": "benchmark_results/benchmark_results_hnsw.json",
+    "comparison_path": "benchmark_results/compare_flat_vs_hnsw.json"
+  },
+  "metrics": {
+    "healthy": {
+      "count": 163,
+      "percentage": 82.32
+    },
+    "semantic_ambiguity": {
+      "count": 27,
+      "percentage": 13.64
+    },
+    "uncertain": {
+      "count": 1,
+      "percentage": 0.51
+    },
+    "corpus_gap": {
+      "count": 4,
+      "percentage": 2.02
+    },
+    "ann_miss": {
+      "count": 1,
+      "percentage": 0.51
+    },
+    "minor_ranking_difference": {
+      "count": 2,
+      "percentage": 1.01
+    }
+  },
+  "classified_queries": [
+    {
+      "query": "What is photosynthesis?",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Photosynthesis",
+      "hnsw_top_title": "Photosynthesis",
+      "flat_top_similarity": 0.599220135405114,
+      "hnsw_top_similarity": 0.599227989830212
+    },
+    {
+      "query": "Explain how plants make food.",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Plant",
+      "hnsw_top_title": "Plant",
+      "flat_top_similarity": 0.588465596016821,
+      "hnsw_top_similarity": 0.588465596016821
+    },
+    {
+      "query": "Why do plants need sunlight?",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Sunlight",
+      "hnsw_top_title": "Sunlight",
+      "flat_top_similarity": 0.624750375350917,
+      "hnsw_top_similarity": 0.624014536913589
+    },
+    {
+      "query": "Who was Albert Einstein?",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Albert Einstein",
+      "hnsw_top_title": "Albert Einstein",
+      "flat_top_similarity": 0.68815736245407,
+      "hnsw_top_similarity": 0.688150310622369
+    },
+    {
+      "query": "What did Einstein contribute to physics?",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Albert Einstein",
+      "hnsw_top_title": "Albert Einstein",
+      "flat_top_similarity": 0.641802839891769,
+      "hnsw_top_similarity": 0.641802839891769
+    },
+    {
+      "query": "What is the theory of relativity?",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Special relativity",
+      "hnsw_top_title": "Special relativity",
+      "flat_top_similarity": 0.67916845335511,
+      "hnsw_top_similarity": 0.67916845335511
+    },
+    {
+      "query": "What caused World War II?",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Nazi Germany",
+      "hnsw_top_title": "Nazi Germany",
+      "flat_top_similarity": 0.552915233153324,
+      "hnsw_top_similarity": 0.552915233153324
+    },
+    {
+      "query": "Reasons behind the Second World War",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "History of the world",
+      "hnsw_top_title": "History of the world",
+      "flat_top_similarity": 0.553400093513034,
+      "hnsw_top_similarity": 0.553400093513034
+    },
+    {
+      "query": "Why did WW2 happen?",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Nazi Germany",
+      "hnsw_top_title": "Nazi Germany",
+      "flat_top_similarity": 0.594523856244697,
+      "hnsw_top_similarity": 0.594523856244697
+    },
+    {
+      "query": "What is gravity?",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Gravity",
+      "hnsw_top_title": "Gravity",
+      "flat_top_similarity": 0.630777063495679,
+      "hnsw_top_similarity": 0.630777063495679
+    },
+    {
+      "query": "Explain gravitational force",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Gravity",
+      "hnsw_top_title": "Gravity",
+      "flat_top_similarity": 0.579519926889033,
+      "hnsw_top_similarity": 0.579519926889033
+    },
+    {
+      "query": "Why do objects fall to Earth?",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Fall (motion)",
+      "hnsw_top_title": "Fall (motion)",
+      "flat_top_similarity": 0.580778055435114,
+      "hnsw_top_similarity": 0.580778055435114
+    },
+    {
+      "query": "How do volcanoes form?",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Volcano",
+      "hnsw_top_title": "Volcano",
+      "flat_top_similarity": 0.655141189785642,
+      "hnsw_top_similarity": 0.655186904939677
+    },
+    {
+      "query": "What causes volcanic eruptions?",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Volcano",
+      "hnsw_top_title": "Volcano",
+      "flat_top_similarity": 0.614495717392718,
+      "hnsw_top_similarity": 0.614495717392718
+    },
+    {
+      "query": "Explain formation of volcanoes",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Volcano",
+      "hnsw_top_title": "Volcano",
+      "flat_top_similarity": 0.628822241289452,
+      "hnsw_top_similarity": 0.628819599314222
+    },
+    {
+      "query": "What is DNA?",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "DNA",
+      "hnsw_top_title": "DNA",
+      "flat_top_similarity": 0.546107983732847,
+      "hnsw_top_similarity": 0.546119259318222
+    },
+    {
+      "query": "What is the structure of DNA?",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "DNA",
+      "hnsw_top_title": "DNA",
+      "flat_top_similarity": 0.538589725471921,
+      "hnsw_top_similarity": 0.538589725471921
+    },
+    {
+      "query": "Why is DNA important?",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Genetics",
+      "hnsw_top_title": "Genetics",
+      "flat_top_similarity": 0.577878713763715,
+      "hnsw_top_similarity": 0.577878713763715
+    },
+    {
+      "query": "What is the speed of light?",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Speed of light",
+      "hnsw_top_title": "Speed of light",
+      "flat_top_similarity": 0.698478673558535,
+      "hnsw_top_similarity": 0.698478673558535
+    },
+    {
+      "query": "How fast does light travel?",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Light",
+      "hnsw_top_title": "Light",
+      "flat_top_similarity": 0.629831331239644,
+      "hnsw_top_similarity": 0.629831331239644
+    },
+    {
+      "query": "Explain speed of light",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Speed of light",
+      "hnsw_top_title": "Speed of light",
+      "flat_top_similarity": 0.651501274137808,
+      "hnsw_top_similarity": 0.651501274137808
+    },
+    {
+      "query": "What is machine learning?",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Artificial intelligence",
+      "hnsw_top_title": "Artificial intelligence",
+      "flat_top_similarity": 0.431018067790581,
+      "hnsw_top_similarity": 0.431018067790581
+    },
+    {
+      "query": "Define machine learning",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Learning",
+      "hnsw_top_title": "Learning",
+      "flat_top_similarity": 0.398842710458572,
+      "hnsw_top_similarity": 0.398842710458572
+    },
+    {
+      "query": "How do computers learn from data?",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Data mining",
+      "hnsw_top_title": "Data mining",
+      "flat_top_similarity": 0.536629052144302,
+      "hnsw_top_similarity": 0.536629052144302
+    },
+    {
+      "query": "What is the capital of France?",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Bordeaux",
+      "hnsw_top_title": "Bordeaux",
+      "flat_top_similarity": 0.635511813161094,
+      "hnsw_top_similarity": 0.637339954567553
+    },
+    {
+      "query": "Which city is capital of France?",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Bordeaux",
+      "hnsw_top_title": "Bordeaux",
+      "flat_top_similarity": 0.647289900445,
+      "hnsw_top_similarity": 0.647283838727987
+    },
+    {
+      "query": "Where is Paris located?",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Paris",
+      "hnsw_top_title": "Paris",
+      "flat_top_similarity": 0.601895585467304,
+      "hnsw_top_similarity": 0.601895585467304
+    },
+    {
+      "query": "How does electricity work?",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Electricity",
+      "hnsw_top_title": "Electricity",
+      "flat_top_similarity": 0.610234423936863,
+      "hnsw_top_similarity": 0.610234423936863
+    },
+    {
+      "query": "What is electric current?",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Electric current",
+      "hnsw_top_title": "Electric current",
+      "flat_top_similarity": 0.721885459340616,
+      "hnsw_top_similarity": 0.721885459340616
+    },
+    {
+      "query": "Explain flow of electricity",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Electric current",
+      "hnsw_top_title": "Electric current",
+      "flat_top_similarity": 0.592614423437497,
+      "hnsw_top_similarity": 0.592614423437497
+    },
+    {
+      "query": "What is the human heart?",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Heart",
+      "hnsw_top_title": "Heart",
+      "flat_top_similarity": 0.579815582153203,
+      "hnsw_top_similarity": 0.579815582153203
+    },
+    {
+      "query": "How does the heart function?",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Heart",
+      "hnsw_top_title": "Heart",
+      "flat_top_similarity": 0.490687685920719,
+      "hnsw_top_similarity": 0.490687685920719
+    },
+    {
+      "query": "Role of heart in human body",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Heart",
+      "hnsw_top_title": "Heart",
+      "flat_top_similarity": 0.532944418477271,
+      "hnsw_top_similarity": 0.532944418477271
+    },
+    {
+      "query": "What is climate change?",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Climate change",
+      "hnsw_top_title": "Climate change",
+      "flat_top_similarity": 0.606765834635629,
+      "hnsw_top_similarity": 0.606765834635629
+    },
+    {
+      "query": "What causes global warming?",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Global warming",
+      "hnsw_top_title": "Global warming",
+      "flat_top_similarity": 0.642612885976951,
+      "hnsw_top_similarity": 0.642612885976951
+    },
+    {
+      "query": "Explain climate change effects",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "History of the world",
+      "hnsw_top_title": "History of the world",
+      "flat_top_similarity": 0.586864594902539,
+      "hnsw_top_similarity": 0.586864594902539
+    },
+    {
+      "query": "Who was Isaac Newton?",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Isaac Newton",
+      "hnsw_top_title": "Isaac Newton",
+      "flat_top_similarity": 0.752687324230561,
+      "hnsw_top_similarity": 0.752712378465356
+    },
+    {
+      "query": "What are Newton\u2019s laws?",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Isaac Newton",
+      "hnsw_top_title": "Isaac Newton",
+      "flat_top_similarity": 0.707948668578724,
+      "hnsw_top_similarity": 0.707992243903562
+    },
+    {
+      "query": "Explain Newton\u2019s contribution",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Isaac Newton",
+      "hnsw_top_title": "Isaac Newton",
+      "flat_top_similarity": 0.59579646776031,
+      "hnsw_top_similarity": 0.59579646776031
+    },
+    {
+      "query": "What is an atom?",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Atom",
+      "hnsw_top_title": "Atom",
+      "flat_top_similarity": 0.567242211428397,
+      "hnsw_top_similarity": 0.567242211428397
+    },
+    {
+      "query": "What are atoms made of?",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Atom",
+      "hnsw_top_title": "Atom",
+      "flat_top_similarity": 0.644270914741718,
+      "hnsw_top_similarity": 0.644270914741718
+    },
+    {
+      "query": "Structure of atom",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Atom",
+      "hnsw_top_title": "Atom",
+      "flat_top_similarity": 0.625586723498663,
+      "hnsw_top_similarity": 0.625586723498663
+    },
+    {
+      "query": "How do airplanes fly?",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Fixed-wing aircraft",
+      "hnsw_top_title": "Fixed-wing aircraft",
+      "flat_top_similarity": 0.538814427523231,
+      "hnsw_top_similarity": 0.538818754997338
+    },
+    {
+      "query": "Principle of flight",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Flight",
+      "hnsw_top_title": "Flight",
+      "flat_top_similarity": 0.465240437660446,
+      "hnsw_top_similarity": 0.465240437660446
+    },
+    {
+      "query": "Why planes stay in air",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Fixed-wing aircraft",
+      "hnsw_top_title": "Fixed-wing aircraft",
+      "flat_top_similarity": 0.477123791389363,
+      "hnsw_top_similarity": 0.477410606934975
+    },
+    {
+      "query": "What is democracy?",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Democracy",
+      "hnsw_top_title": "Democracy",
+      "flat_top_similarity": 0.644407838945613,
+      "hnsw_top_similarity": 0.644407838945613
+    },
+    {
+      "query": "Explain democratic system",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Indirect democracy",
+      "hnsw_top_title": "Indirect democracy",
+      "flat_top_similarity": 0.549467319949425,
+      "hnsw_top_similarity": 0.549508661786192
+    },
+    {
+      "query": "What are democratic principles",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Democratic Party (United States)",
+      "hnsw_top_title": "Democratic Party (United States)",
+      "flat_top_similarity": 0.528786332353084,
+      "hnsw_top_similarity": 0.528786332353084
+    },
+    {
+      "query": "What is the solar system?",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Solar System",
+      "hnsw_top_title": "Solar System",
+      "flat_top_similarity": 0.631047684358455,
+      "hnsw_top_similarity": 0.631047684358455
+    },
+    {
+      "query": "Planets in solar system",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Planet",
+      "hnsw_top_title": "Planet",
+      "flat_top_similarity": 0.638116558233248,
+      "hnsw_top_similarity": 0.638116558233248
+    },
+    {
+      "query": "Structure of solar system",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Solar System",
+      "hnsw_top_title": "Solar System",
+      "flat_top_similarity": 0.636275685165696,
+      "hnsw_top_similarity": 0.636291375881622
+    },
+    {
+      "query": "What are bacteria?",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Bacteria",
+      "hnsw_top_title": "Bacteria",
+      "flat_top_similarity": 0.609907391433389,
+      "hnsw_top_similarity": 0.609885211745494
+    },
+    {
+      "query": "Define bacteria",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Bacteria",
+      "hnsw_top_title": "Bacteria",
+      "flat_top_similarity": 0.548347822914034,
+      "hnsw_top_similarity": 0.548347822914034
+    },
+    {
+      "query": "Are bacteria harmful?",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Microorganism",
+      "hnsw_top_title": "Microorganism",
+      "flat_top_similarity": 0.5514585213982,
+      "hnsw_top_similarity": 0.5514585213982
+    },
+    {
+      "query": "What is evolution?",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Evolution",
+      "hnsw_top_title": "Evolution",
+      "flat_top_similarity": 0.578969673304205,
+      "hnsw_top_similarity": 0.578969673304205
+    },
+    {
+      "query": "Explain theory of evolution",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Evolution",
+      "hnsw_top_title": "Evolution",
+      "flat_top_similarity": 0.593553702825465,
+      "hnsw_top_similarity": 0.593553702825465
+    },
+    {
+      "query": "Darwin\u2019s theory summary",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Evolution",
+      "hnsw_top_title": "Evolution",
+      "flat_top_similarity": 0.547051219294871,
+      "hnsw_top_similarity": 0.547051219294871
+    },
+    {
+      "query": "How does the internet work?",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Internet Protocol",
+      "hnsw_top_title": "Internet Protocol",
+      "flat_top_similarity": 0.576203078774695,
+      "hnsw_top_similarity": 0.576203078774695
+    },
+    {
+      "query": "Explain internet basics",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Internet protocol suite",
+      "hnsw_top_title": "Internet protocol suite",
+      "flat_top_similarity": 0.543953748562575,
+      "hnsw_top_similarity": 0.543850712385796
+    },
+    {
+      "query": "How data travels online",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Internet",
+      "hnsw_top_title": "Internet",
+      "flat_top_similarity": 0.472929732548272,
+      "hnsw_top_similarity": 0.472929732548272
+    },
+    {
+      "query": "What is artificial intelligence?",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Artificial intelligence",
+      "hnsw_top_title": "Artificial intelligence",
+      "flat_top_similarity": 0.735672805938783,
+      "hnsw_top_similarity": 0.735672805938783
+    },
+    {
+      "query": "Define AI",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Artificial intelligence",
+      "hnsw_top_title": "Artificial intelligence",
+      "flat_top_similarity": 0.639629399527621,
+      "hnsw_top_similarity": 0.639611123971298
+    },
+    {
+      "query": "Applications of AI",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Artificial intelligence",
+      "hnsw_top_title": "Artificial intelligence",
+      "flat_top_similarity": 0.656847709712144,
+      "hnsw_top_similarity": 0.656863457293629
+    },
+    {
+      "query": "What is blockchain?",
+      "recall@10": 0.8,
+      "classification": "semantic_ambiguity",
+      "reason": "Both systems retrieved semantically nearby but likely wrong-sense results.",
+      "flat_top_title": "Database transaction",
+      "hnsw_top_title": "Database transaction",
+      "flat_top_similarity": 0.337470011822159,
+      "hnsw_top_similarity": 0.337470011822159
+    },
+    {
+      "query": "How blockchain works",
+      "recall@10": 0.9,
+      "classification": "semantic_ambiguity",
+      "reason": "Both systems retrieved semantically nearby but likely wrong-sense results.",
+      "flat_top_title": "File system",
+      "hnsw_top_title": "File system",
+      "flat_top_similarity": 0.353794087074909,
+      "hnsw_top_similarity": 0.353837818942642
+    },
+    {
+      "query": "Use cases of blockchain",
+      "recall@10": 0.9,
+      "classification": "semantic_ambiguity",
+      "reason": "Both systems retrieved semantically nearby but likely wrong-sense results.",
+      "flat_top_title": "Smart card",
+      "hnsw_top_title": "Smart card",
+      "flat_top_similarity": 0.33735408634285,
+      "hnsw_top_similarity": 0.33735408634285
+    },
+    {
+      "query": "What is cryptocurrency?",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Cryptography",
+      "hnsw_top_title": "Cryptography",
+      "flat_top_similarity": 0.426208323489864,
+      "hnsw_top_similarity": 0.426257056840338
+    },
+    {
+      "query": "Explain Bitcoin",
+      "recall@10": 0.9,
+      "classification": "semantic_ambiguity",
+      "reason": "Both systems retrieved semantically nearby but likely wrong-sense results.",
+      "flat_top_title": "Bit",
+      "hnsw_top_title": "Bit",
+      "flat_top_similarity": 0.316150930532577,
+      "hnsw_top_similarity": 0.316150930532577
+    },
+    {
+      "query": "How crypto works",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Cryptography",
+      "hnsw_top_title": "Cryptography",
+      "flat_top_similarity": 0.460751148691553,
+      "hnsw_top_similarity": 0.460751148691553
+    },
+    {
+      "query": "What is inflation?",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Inflation",
+      "hnsw_top_title": "Inflation",
+      "flat_top_similarity": 0.58138199863905,
+      "hnsw_top_similarity": 0.58138199863905
+    },
+    {
+      "query": "Why do prices increase?",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Supply and demand",
+      "hnsw_top_title": "Supply and demand",
+      "flat_top_similarity": 0.611121593435032,
+      "hnsw_top_similarity": 0.611121593435032
+    },
+    {
+      "query": "Effects of inflation",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Inflation",
+      "hnsw_top_title": "Inflation",
+      "flat_top_similarity": 0.673284484270687,
+      "hnsw_top_similarity": 0.673284484270687
+    },
+    {
+      "query": "What is supply and demand?",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Supply",
+      "hnsw_top_title": "Supply",
+      "flat_top_similarity": 0.601463228612108,
+      "hnsw_top_similarity": 0.601463228612108
+    },
+    {
+      "query": "Explain economic supply demand",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Supply and demand",
+      "hnsw_top_title": "Supply and demand",
+      "flat_top_similarity": 0.662315433634527,
+      "hnsw_top_similarity": 0.662305741405451
+    },
+    {
+      "query": "How markets work",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Market",
+      "hnsw_top_title": "Market",
+      "flat_top_similarity": 0.570029329956096,
+      "hnsw_top_similarity": 0.570029329956096
+    },
+    {
+      "query": "What is photosynthesis equation?",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Photosynthesis",
+      "hnsw_top_title": "Photosynthesis",
+      "flat_top_similarity": 0.569929069086696,
+      "hnsw_top_similarity": 0.569929069086696
+    },
+    {
+      "query": "Explain oxygen cycle",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Oxygen",
+      "hnsw_top_title": "Oxygen",
+      "flat_top_similarity": 0.526372598356629,
+      "hnsw_top_similarity": 0.526372598356629
+    },
+    {
+      "query": "What is water cycle?",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Water cycle",
+      "hnsw_top_title": "Water cycle",
+      "flat_top_similarity": 0.66425158460039,
+      "hnsw_top_similarity": 0.66425158460039
+    },
+    {
+      "query": "Stages of water cycle",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Water cycle",
+      "hnsw_top_title": "Water cycle",
+      "flat_top_similarity": 0.625880352915598,
+      "hnsw_top_similarity": 0.625880352915598
+    },
+    {
+      "query": "How evaporation works",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Evaporation",
+      "hnsw_top_title": "Evaporation",
+      "flat_top_similarity": 0.597348684005421,
+      "hnsw_top_similarity": 0.597348684005421
+    },
+    {
+      "query": "What is a black hole?",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Black hole",
+      "hnsw_top_title": "Black hole",
+      "flat_top_similarity": 0.663080107069348,
+      "hnsw_top_similarity": 0.663080107069348
+    },
+    {
+      "query": "Explain black holes",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Black hole",
+      "hnsw_top_title": "Black hole",
+      "flat_top_similarity": 0.655757288871539,
+      "hnsw_top_similarity": 0.655757288871539
+    },
+    {
+      "query": "How black holes form",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Black hole",
+      "hnsw_top_title": "Black hole",
+      "flat_top_similarity": 0.649258489464636,
+      "hnsw_top_similarity": 0.649258489464636
+    },
+    {
+      "query": "What is quantum mechanics?",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Quantum mechanics",
+      "hnsw_top_title": "Quantum mechanics",
+      "flat_top_similarity": 0.690543476678921,
+      "hnsw_top_similarity": 0.690543476678921
+    },
+    {
+      "query": "Basics of quantum physics",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Quantum mechanics",
+      "hnsw_top_title": "Quantum mechanics",
+      "flat_top_similarity": 0.607401929863229,
+      "hnsw_top_similarity": 0.607368207678163
+    },
+    {
+      "query": "Explain quantum theory",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Quantum mechanics",
+      "hnsw_top_title": "Quantum mechanics",
+      "flat_top_similarity": 0.6215053608301,
+      "hnsw_top_similarity": 0.621553130677713
+    },
+    {
+      "query": "What is renewable energy?",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Renewable resource",
+      "hnsw_top_title": "Renewable resource",
+      "flat_top_similarity": 0.603330812886282,
+      "hnsw_top_similarity": 0.603330812886282
+    },
+    {
+      "query": "Examples of renewable energy",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Renewable resource",
+      "hnsw_top_title": "Renewable resource",
+      "flat_top_similarity": 0.642124204073372,
+      "hnsw_top_similarity": 0.642124204073372
+    },
+    {
+      "query": "Benefits of renewable energy",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Renewable energy commercialization",
+      "hnsw_top_title": "Renewable energy commercialization",
+      "flat_top_similarity": 0.61156333266803,
+      "hnsw_top_similarity": 0.61156333266803
+    },
+    {
+      "query": "What is fossil fuel?",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Fuel",
+      "hnsw_top_title": "Fuel",
+      "flat_top_similarity": 0.60314525771584,
+      "hnsw_top_similarity": 0.60314525771584
+    },
+    {
+      "query": "Types of fossil fuels",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Fossil fuel",
+      "hnsw_top_title": "Fossil fuel",
+      "flat_top_similarity": 0.64723321247116,
+      "hnsw_top_similarity": 0.64723321247116
+    },
+    {
+      "query": "Environmental impact of fossil fuels",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Fossil fuel",
+      "hnsw_top_title": "Fossil fuel",
+      "flat_top_similarity": 0.603164729349302,
+      "hnsw_top_similarity": 0.603164729349302
+    },
+    {
+      "query": "What is the human brain?",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Brain",
+      "hnsw_top_title": "Brain",
+      "flat_top_similarity": 0.622795807859175,
+      "hnsw_top_similarity": 0.622793766651111
+    },
+    {
+      "query": "Functions of brain",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Brain",
+      "hnsw_top_title": "Brain",
+      "flat_top_similarity": 0.558449677001142,
+      "hnsw_top_similarity": 0.558449677001142
+    },
+    {
+      "query": "How brain works",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Brain",
+      "hnsw_top_title": "Brain",
+      "flat_top_similarity": 0.539280255814995,
+      "hnsw_top_similarity": 0.539280255814995
+    },
+    {
+      "query": "What is metabolism?",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Metabolism",
+      "hnsw_top_title": "Metabolism",
+      "flat_top_similarity": 0.642669202466191,
+      "hnsw_top_similarity": 0.642669202466191
+    },
+    {
+      "query": "Explain metabolic process",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Metabolism",
+      "hnsw_top_title": "Metabolism",
+      "flat_top_similarity": 0.58022928389177,
+      "hnsw_top_similarity": 0.58022928389177
+    },
+    {
+      "query": "Why metabolism matters",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Metabolism",
+      "hnsw_top_title": "Metabolism",
+      "flat_top_similarity": 0.629222894393564,
+      "hnsw_top_similarity": 0.629222894393564
+    },
+    {
+      "query": "What is photosynthesis in simple terms?",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Photosynthesis",
+      "hnsw_top_title": "Photosynthesis",
+      "flat_top_similarity": 0.56090857247235,
+      "hnsw_top_similarity": 0.56090857247235
+    },
+    {
+      "query": "Explain plant energy conversion",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Solar energy",
+      "hnsw_top_title": "Solar energy",
+      "flat_top_similarity": 0.526924708844124,
+      "hnsw_top_similarity": 0.526924708844124
+    },
+    {
+      "query": "What is gravity in simple words?",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Gravity",
+      "hnsw_top_title": "Gravity",
+      "flat_top_similarity": 0.61791588257605,
+      "hnsw_top_similarity": 0.61791588257605
+    },
+    {
+      "query": "Explain falling objects",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Fall (motion)",
+      "hnsw_top_title": "Fall (motion)",
+      "flat_top_similarity": 0.538613959999656,
+      "hnsw_top_similarity": 0.538613959999656
+    },
+    {
+      "query": "What is magnetism?",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Magnetism",
+      "hnsw_top_title": "Magnetism",
+      "flat_top_similarity": 0.62120804183607,
+      "hnsw_top_similarity": 0.62120804183607
+    },
+    {
+      "query": "How magnets work",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Magnet",
+      "hnsw_top_title": "Magnet",
+      "flat_top_similarity": 0.573520175907057,
+      "hnsw_top_similarity": 0.573520175907057
+    },
+    {
+      "query": "Explain magnetic field",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Magnetic field",
+      "hnsw_top_title": "Magnetic field",
+      "flat_top_similarity": 0.692835874783753,
+      "hnsw_top_similarity": 0.692835874783753
+    },
+    {
+      "query": "What is electricity generation?",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Electricity generation",
+      "hnsw_top_title": "Electricity generation",
+      "flat_top_similarity": 0.692118601773849,
+      "hnsw_top_similarity": 0.692118601773849
+    },
+    {
+      "query": "How power plants work",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Power station",
+      "hnsw_top_title": "Power station",
+      "flat_top_similarity": 0.557951360616716,
+      "hnsw_top_similarity": 0.557951360616716
+    },
+    {
+      "query": "Sources of electricity",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Power station",
+      "hnsw_top_title": "Power station",
+      "flat_top_similarity": 0.664976025562218,
+      "hnsw_top_similarity": 0.664976025562218
+    },
+    {
+      "query": "What is cloud computing?",
+      "recall@10": 0.4,
+      "classification": "uncertain",
+      "reason": "Failure needs manual inspection.",
+      "flat_top_title": "Distributed computing",
+      "hnsw_top_title": "Distributed computing",
+      "flat_top_similarity": 0.427299203438178,
+      "hnsw_top_similarity": 0.427299203438178
+    },
+    {
+      "query": "Explain cloud services",
+      "recall@10": 0.9,
+      "classification": "semantic_ambiguity",
+      "reason": "Both systems retrieved semantically nearby but likely wrong-sense results.",
+      "flat_top_title": "Service (economics)",
+      "hnsw_top_title": "Service (economics)",
+      "flat_top_similarity": 0.393953390815425,
+      "hnsw_top_similarity": 0.393953390815425
+    },
+    {
+      "query": "Benefits of cloud computing",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Distributed computing",
+      "hnsw_top_title": "Distributed computing",
+      "flat_top_similarity": 0.370311660359955,
+      "hnsw_top_similarity": 0.370311660359955
+    },
+    {
+      "query": "What is operating system?",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Operating system",
+      "hnsw_top_title": "Operating system",
+      "flat_top_similarity": 0.683366210299126,
+      "hnsw_top_similarity": 0.683366210299126
+    },
+    {
+      "query": "Role of OS",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Operating system",
+      "hnsw_top_title": "Operating system",
+      "flat_top_similarity": 0.553550494803073,
+      "hnsw_top_similarity": 0.553550494803073
+    },
+    {
+      "query": "Examples of operating systems",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Operating system",
+      "hnsw_top_title": "Operating system",
+      "flat_top_similarity": 0.696593379316111,
+      "hnsw_top_similarity": 0.696593379316111
+    },
+    {
+      "query": "What is CPU?",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Central processing unit",
+      "hnsw_top_title": "Central processing unit",
+      "flat_top_similarity": 0.607349906466035,
+      "hnsw_top_similarity": 0.607349906466035
+    },
+    {
+      "query": "How processor works",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Microprocessor",
+      "hnsw_top_title": "Microprocessor",
+      "flat_top_similarity": 0.592927941992185,
+      "hnsw_top_similarity": 0.592927941992185
+    },
+    {
+      "query": "Explain central processing unit",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Central processing unit",
+      "hnsw_top_title": "Central processing unit",
+      "flat_top_similarity": 0.514911867710522,
+      "hnsw_top_similarity": 0.514948277140239
+    },
+    {
+      "query": "What is RAM?",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Random-access memory",
+      "hnsw_top_title": "Random-access memory",
+      "flat_top_similarity": 0.673004580889986,
+      "hnsw_top_similarity": 0.673013750638419
+    },
+    {
+      "query": "Difference between RAM and storage",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Random-access memory",
+      "hnsw_top_title": "Random-access memory",
+      "flat_top_similarity": 0.610419306332531,
+      "hnsw_top_similarity": 0.610450238481082
+    },
+    {
+      "query": "Why memory is important",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Memory",
+      "hnsw_top_title": "Memory",
+      "flat_top_similarity": 0.57988238525612,
+      "hnsw_top_similarity": 0.579505829070329
+    },
+    {
+      "query": "What is database?",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Database",
+      "hnsw_top_title": "Database",
+      "flat_top_similarity": 0.630692083234665,
+      "hnsw_top_similarity": 0.630692083234665
+    },
+    {
+      "query": "Types of databases",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Database",
+      "hnsw_top_title": "Database",
+      "flat_top_similarity": 0.605136978789241,
+      "hnsw_top_similarity": 0.605136978789241
+    },
+    {
+      "query": "Explain relational database",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Database normalisation",
+      "hnsw_top_title": "Database normalisation",
+      "flat_top_similarity": 0.527571687488014,
+      "hnsw_top_similarity": 0.527571687488014
+    },
+    {
+      "query": "What is SQL?",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "MySQL",
+      "hnsw_top_title": "MySQL",
+      "flat_top_similarity": 0.389859566669036,
+      "hnsw_top_similarity": 0.389859566669036
+    },
+    {
+      "query": "How SQL works",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Database",
+      "hnsw_top_title": "Database",
+      "flat_top_similarity": 0.490853652457843,
+      "hnsw_top_similarity": 0.490853652457843
+    },
+    {
+      "query": "Uses of SQL",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Database",
+      "hnsw_top_title": "Database",
+      "flat_top_similarity": 0.532124079419516,
+      "hnsw_top_similarity": 0.532124079419516
+    },
+    {
+      "query": "What is networking?",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Social network",
+      "hnsw_top_title": "Social network",
+      "flat_top_similarity": 0.487853877385623,
+      "hnsw_top_similarity": 0.487853877385623
+    },
+    {
+      "query": "Basics of computer networks",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Internet Protocol",
+      "hnsw_top_title": "Internet Protocol",
+      "flat_top_similarity": 0.552793850338851,
+      "hnsw_top_similarity": 0.552836786214864
+    },
+    {
+      "query": "Explain TCP/IP",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Internet Protocol",
+      "hnsw_top_title": "Internet Protocol",
+      "flat_top_similarity": 0.594764971890841,
+      "hnsw_top_similarity": 0.594764971890841
+    },
+    {
+      "query": "What is cybersecurity?",
+      "recall@10": 0.9,
+      "classification": "semantic_ambiguity",
+      "reason": "Both systems retrieved semantically nearby but likely wrong-sense results.",
+      "flat_top_title": "Cryptography",
+      "hnsw_top_title": "Cryptography",
+      "flat_top_similarity": 0.436468213180483,
+      "hnsw_top_similarity": 0.436385977813267
+    },
+    {
+      "query": "Importance of security",
+      "recall@10": 0.9,
+      "classification": "semantic_ambiguity",
+      "reason": "Both systems retrieved semantically nearby but likely wrong-sense results.",
+      "flat_top_title": "Instant messaging",
+      "hnsw_top_title": "Instant messaging",
+      "flat_top_similarity": 0.393742109533195,
+      "hnsw_top_similarity": 0.393742109533195
+    },
+    {
+      "query": "Types of cyber attacks",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Instant messaging",
+      "hnsw_top_title": "Instant messaging",
+      "flat_top_similarity": 0.479645539481464,
+      "hnsw_top_similarity": 0.479645539481464
+    },
+    {
+      "query": "What is encryption?",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Encryption",
+      "hnsw_top_title": "Encryption",
+      "flat_top_similarity": 0.573401660518501,
+      "hnsw_top_similarity": 0.573401660518501
+    },
+    {
+      "query": "How encryption works",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Encryption",
+      "hnsw_top_title": "Encryption",
+      "flat_top_similarity": 0.5778703967093,
+      "hnsw_top_similarity": 0.577859094416641
+    },
+    {
+      "query": "Purpose of encryption",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Encryption",
+      "hnsw_top_title": "Encryption",
+      "flat_top_similarity": 0.520282855688981,
+      "hnsw_top_similarity": 0.520282855688981
+    },
+    {
+      "query": "What is HTTP?",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Hypertext Transfer Protocol",
+      "hnsw_top_title": "Hypertext Transfer Protocol",
+      "flat_top_similarity": 0.629738398240758,
+      "hnsw_top_similarity": 0.629738398240758
+    },
+    {
+      "query": "How web works",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Web browser",
+      "hnsw_top_title": "Web browser",
+      "flat_top_similarity": 0.544757821109536,
+      "hnsw_top_similarity": 0.544757821109536
+    },
+    {
+      "query": "Explain HTTP protocol",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Hypertext Transfer Protocol",
+      "hnsw_top_title": "Hypertext Transfer Protocol",
+      "flat_top_similarity": 0.623268845664039,
+      "hnsw_top_similarity": 0.623268845664039
+    },
+    {
+      "query": "What is API?",
+      "recall@10": 0.3,
+      "classification": "semantic_ambiguity",
+      "reason": "Both systems retrieved semantically nearby but likely wrong-sense results.",
+      "flat_top_title": "Pipeline",
+      "hnsw_top_title": "OpenGL",
+      "flat_top_similarity": 0.306006153886375,
+      "hnsw_top_similarity": 0.304687625272095
+    },
+    {
+      "query": "How APIs work",
+      "recall@10": 0.9,
+      "classification": "semantic_ambiguity",
+      "reason": "Both systems retrieved semantically nearby but likely wrong-sense results.",
+      "flat_top_title": "Pipeline",
+      "hnsw_top_title": "Pipeline",
+      "flat_top_similarity": 0.348464676809957,
+      "hnsw_top_similarity": 0.348464676809957
+    },
+    {
+      "query": "Examples of APIs",
+      "recall@10": 0.9,
+      "classification": "semantic_ambiguity",
+      "reason": "Both systems retrieved semantically nearby but likely wrong-sense results.",
+      "flat_top_title": "Flickr",
+      "hnsw_top_title": "Flickr",
+      "flat_top_similarity": 0.374896509915327,
+      "hnsw_top_similarity": 0.374896509915327
+    },
+    {
+      "query": "What is data science?",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Data mining",
+      "hnsw_top_title": "Data mining",
+      "flat_top_similarity": 0.53260396889297,
+      "hnsw_top_similarity": 0.5326034219945
+    },
+    {
+      "query": "Role of data scientist",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Data mining",
+      "hnsw_top_title": "Data mining",
+      "flat_top_similarity": 0.423353822553375,
+      "hnsw_top_similarity": 0.423410805393446
+    },
+    {
+      "query": "Explain data analysis",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Analysis",
+      "hnsw_top_title": "Analysis",
+      "flat_top_similarity": 0.573563943097882,
+      "hnsw_top_similarity": 0.573512889946002
+    },
+    {
+      "query": "What is big data?",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Data mining",
+      "hnsw_top_title": "Data mining",
+      "flat_top_similarity": 0.450802281569039,
+      "hnsw_top_similarity": 0.450802281569039
+    },
+    {
+      "query": "Characteristics of big data",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Database",
+      "hnsw_top_title": "Database",
+      "flat_top_similarity": 0.427995100040909,
+      "hnsw_top_similarity": 0.427995100040909
+    },
+    {
+      "query": "Examples of big data",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Data mining",
+      "hnsw_top_title": "Data mining",
+      "flat_top_similarity": 0.430946319127558,
+      "hnsw_top_similarity": 0.430946319127558
+    },
+    {
+      "query": "What is Hadoop?",
+      "recall@10": 0.0,
+      "classification": "corpus_gap",
+      "reason": "Flat results do not contain expected domain terms; likely corpus does not cover the query.",
+      "flat_top_title": "Hash function",
+      "hnsw_top_title": "Hash function",
+      "flat_top_similarity": 0.343261949012203,
+      "hnsw_top_similarity": 0.343261949012203
+    },
+    {
+      "query": "Explain Hadoop ecosystem",
+      "recall@10": 0.2,
+      "classification": "corpus_gap",
+      "reason": "Flat results do not contain expected domain terms; likely corpus does not cover the query.",
+      "flat_top_title": "Ecosystem",
+      "hnsw_top_title": "List of words about computers",
+      "flat_top_similarity": 0.329872699562053,
+      "hnsw_top_similarity": 0.282830335266002
+    },
+    {
+      "query": "Uses of Hadoop",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Data mining",
+      "hnsw_top_title": "Data mining",
+      "flat_top_similarity": 0.375072601675316,
+      "hnsw_top_similarity": 0.375072601675316
+    },
+    {
+      "query": "What is Spark?",
+      "recall@10": 0.7,
+      "classification": "semantic_ambiguity",
+      "reason": "Both systems retrieved semantically nearby but likely wrong-sense results.",
+      "flat_top_title": "Nitrogen",
+      "hnsw_top_title": "Spike",
+      "flat_top_similarity": 0.449694045758153,
+      "hnsw_top_similarity": 0.364760493324943
+    },
+    {
+      "query": "How Apache Spark works",
+      "recall@10": 0.8,
+      "classification": "semantic_ambiguity",
+      "reason": "Both systems retrieved semantically nearby but likely wrong-sense results.",
+      "flat_top_title": "Nitrogen",
+      "hnsw_top_title": "OpenOffice",
+      "flat_top_similarity": 0.317029252350796,
+      "hnsw_top_similarity": 0.315768832979217
+    },
+    {
+      "query": "Advantages of Spark",
+      "recall@10": 0.6,
+      "classification": "ann_miss",
+      "reason": "Flat found stronger/relevant candidates but HNSW missed or ranked weaker candidates.",
+      "flat_top_title": "Nitrogen",
+      "hnsw_top_title": "Voltaic pile",
+      "flat_top_similarity": 0.407651597766922,
+      "hnsw_top_similarity": 0.287929788273276
+    },
+    {
+      "query": "What is Kubernetes?",
+      "recall@10": 0.9,
+      "classification": "corpus_gap",
+      "reason": "Flat results do not contain expected domain terms; likely corpus does not cover the query.",
+      "flat_top_title": "KDE",
+      "hnsw_top_title": "KDE",
+      "flat_top_similarity": 0.349686930027544,
+      "hnsw_top_similarity": 0.349698234374205
+    },
+    {
+      "query": "Explain container orchestration",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Orchestration",
+      "hnsw_top_title": "Orchestration",
+      "flat_top_similarity": 0.401585687627238,
+      "hnsw_top_similarity": 0.401645449970853
+    },
+    {
+      "query": "Uses of Kubernetes",
+      "recall@10": 0.8,
+      "classification": "corpus_gap",
+      "reason": "Flat results do not contain expected domain terms; likely corpus does not cover the query.",
+      "flat_top_title": "KDE",
+      "hnsw_top_title": "KDE",
+      "flat_top_similarity": 0.355289502504257,
+      "hnsw_top_similarity": 0.355289502504257
+    },
+    {
+      "query": "What is Docker?",
+      "recall@10": 0.8,
+      "classification": "semantic_ambiguity",
+      "reason": "Both systems retrieved semantically nearby but likely wrong-sense results.",
+      "flat_top_title": "Scuba diving",
+      "hnsw_top_title": "Scuba diving",
+      "flat_top_similarity": 0.307650469836604,
+      "hnsw_top_similarity": 0.30768567946999
+    },
+    {
+      "query": "How Docker works",
+      "recall@10": 0.6,
+      "classification": "semantic_ambiguity",
+      "reason": "Both systems retrieved semantically nearby but likely wrong-sense results.",
+      "flat_top_title": "Pipeline",
+      "hnsw_top_title": "Pipeline",
+      "flat_top_similarity": 0.307083553690086,
+      "hnsw_top_similarity": 0.307083553690086
+    },
+    {
+      "query": "Benefits of containers",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Hydroponics",
+      "hnsw_top_title": "Hydroponics",
+      "flat_top_similarity": 0.395805526672588,
+      "hnsw_top_similarity": 0.395805526672588
+    },
+    {
+      "query": "What is DevOps?",
+      "recall@10": 0.8,
+      "classification": "semantic_ambiguity",
+      "reason": "Both systems retrieved semantically nearby but likely wrong-sense results.",
+      "flat_top_title": "Devo",
+      "hnsw_top_title": "Development",
+      "flat_top_similarity": 0.318023805668417,
+      "hnsw_top_similarity": 0.317944209038733
+    },
+    {
+      "query": "Explain DevOps practices",
+      "recall@10": 0.9,
+      "classification": "semantic_ambiguity",
+      "reason": "Both systems retrieved semantically nearby but likely wrong-sense results.",
+      "flat_top_title": "Software engineering",
+      "hnsw_top_title": "Software engineering",
+      "flat_top_similarity": 0.349899223095456,
+      "hnsw_top_similarity": 0.349899223095456
+    },
+    {
+      "query": "Benefits of DevOps",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Software engineering",
+      "hnsw_top_title": "Software engineering",
+      "flat_top_similarity": 0.319142239026983,
+      "hnsw_top_similarity": 0.319142239026983
+    },
+    {
+      "query": "What is CI/CD?",
+      "recall@10": 0.8,
+      "classification": "semantic_ambiguity",
+      "reason": "Both systems retrieved semantically nearby but likely wrong-sense results.",
+      "flat_top_title": "Software engineering",
+      "hnsw_top_title": "Software engineering",
+      "flat_top_similarity": 0.343355223194474,
+      "hnsw_top_similarity": 0.343355223194474
+    },
+    {
+      "query": "Explain continuous integration",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Continuum",
+      "hnsw_top_title": "Continuum",
+      "flat_top_similarity": 0.388486828158708,
+      "hnsw_top_similarity": 0.388486828158708
+    },
+    {
+      "query": "Benefits of CI/CD",
+      "recall@10": 0.9,
+      "classification": "semantic_ambiguity",
+      "reason": "Both systems retrieved semantically nearby but likely wrong-sense results.",
+      "flat_top_title": "Software engineering",
+      "hnsw_top_title": "Software engineering",
+      "flat_top_similarity": 0.340059866129293,
+      "hnsw_top_similarity": 0.340059866129293
+    },
+    {
+      "query": "What is load balancing?",
+      "recall@10": 0.7,
+      "classification": "semantic_ambiguity",
+      "reason": "Both systems retrieved semantically nearby but likely wrong-sense results.",
+      "flat_top_title": "Balance",
+      "hnsw_top_title": "Logical volume management",
+      "flat_top_similarity": 0.408309127307236,
+      "hnsw_top_similarity": 0.358583186314094
+    },
+    {
+      "query": "How load balancer works",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Chemical equation",
+      "hnsw_top_title": "Logical volume management",
+      "flat_top_similarity": 0.378646887718964,
+      "hnsw_top_similarity": 0.336547655159137
+    },
+    {
+      "query": "Importance of load balancing",
+      "recall@10": 0.8,
+      "classification": "semantic_ambiguity",
+      "reason": "Both systems retrieved semantically nearby but likely wrong-sense results.",
+      "flat_top_title": "Balance",
+      "hnsw_top_title": "RAID",
+      "flat_top_similarity": 0.348138380269643,
+      "hnsw_top_similarity": 0.3303435704046
+    },
+    {
+      "query": "What is caching?",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Cache (computing)",
+      "hnsw_top_title": "Cache (computing)",
+      "flat_top_similarity": 0.724690681190449,
+      "hnsw_top_similarity": 0.724690681190449
+    },
+    {
+      "query": "Why caching improves performance",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Cache (computing)",
+      "hnsw_top_title": "Cache (computing)",
+      "flat_top_similarity": 0.642329711438394,
+      "hnsw_top_similarity": 0.642329711438394
+    },
+    {
+      "query": "Types of caching",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Cache (computing)",
+      "hnsw_top_title": "Cache (computing)",
+      "flat_top_similarity": 0.613588616658256,
+      "hnsw_top_similarity": 0.613588616658256
+    },
+    {
+      "query": "What is latency?",
+      "recall@10": 0.5,
+      "classification": "semantic_ambiguity",
+      "reason": "Both systems retrieved semantically nearby but likely wrong-sense results.",
+      "flat_top_title": "Incubation period",
+      "hnsw_top_title": "Time limit",
+      "flat_top_similarity": 0.336797294412712,
+      "hnsw_top_similarity": 0.318111657457703
+    },
+    {
+      "query": "Difference between latency and throughput",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Cache (computing)",
+      "hnsw_top_title": "Cache (computing)",
+      "flat_top_similarity": 0.422579016285171,
+      "hnsw_top_similarity": 0.422579016285171
+    },
+    {
+      "query": "Why latency matters",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Speed of light",
+      "hnsw_top_title": "Speed of light",
+      "flat_top_similarity": 0.385138778735637,
+      "hnsw_top_similarity": 0.385138778735637
+    },
+    {
+      "query": "What is throughput?",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "IEEE 1394",
+      "hnsw_top_title": "IEEE 1394",
+      "flat_top_similarity": 0.357663133588101,
+      "hnsw_top_similarity": 0.357672189319112
+    },
+    {
+      "query": "Explain system throughput",
+      "recall@10": 0.9,
+      "classification": "semantic_ambiguity",
+      "reason": "Both systems retrieved semantically nearby but likely wrong-sense results.",
+      "flat_top_title": "Multitasking",
+      "hnsw_top_title": "Multitasking",
+      "flat_top_similarity": 0.379522691120755,
+      "hnsw_top_similarity": 0.379522691120755
+    },
+    {
+      "query": "How to improve throughput",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Cache (computing)",
+      "hnsw_top_title": "Cache (computing)",
+      "flat_top_similarity": 0.384560119622623,
+      "hnsw_top_similarity": 0.384560119622623
+    },
+    {
+      "query": "What is distributed system?",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Distributed computing",
+      "hnsw_top_title": "Distributed computing",
+      "flat_top_similarity": 0.556026607504076,
+      "hnsw_top_similarity": 0.556026607504076
+    },
+    {
+      "query": "Examples of distributed systems",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Distributed computing",
+      "hnsw_top_title": "Distributed computing",
+      "flat_top_similarity": 0.503721711636013,
+      "hnsw_top_similarity": 0.503697729886312
+    },
+    {
+      "query": "Challenges in distributed systems",
+      "recall@10": 0.9,
+      "classification": "minor_ranking_difference",
+      "reason": "HNSW overlapped with Flat but changed ranking/order.",
+      "flat_top_title": "Distributed computing",
+      "hnsw_top_title": "Distributed computing",
+      "flat_top_similarity": 0.463587941847672,
+      "hnsw_top_similarity": 0.463587941847672
+    },
+    {
+      "query": "What is consistency in databases?",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Database",
+      "hnsw_top_title": "Database",
+      "flat_top_similarity": 0.560290806192997,
+      "hnsw_top_similarity": 0.560290806192997
+    },
+    {
+      "query": "Explain CAP theorem",
+      "recall@10": 0.9,
+      "classification": "semantic_ambiguity",
+      "reason": "Both systems retrieved semantically nearby but likely wrong-sense results.",
+      "flat_top_title": "Postulate",
+      "hnsw_top_title": "Postulate",
+      "flat_top_similarity": 0.395445111628974,
+      "hnsw_top_similarity": 0.395429257723116
+    },
+    {
+      "query": "Consistency vs availability",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Service (economics)",
+      "hnsw_top_title": "Service (economics)",
+      "flat_top_similarity": 0.411963527096759,
+      "hnsw_top_similarity": 0.411963527096759
+    },
+    {
+      "query": "What is replication?",
+      "recall@10": 0.8,
+      "classification": "minor_ranking_difference",
+      "reason": "HNSW overlapped with Flat but changed ranking/order.",
+      "flat_top_title": "DNA replication",
+      "hnsw_top_title": "DNA replication",
+      "flat_top_similarity": 0.562053533977032,
+      "hnsw_top_similarity": 0.562053533977032
+    },
+    {
+      "query": "Types of replication",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "DNA replication",
+      "hnsw_top_title": "DNA replication",
+      "flat_top_similarity": 0.53671841194085,
+      "hnsw_top_similarity": 0.53671841194085
+    },
+    {
+      "query": "Benefits of replication",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "DNA replication",
+      "hnsw_top_title": "DNA replication",
+      "flat_top_similarity": 0.508856022206891,
+      "hnsw_top_similarity": 0.508856022206891
+    },
+    {
+      "query": "What is sharding?",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Share",
+      "hnsw_top_title": "Share",
+      "flat_top_similarity": 0.393757581157388,
+      "hnsw_top_similarity": 0.393757581157388
+    },
+    {
+      "query": "Explain database sharding",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "RAID",
+      "hnsw_top_title": "RAID",
+      "flat_top_similarity": 0.384850731436124,
+      "hnsw_top_similarity": 0.384850731436124
+    },
+    {
+      "query": "When to shard data",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Database",
+      "hnsw_top_title": "Jewel",
+      "flat_top_similarity": 0.364253998664699,
+      "hnsw_top_similarity": 0.283345294922276
+    },
+    {
+      "query": "What is indexing?",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Search engine",
+      "hnsw_top_title": "Search engine",
+      "flat_top_similarity": 0.515513719259868,
+      "hnsw_top_similarity": 0.515513719259868
+    },
+    {
+      "query": "How indexes improve performance",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Data structure",
+      "hnsw_top_title": "Data structure",
+      "flat_top_similarity": 0.415308495558726,
+      "hnsw_top_similarity": 0.415308495558726
+    },
+    {
+      "query": "Types of indexing",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Readability",
+      "hnsw_top_title": "Readability",
+      "flat_top_similarity": 0.452730402424781,
+      "hnsw_top_similarity": 0.452730402424781
+    },
+    {
+      "query": "What is vector database?",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Scalable Vector Graphics",
+      "hnsw_top_title": "Scalable Vector Graphics",
+      "flat_top_similarity": 0.451480881269275,
+      "hnsw_top_similarity": 0.451480881269275
+    },
+    {
+      "query": "How vector search works",
+      "recall@10": 1.0,
+      "classification": "healthy",
+      "reason": "HNSW matched Flat top-k exactly.",
+      "flat_top_title": "Vector space",
+      "hnsw_top_title": "Vector space",
+      "flat_top_similarity": 0.476505449727458,
+      "hnsw_top_similarity": 0.476505449727458
+    },
+    {
+      "query": "Use cases of vector DB",
+      "recall@10": 0.9,
+      "classification": "semantic_ambiguity",
+      "reason": "Both systems retrieved semantically nearby but likely wrong-sense results.",
+      "flat_top_title": "Data structure",
+      "hnsw_top_title": "Data structure",
+      "flat_top_similarity": 0.388383613488359,
+      "hnsw_top_similarity": 0.388383613488359
+    },
+    {
+      "query": "What is RAG?",
+      "recall@10": 0.8,
+      "classification": "semantic_ambiguity",
+      "reason": "Both systems retrieved semantically nearby but likely wrong-sense results.",
+      "flat_top_title": "R",
+      "hnsw_top_title": "R",
+      "flat_top_similarity": 0.41650715410593,
+      "hnsw_top_similarity": 0.41650715410593
+    },
+    {
+      "query": "Explain retrieval augmented generation",
+      "recall@10": 0.7,
+      "classification": "semantic_ambiguity",
+      "reason": "Both systems retrieved semantically nearby but likely wrong-sense results.",
+      "flat_top_title": "McGurk effect",
+      "hnsw_top_title": "McGurk effect",
+      "flat_top_similarity": 0.308419012799763,
+      "hnsw_top_similarity": 0.308364722461581
+    },
+    {
+      "query": "Why RAG is useful",
+      "recall@10": 0.9,
+      "classification": "semantic_ambiguity",
+      "reason": "Both systems retrieved semantically nearby but likely wrong-sense results.",
+      "flat_top_title": "Really Simple Syndication",
+      "hnsw_top_title": "Really Simple Syndication",
+      "flat_top_similarity": 0.417128629918467,
+      "hnsw_top_similarity": 0.417128629918467
+    }
+  ]
+}
