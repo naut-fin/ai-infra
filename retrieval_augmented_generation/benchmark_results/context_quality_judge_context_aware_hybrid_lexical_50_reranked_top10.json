@@ -1,0 +1,166 @@
+{
+  "metadata": {
+    "input_path": "benchmark_results/reranked_results_section_aware_v2_hybrid_semantic_top_50_lexical_top_20_to_top_10.json",
+    "judge_model": "gpt-4.1-mini",
+    "chunking_strategy": "context_aware_hybrid",
+    "retrieval_path": "benchmark_results_section_aware_v2_hybrid_semantic_top_50_lexical_top_10_ef_search_120",
+    "num_queries": 198
+  },
+  "summary": {
+    "count": 2,
+    "answerability_counts": {
+      "yes": 2,
+      "partial": 0,
+      "no": 0,
+      "error": 0
+    },
+    "answerability_pct": {
+      "yes": 1.0,
+      "partial": 0.0,
+      "no": 0.0,
+      "error": 0.0
+    },
+    "context_relevance": {
+      "avg": 5.0,
+      "median": 5.0,
+      "p10": 5,
+      "min": 5
+    },
+    "context_completeness": {
+      "avg": 5.0,
+      "median": 5.0,
+      "p10": 5,
+      "min": 5
+    },
+    "context_coherence": {
+      "avg": 5.0,
+      "median": 5.0,
+      "p10": 5,
+      "min": 5
+    },
+    "noise": {
+      "avg": 1.0,
+      "median": 1.0,
+      "p90": 1,
+      "max": 1
+    },
+    "token_usage": {
+      "avg_total_tokens": 3426.0,
+      "total_tokens": 6852
+    },
+    "failure_type_counts": {
+      "none": 2,
+      "corpus_gap": 0,
+      "retrieval_miss": 0,
+      "fragmented_context": 0,
+      "noisy_context": 0,
+      "insufficient_detail": 0,
+      "ambiguous_query": 0,
+      "error": 0
+    },
+    "failure_type_pct": {
+      "none": 1.0,
+      "corpus_gap": 0.0,
+      "retrieval_miss": 0.0,
+      "fragmented_context": 0.0,
+      "noisy_context": 0.0,
+      "insufficient_detail": 0.0,
+      "ambiguous_query": 0.0,
+      "error": 0.0
+    }
+  },
+  "results": [
+    {
+      "query": "What is photosynthesis?",
+      "candidate_count": 54,
+      "rerank_top_k": 10,
+      "rerank_latency_ms": 203.0827499984298,
+      "judge_latency_ms": 1926.3518329826184,
+      "top_titles": [
+        "Photosynthesis",
+        "Photosynthesis",
+        "Ecosystem",
+        "Carbon dioxide",
+        "Photosynthesis",
+        "Sunlight",
+        "Plant",
+        "Photosynthesis",
+        "Leaf",
+        "Chloroplast"
+      ],
+      "top_chunk_ids": [
+        "209809b6-2708-467a-a733-a8e20a20b8fd",
+        "b7d5e1c0-6e3d-4ab1-8b16-1cfa6052c9b1",
+        "d002b6ea-0f00-438c-8525-6428cddea233",
+        "692c9d3c-8cd8-4edc-9c71-206d8c60573d",
+        "9ee38ea3-4c9d-41ad-9285-16d238aff52b",
+        "912a7e11-d9c9-4385-8b9e-563fdc2c124b",
+        "3c43ee55-cdb0-4c61-b655-0e4b15a8e0e9",
+        "50745a17-f60a-4e2f-b1c4-02990184e165",
+        "8743d09f-f203-43c7-bdd9-832707feba73",
+        "552f0b22-29b6-4b81-aa8e-1df01c9e20f9"
+      ],
+      "judgment": {
+        "answerability": "yes",
+        "context_relevance_score": 5,
+        "context_completeness_score": 5,
+        "context_coherence_score": 5,
+        "noise_score": 1,
+        "missing_information": "",
+        "failure_type": "none",
+        "reason": "The retrieved context provides a detailed, coherent, and complete explanation of photosynthesis, including the chemical process, the role of chloroplasts and chlorophyll, the inputs and outputs, and the phases of photosynthesis. The information is directly relevant and sufficient to answer the query well without noise or fragmentation.",
+        "_judge_usage": {
+          "prompt_tokens": 3134,
+          "completion_tokens": 128,
+          "total_tokens": 3262
+        }
+      }
+    },
+    {
+      "query": "Explain how plants make food.",
+      "candidate_count": 50,
+      "rerank_top_k": 10,
+      "rerank_latency_ms": 148.21858299546875,
+      "judge_latency_ms": 1523.4144580026623,
+      "top_titles": [
+        "Plant",
+        "Plant",
+        "Plant",
+        "Plant",
+        "Photosynthesis",
+        "Soil",
+        "Food chain",
+        "Eating",
+        "Seed",
+        "Photosynthesis"
+      ],
+      "top_chunk_ids": [
+        "e0d7d399-2609-40fb-b10c-140092002a54",
+        "acb13ba8-3331-484d-8476-806d31d808d7",
+        "3c43ee55-cdb0-4c61-b655-0e4b15a8e0e9",
+        "af626f96-ea20-4087-be74-66434e76ea9d",
+        "209809b6-2708-467a-a733-a8e20a20b8fd",
+        "fb73df0f-378d-4a80-8c4b-47549d7c1caa",
+        "23b1d338-8b5a-4640-baf5-1b4b21caf98d",
+        "78393dc9-3448-4114-89fc-579eb7a7d2eb",
+        "61091d83-3197-41b4-83aa-169e9496552f",
+        "b7d5e1c0-6e3d-4ab1-8b16-1cfa6052c9b1"
+      ],
+      "judgment": {
+        "answerability": "yes",
+        "context_relevance_score": 5,
+        "context_completeness_score": 5,
+        "context_coherence_score": 5,
+        "noise_score": 1,
+        "missing_information": "",
+        "failure_type": "none",
+        "reason": "The retrieved context provides detailed, coherent, and relevant information about how plants make food through photosynthesis, including the role of chlorophyll, sunlight, water, carbon dioxide, and the chemical process involved. The information is sufficient and well-organized to answer the query fully.",
+        "_judge_usage": {
+          "prompt_tokens": 3468,
+          "completion_tokens": 122,
+          "total_tokens": 3590
+        }
+      }
+    }
+  ]
+}

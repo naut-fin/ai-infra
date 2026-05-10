@@ -374,13 +374,14 @@ def main():
 
     parser.add_argument(
         "--strategy",
-        default="fixed_overlap_v1",
+        default="context_aware_hybrid",
         help="Chunking strategy label for metadata.",
     )
 
     parser.add_argument(
         "--retrieval-path",
-        default="benchmark_results_ef_search_120_hnsw",
+        default="benchmark_results_section_aware_v2_hybrid_semantic_top_50_lexical_top_20_ef_search_120",
+
         help="Retrieval path label for metadata.",
     )
 
@@ -399,7 +400,7 @@ def main():
 
     args = parser.parse_args()
 
-    output_path = f"benchmark_results/context_quality_judge_{args.strategy}_hnsw_reranked_top10.json"
+    output_path = f"benchmark_results/context_quality_judge_{args.strategy}_lexical_20_reranked_top10.json"
 
     with open(args.input, "r", encoding="utf-8") as f:
         input_data = json.load(f)
